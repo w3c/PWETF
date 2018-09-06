@@ -13,4 +13,5 @@ A number of people have provided resources that could be useful in editing the W
 
 * [Tweaking the Moral UI](https://alistapart.com/article/tweaking-the-moral-ui) - explains why a CoC is needed
 * [Code of Conduct 101](https://www.ashedryden.com/blog/codes-of-conduct-101-faq) - FAQ about CoC, including many of the questions PWE has asked in the last year.
+* [BetterBrave](https://www.betterbrave.org/) Rights and Options in the US Workplace for Sexual Harassment targets and allies
 
