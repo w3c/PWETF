@@ -9,4 +9,6 @@ The CG picks up the work of the former [PWE Task Force](https://www.w3.org/Conso
 
 Chairs: Tzviya Siegman, Angel Li
 
+The document can also be read directly on the [github.io page](https://w3c.github.io/PWETF/)
+
 This group functions under the [W3C Code of Ethics and Professional Conduct](https://www.w3.org/Consortium/cepc/).
