@@ -1,0 +1,184 @@
+/* Style for the slides for TPAC 2018, to be used together with the
+   Shower script. For usage instructions, see
+   https://www.w3.org/2018/10/TPAC/Templates/TPAC-2018-slides.html
+
+   TODO: Styles for tables? blockquotes? class=shout?
+
+   A = 16/9  = aspect ratio
+   N = 23    = height in em (i.e., 21 lines + 2 x 1 em padding)
+   L = 5.5   = logo width in em
+   C = 2     = font size multiplier for cover pages
+   W = 1920  = width of slide in px (used only in slide mode)
+   H = W/A   = height of slide in px (used only in slide mode)
+   F = H/N   = font size in px (used only in slide mode)
+   w = N*A   = width of slide in em
+
+   +---------------------------------------+-------+
+   |                   1em                 |       |
+   |   +-------------------------------+   |       |
+   |   |                               |   |       |  ^
+   |   |                               |   |       |  |
+   |1em|                               |1em| 5.5em | 23em
+   |   |                               |   |       |  |
+   |   |                               |   |       |  v
+   |   +-------------------------------+   |       |
+   |                   1em                 | LOGO  |
+   +---------------------------------------+-------+
+
+   Created: 8 September 2018
+   Author: Bert Bos <bert@w3.org>
+*/
+
+@font-face {
+  font-family: 'LeagueGothicRegular';
+  src: url(League_Gothic-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal}
+
+@font-face {
+  font-family: My Gill Sans;
+  font-style: normal;
+  font-weight: normal;
+  src: url(GILLSAN3.woff) format("woff")}
+
+@font-face {
+  font-family: My Gill Sans;
+  font-style: oblique;
+  font-weight: normal;
+  src: url(GILLSAN2.woff) format("woff")}
+
+@font-face {
+  font-family: My Gill Sans;
+  font-style: normal;
+  font-weight: 700;
+  src: url(GILLSAN1.woff) format("woff")}
+
+@font-face {
+  font-family: My Gill Sans;
+  font-style: oblique;
+  font-weight: 700;
+  src: url(GILLSAN0.woff) format("woff")}
+
+/* Common layout independent of slide mode */
+body {background: url(linen.png) #595b60; counter-reset: slide; margin: 2em;
+  color: white;
+  font: 1.156em/1.3 Gill Sans MT, Gill Sans, My Gill Sans, Liberation Sans,
+  sans-serif; font-size-adjust: 0.45;
+  font-variant-numeric: oldstyle-nums tabular-nums}
+address {font-family: Garamond Premier Pro, Garamond, serif}
+h1 {font: 2em/1.1 League Gothic, LeagueGothicRegular, sans-serif;
+  letter-spacing: 0.03em; margin: 0 0 0.3em 0; text-transform: uppercase;
+  color: #015ca4}
+.slide {color: black; box-shadow: 0 0.4rem 0.6rem #000; line-height: 1.6;
+  padding: 1em 6.5em /*= L + 1 */ 1em 1em;
+  position: relative; box-sizing: border-box;
+  z-index: 0;
+  display: inline-block; margin: 4rem 2rem 0 0;
+  width: 40.889em; /*= w */ height: 23em; /*= N */
+  vertical-align: bottom; counter-increment: slide; border-radius: 0.5em;
+  background: bottom right / 5.5em /*= L */ auto url(TPAC-2018-slides-banner.svg)
+  no-repeat, bottom right / 5.5em /*= L */ auto url(TPAC-2018-slides-banner.png)
+  no-repeat, #fff}
+.slide.side {padding-left: 11.717em /*= (w - 1 - (L + 1) - 1) * 30% + 2 */}
+.slide.side.right, .slide.side.r {padding-left: 1em;
+  padding-right: 17.217em; /*= (w - 1 - (L + 1) - 1) * 30% + (L + 1) + 1 */}
+.side .side {position: absolute; top: 4.3478% /*= 1/N */ ;
+  left: 2.4457%; /*= 1/w */
+  width: 23.764%; /*= (w - 1 - (L + 1) - 1) * 30%  / w */}
+.side.right .side, .side.r .side {
+  left: 59.606% /*= ((w - L) * 70% - 40%)/w */}
+@supports (transform: translate(-50%,-50%)) {
+  .slide.side.right, .slide.side.r {
+  padding-right: 17.217em; /*= (w - 1 - (L + 1) - 1) * 30% + (L + 1) + 1 */}
+  .side .side {top: 50%; transform: translate(-50%,-50%);
+    left: 14.327%; /*= ((w - 1 - (L + 1) - 1) * 30% / 2 + 1 ) / w */}
+  .side.right .side, .side.r .side {
+    left: 72.221% /*= ((w - L - 1) * 85% + 30%) / w */}
+}
+.note {font-size: smaller}
+.slide em {font-style: normal;
+  background: 0 0 / 100% 100% url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAAfCAYAAABzhIZ5AAAABGdBTUEAANbY1E9YMgAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAL4SURBVHja7Vw7rpwwFJ0dsASWMEtAygZcp6KKUkVWujRPVprXsgSyA5ZAkTYSUqT8XpRQRa8cKUqR7gYkT+Q4Bq7B/IZj6UwF2IyPr8/9mNNpwfaOnsQNEg3ZQDUoGpQ9KPR1V0jjGckJDc2TfDbxqga0EC66z0yPIdVjOmOGjkfGVBOhXJCAoQhcmATGjN4GKc+akPWOCOmD2iAuSBuWO5Epy5iIuA8XN0zKMagGNLMLuaWjfSFGTLAvJGMcff5CHdBQKDZBJ66Y60uB4MCQ7FKz+AqGc6S0pSh1p/jzAbKsrL0jRKEtYmqZekzAcSVO3iFBzj0yQnRIh8whGdQYK5mO1FA5tnmAaW1bLRyHDrr3ETeDtQW0gera7mfRnvLgxJvTax+CXMCrH8Se4lxXXVrBUrC9Vm5qd0rY6TzjnLtknxmGqhj/Q67vj0M4RrnROYh2+1uxuVAiBzltTnCRuRab78pA7HIe7XXxtKbmffUIMjjxkZ7n3+h1+Z3uix/0RrUgomRBKCbEqfmJux70i76IdvDtyzzQq/ozvaT39HRwUtrrWnyiFxWs7vr4QM/+zgkHX+mOmnnvxYXe0k+q/sNveiSj1Q1KBwoHGU3u8eKj7YXcVdGS2YfEwKE9+KJDU0dzpTUVskeARw1D4SBnPJc3ZxYZDGUQkAZdvpilcBR5hAh1iTWiB6HL8/ZYM3r0mG7RQ8R4ayTrquNLe0qx4P1PL9/jBvrzkZ58HWjcWbDUJNPiIeC+nQC+HS9Md7mVBiBmYmkUX68MZN5nOtYXUzVrassEq/JJhCKzucVDW8Lqu7Rr6jq6YUR8KkYpnxxybhQs5CFjlC5rmYRwlBy7tavPf6WLZrXUN2LCbqsIxalhV4ro2PqZf8TD2razFXUKJycNMq5vZeuJulhuLmQVcDUKvYggPfbhpOXX+tWjnrk2D+yBtOt+CENuMqC/o8/wIIngt5VnHRmlCCxbRrgLjw8UbEn/Vp7V+HLXRzbQgh4gPOa5n5naH6O0itHwx3iJAAAAAElFTkSuQmCC)}
+.columns > * {box-sizing: border-box;
+  width: 47.005% /*= (w - L - 4)/2/(w - L - 2) */; float: right}
+.columns > *:nth-child(odd) {clear: both; float: left}
+@supports (display: grid) {
+  .columns > * {width: auto}
+  .columns {display: grid; grid: "a  b" / 1fr 1fr; grid-gap: 0 2rem}
+}
+.comment {background: hsl(50,80%,90%); color: black; padding: 1em 1em;
+  columns: 37em; font-family: serif; border-radius: 0.5rem; margin: 4rem 0 0;
+  widows: 2; orphans: 2}
+.comment :first-child {margin-top: 0}
+img {max-width: 100%}
+.num {font-variant-numeric: oldstyle-nums tabular-nums diagonal-fractions}
+code, pre {font-family: Andale Mono, Courier, monospace}
+code {background: #eee; padding: 0.1em 0.3em; border-radius: 0.3em}
+sub, sup {line-height: 0.5}
+.slide pre {padding: 0 0.2em; background: black; color: hsl(120,100%,70%)}
+ul {padding-left: 1em}
+ul > li {list-style: none}
+ul > li::before {content: "\25A0"; display: inline-block; width: 1em;
+  margin-left: -1em; color: #015ca4}
+
+/* Explicit placement on a 3x3 grid */
+.place {position: absolute; box-sizing: border-box;
+  max-width: 25.589%; /*= (w - 1 - (L + 1) - 2) / 3 / w */
+  top: 50%; left: 43.274%; /*= ((w - 1 - (L + 1)) / 2 + 1) / w */
+  transform: translate(-50%, -50%); text-align: center}
+.place.t, .place.top {top: 4.3478%; /*= 1/N */ transform: translate(-50%,0)}
+.place.b, .place.bottom {top: auto; bottom: 4.3478% /*= 1/N */;
+  transform: translate(-50%,0)}
+.place.l, .place.left {left: 2.4457%; /*= 1/w*/ transform: translate(0,-50%);
+  text-align: left}
+.place.r, .place.right {left: auto; right: 15.897%; /*= (L + 1)/w */
+  transform: translate(0,-50%); text-align: right}
+.place.t.l, .place.top.left, .place.t.r, .place.top.right, .place.b.l,
+.place.bottom.left, .place.b.r, .place.bottom.right {transform: none}
+
+/* Numbered lines in a PRE */
+pre.numbered {padding-left: 2em; overflow-y: hidden; position: relative}
+pre.numbered::before {color: #aaa; text-align: right; white-space: pre-line;
+  content: "1\A 2\A 3\A 4\A 5\A 6\A 7\A 8\A 9\A 10\A 11\A 12\A 13\A 14\A 15\A 16\A 17\A 18\A 19\A 20";
+  position: absolute; top: 0; left: 0; width: 1.2em; font-family: serif;
+  border-right: thin solid; padding-right: 0.2em; /*background: white*/}
+
+/* Cover pages */
+.slide.cover {font-size: 200% /*= C */; text-align: right; border-radius: 0.25em;
+  width: 20.444em /*= w/C */; height: 11.5em /*= N/C */;
+  padding: 0.5em /*= 1/C*/ 6em /*= (C*L+1)/C*/ 0.5em /*= 1/C*/ 0.5em/*= 1/C*/ }
+.slide.cover address {position: absolute; bottom: 4.3478% /*= 1/N */;
+  left: 2.4457% /*= 1/w */;
+  right: 29.348% /*= (C * L + 1)/w */; line-height: 1.3}
+
+/* Full-size image overlays */
+img.cover, img.fit {position: absolute; z-index: -1; top: 0; left: 0;
+  width: 86.549%; /*= (w - L) / w */
+  height: 100%; object-fit: cover; padding: 0}
+img.fit {object-fit: contain}
+.cover img.cover, .cover img.fit {width: 73.098%; /*= (w - 11) / w */}
+
+/* Slide numbers in upper right corner */
+.slide::after {content: counter(slide); color: #db4f2c; position: absolute;
+  top: 1em; line-height: 1; font-weight: bold; right: 0; width: 5.5em /*= L */;
+  text-align: center}
+.slide.clear::after {content: none}
+
+/* Layout in slide mode (when body has class=full) */
+.full, .full .slide {position: absolute; width: 1920px /*= W */;
+  height: 1080px /*= H */; overflow: hidden}
+.full {top: 50%; left: 50%; margin: -540px /*= -H/2 */ 0 0 -960px /*= -W/2 */;
+  font-size: 46.957px /*= F */; background: black}
+.full .slide {visibility: hidden; top: 0; left: 0; margin: 0}
+.full .slide.active {visibility: visible}
+.full .comment {display: none}
+
+.full .progress {position: absolute; top: 0; left: 0; height: 2px;
+  background: linear-gradient(to right, hsla(0,100%,50%,0),hsla(0,100%,50%,1));
+  z-index: 1; transition: 0.5s}
+
+/* Reveal elements one by one */
+.full .next {visibility: hidden}
+.full .active .next.active {visibility: visible}
+
+/* Not sure why Shower makes a section with class=region... */
+section.region {display: none}
