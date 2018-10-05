@@ -12,3 +12,7 @@ Chairs: Tzviya Siegman, Angel Li
 The document can also be read directly on the [github.io page](https://w3c.github.io/PWETF/)
 
 This group functions under the [W3C Code of Ethics and Professional Conduct](https://www.w3.org/Consortium/cepc/).
+
+## Slide Decks
+
+ - [TPAC 2018](TPAC-2018/PWETF/index.html) - work in progress!
