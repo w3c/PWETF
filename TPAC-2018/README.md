@@ -1,6 +1,6 @@
 # TPAC 2018 Slides & Template
 
-Slides are available at [https://github.com/w3c/PWETF/tree/master/TPAC-2018](https://github.com/w3c/PWETF/tree/master/TPAC-2018).
+Slides are available at [https://w3c.github.io/PWETF/TPAC-2018/PWETF/](https://w3c.github.io/PWETF/TPAC-2018/PWETF/).
 
 Slides here are built from the
 [original slide template](https://www.w3.org/2018/Talks/TPAC-2018/Templates/)
