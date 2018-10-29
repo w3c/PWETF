@@ -13,6 +13,7 @@ A number of people have provided resources that could be useful in editing the W
 * [Ubuntu](http://www.ubuntu.com/about/about-ubuntu/conduct) - referred to by TODO Group
 * [Citizen Code of Conduct](http://citizencodeofconduct.org/) - widely used as basis for other CoCs, refered to by TODO group
 * [ACM Code of Ethics](https://www.acm.org/code-of-ethics) - very detailed, revised in mid-2018
+* [CoC for Novosibirsk, Russia Web Event](https://2019.codefest.ru/speakers/en/code-of-conduct/)
 
 ## Articles
 
