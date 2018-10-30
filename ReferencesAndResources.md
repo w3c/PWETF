@@ -15,6 +15,7 @@ A number of people have provided resources that could be useful in editing the W
 * [ACM Code of Ethics](https://www.acm.org/code-of-ethics) - very detailed, revised in mid-2018
 * [CoC for Novosibirsk, Russia Web Event](https://2019.codefest.ru/speakers/en/code-of-conduct/)
 * [AWS Code of Conduct](https://reinvent.awsevents.com/info/code-of-conduct/) - events and services
+* [Russian CoC](https://drive.google.com/file/d/1CyTAD7SxqREd1v30cs8Yyl84QrAh4muf/view?usp=sharing) - CoC in Russian, used at many Dev events (in Russian)
 
 ## Articles
 
