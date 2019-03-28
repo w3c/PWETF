@@ -16,6 +16,7 @@ A number of people have provided resources that could be useful in editing the W
 * [CoC for Novosibirsk, Russia Web Event](https://2019.codefest.ru/speakers/en/code-of-conduct/)
 * [AWS Code of Conduct](https://reinvent.awsevents.com/info/code-of-conduct/) - events and services
 * [Russian CoC](https://drive.google.com/file/d/1CyTAD7SxqREd1v30cs8Yyl84QrAh4muf/view?usp=sharing) - CoC in Russian, used at many Dev events (in Russian)
+* [IETF CoC](https://www.ietf.org/proceedings/49/I-D/draft-ietf-poisson-code-00.txt)
 
 ## Articles
 
