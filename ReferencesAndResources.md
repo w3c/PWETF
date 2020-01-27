@@ -18,7 +18,7 @@ A number of people have provided resources that could be useful in editing the W
 * [Russian CoC](https://drive.google.com/file/d/1CyTAD7SxqREd1v30cs8Yyl84QrAh4muf/view?usp=sharing) - CoC in Russian, used at many Dev events (in Russian)
 * [IETF CoC](https://www.ietf.org/proceedings/49/I-D/draft-ietf-poisson-code-00.txt)
 * [BBC Code of Conduct](https://www.bbc.com/aboutthebbc/reports/policies/codeofconduct) - links to PDF, mission- and values-based organisation-level CoC
-* [ISO CoC]ISO Code of Conduct
+* [ISO CoC](https://www.iso.org/files/live/sites/isoorg/files/store/en/PUB100397.pdf)
 
 ## Articles
 
