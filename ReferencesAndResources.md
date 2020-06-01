@@ -27,3 +27,6 @@ A number of people have provided resources that could be useful in editing the W
 * [BetterBrave](https://www.betterbrave.org/) Rights and Options in the US Workplace for Sexual Harassment targets and allies
 * [Sexual Harassment in Academic Sciences, Engineering, and Medicine](http://sites.nationalacademies.org/SHStudy/index.htm) - a study of the influence of sexual harassment in academia on the career advancement of women in the scientific, technical, and medical workforce 
 
+## Educational Resources 
+
+* [Anti-Racism for Beginners](http://www.antiracismforbeginners.com) - A guide for addressing systemic racism and beliefs, includes other resources and a list of recommended reads 
