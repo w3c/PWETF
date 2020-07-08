@@ -30,4 +30,5 @@ A number of people have provided resources that could be useful in editing the W
 ## Educational Resources 
 
 * [Anti-Racism for Beginners](http://www.antiracismforbeginners.com) - A guide for addressing systemic racism and beliefs, includes other resources and a list of recommended reads 
-* [HBR Inclusive Meetings](https://hbr.org/2019/09/to-build-an-inclusive-culture-start-with-inclusive-meetings)
+* [HBR Inclusive Meetings](https://hbr.org/2019/09/to-build-an-inclusive-culture-start-with-inclusive-meetings) - tips for running inclusive meetings
+* [On Being Black in Computing](https://medium.com/@quincykbrown/on-being-black-in-computing-during-these-days-54e049d56987) - information about being Black during spring 2020 in US, links to reading materials and actions to take
