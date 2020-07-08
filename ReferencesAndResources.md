@@ -30,3 +30,4 @@ A number of people have provided resources that could be useful in editing the W
 ## Educational Resources 
 
 * [Anti-Racism for Beginners](http://www.antiracismforbeginners.com) - A guide for addressing systemic racism and beliefs, includes other resources and a list of recommended reads 
+* [HBR Inclusive Meetings](https://hbr.org/2019/09/to-build-an-inclusive-culture-start-with-inclusive-meetings)
