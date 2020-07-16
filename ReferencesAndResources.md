@@ -11,6 +11,7 @@ This is a collection of references and resources that are useful for information
 * [Some Essential Reading on Race and Technology](https://venturebeat.com/2020/06/02/some-essential-reading-and-research-on-race-and-technology/) - compliation of readings about bias and racism in tech in VentureBeat 
 * [CiteHER Bibliography](https://blackcomputeher.org/citeher-bibliography/) compilation of research on race, gender, and computing
 * [Organizational Statements on BLM](https://docs.google.com/spreadsheets/d/1vUj3BBJ2Xps5OhvRntQrx2zo1lGg12Q5MGt-rVeWTmI/edit#gid=0) compilation of organizationa statements in support of Black Lives Matter
+* [Resources on Diversity on Boards](https://boardsource.org/research-critical-issues/diversity-equity-inclusion/) - boards of directors, advisory boards, etc
 
 ## Resources about Sexual Harrassment and Assault - this needs many more resources
 
