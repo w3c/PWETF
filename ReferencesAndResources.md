@@ -1,8 +1,23 @@
 # References and Resources
 
-A number of people have provided resources that could be useful in editing the W3C CEPC. Please add links that you find helpful with a brief summary.
+This is a collection of references and resources that are useful for information about codes of conduct, diversity, inclusion, and equity. Please feel free to add to the list. Please include a brief description of the resource you provide.
 
-## Codes of Conduct
+
+## Educational Resources -- Race and Tech
+
+* [Anti-Racism for Beginners](http://www.antiracismforbeginners.com) - A guide for addressing systemic racism and beliefs, includes other resources and a list of recommended reads 
+* [HBR Inclusive Meetings](https://hbr.org/2019/09/to-build-an-inclusive-culture-start-with-inclusive-meetings) - tips for running inclusive meetings
+* [On Being Black in Computing](https://medium.com/@quincykbrown/on-being-black-in-computing-during-these-days-54e049d56987) - information about being Black during spring 2020 in US, links to reading materials and actions to take
+* [Some Essential Reading on Race and Technology](https://venturebeat.com/2020/06/02/some-essential-reading-and-research-on-race-and-technology/) - compliation of readings about bias and racism in tech in VentureBeat 
+* [CiteHER Bibliography](https://blackcomputeher.org/citeher-bibliography/) compilation of research on race, gender, and computing
+
+## Resources about Sexual Harrassment and Assault - this needs many more resources
+
+* [BetterBrave](https://www.betterbrave.org/) Rights and Options in the US Workplace for Sexual Harassment targets and allies
+* [Sexual Harassment in Academic Sciences, Engineering, and Medicine](http://sites.nationalacademies.org/SHStudy/index.htm) - a study of the influence of sexual harassment in academia on the career advancement of women in the scientific, technical, and medical workforce 
+* [To Girls Everywhere, I AM With You](https://www.democracynow.org/2019/10/11/to_girls_everywhere_i_am_with) - Chanel Miller Reads from Her Victim Impact Statement
+
+## Codes of Conduct - this section includes codes of conduct from other organizations
 
 * [Open Source Guides](https://opensource.guide/) - Resources from GitHub
 * [Contributor Covenant](https://www.contributor-covenant.org/) - Open Source CoC
@@ -20,17 +35,7 @@ A number of people have provided resources that could be useful in editing the W
 * [BBC Code of Conduct](https://www.bbc.com/aboutthebbc/reports/policies/codeofconduct) - links to PDF, mission- and values-based organisation-level CoC
 * [ISO CoC](https://www.iso.org/files/live/sites/isoorg/files/store/en/PUB100397.pdf)
 
-## Articles
+## Articles about Codes of Conduct
 
 * [Tweaking the Moral UI](https://alistapart.com/article/tweaking-the-moral-ui) - explains why a CoC is needed
 * [Code of Conduct 101](https://www.ashedryden.com/blog/codes-of-conduct-101-faq) - FAQ about CoC, including many of the questions PWE has asked in the last year.
-* [BetterBrave](https://www.betterbrave.org/) Rights and Options in the US Workplace for Sexual Harassment targets and allies
-* [Sexual Harassment in Academic Sciences, Engineering, and Medicine](http://sites.nationalacademies.org/SHStudy/index.htm) - a study of the influence of sexual harassment in academia on the career advancement of women in the scientific, technical, and medical workforce 
-
-## Educational Resources -- Race and Tech
-
-* [Anti-Racism for Beginners](http://www.antiracismforbeginners.com) - A guide for addressing systemic racism and beliefs, includes other resources and a list of recommended reads 
-* [HBR Inclusive Meetings](https://hbr.org/2019/09/to-build-an-inclusive-culture-start-with-inclusive-meetings) - tips for running inclusive meetings
-* [On Being Black in Computing](https://medium.com/@quincykbrown/on-being-black-in-computing-during-these-days-54e049d56987) - information about being Black during spring 2020 in US, links to reading materials and actions to take
-* [Some Essential Reading on Race and Technology](https://venturebeat.com/2020/06/02/some-essential-reading-and-research-on-race-and-technology/) - compliation of readings about bias and racism in tech in VentureBeat 
-* [CiteHER Bibliography](https://blackcomputeher.org/citeher-bibliography/) compilation of research on race, gender, and computing
