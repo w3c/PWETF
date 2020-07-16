@@ -16,6 +16,7 @@ This is a collection of references and resources that are useful for information
 
 ## Resources about Sexual Harrassment and Assault - this needs many more resources
 
+* [Rape, Abuse, & Incest National Network Materials](https://www.rainn.org/materials) - handouts, toolkits, infocards, and postcards (US-focused)
 * [BetterBrave](https://www.betterbrave.org/) Rights and Options in the US Workplace for Sexual Harassment targets and allies
 * [Sexual Harassment in Academic Sciences, Engineering, and Medicine](http://sites.nationalacademies.org/SHStudy/index.htm) - a study of the influence of sexual harassment in academia on the career advancement of women in the scientific, technical, and medical workforce 
 * [To Girls Everywhere, I AM With You](https://www.democracynow.org/2019/10/11/to_girls_everywhere_i_am_with) - Chanel Miller Reads from Her Victim Impact Statement
