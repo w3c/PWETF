@@ -12,6 +12,7 @@ This is a collection of references and resources that are useful for information
 * [CiteHER Bibliography](https://blackcomputeher.org/citeher-bibliography/) compilation of research on race, gender, and computing
 * [Organizational Statements on BLM](https://docs.google.com/spreadsheets/d/1vUj3BBJ2Xps5OhvRntQrx2zo1lGg12Q5MGt-rVeWTmI/edit#gid=0) compilation of organizationa statements in support of Black Lives Matter
 * [Resources on Diversity on Boards](https://boardsource.org/research-critical-issues/diversity-equity-inclusion/) - boards of directors, advisory boards, etc
+* [Colorism Impacts the Global Black Community](https://medium.com/age-of-awareness/colorism-impacts-the-global-black-community-bf213cb6b722) -- looks beyond US-based BLM at skin-tone based discrimination internationally
 
 ## Resources about Sexual Harrassment and Assault - this needs many more resources
 
