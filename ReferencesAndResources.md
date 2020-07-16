@@ -27,9 +27,10 @@ A number of people have provided resources that could be useful in editing the W
 * [BetterBrave](https://www.betterbrave.org/) Rights and Options in the US Workplace for Sexual Harassment targets and allies
 * [Sexual Harassment in Academic Sciences, Engineering, and Medicine](http://sites.nationalacademies.org/SHStudy/index.htm) - a study of the influence of sexual harassment in academia on the career advancement of women in the scientific, technical, and medical workforce 
 
-## Educational Resources 
+## Educational Resources -- Race and Tech
 
 * [Anti-Racism for Beginners](http://www.antiracismforbeginners.com) - A guide for addressing systemic racism and beliefs, includes other resources and a list of recommended reads 
 * [HBR Inclusive Meetings](https://hbr.org/2019/09/to-build-an-inclusive-culture-start-with-inclusive-meetings) - tips for running inclusive meetings
 * [On Being Black in Computing](https://medium.com/@quincykbrown/on-being-black-in-computing-during-these-days-54e049d56987) - information about being Black during spring 2020 in US, links to reading materials and actions to take
 * [Some Essential Reading on Race and Technology](https://venturebeat.com/2020/06/02/some-essential-reading-and-research-on-race-and-technology/) - compliation of readings about bias and racism in tech in VentureBeat 
+* [CiteHER Bibliography](https://blackcomputeher.org/citeher-bibliography/) compilation of research on race, gender, and computing
