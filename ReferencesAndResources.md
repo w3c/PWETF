@@ -47,3 +47,10 @@ This is a collection of references and resources that are useful for information
 
 * [Tweaking the Moral UI](https://alistapart.com/article/tweaking-the-moral-ui) - explains why a CoC is needed
 * [Code of Conduct 101](https://www.ashedryden.com/blog/codes-of-conduct-101-faq) - FAQ about CoC, including many of the questions PWE has asked in the last year.
+
+## Terminology References 
+
+The following references are recommended guides for members concerned about the language they are using or unsure of proper terms.
+* [Self-Defined](https://www.selfdefined.app/)
+* [Let's Get it Right](https://www.adl.org/education/resources/tools-and-strategies/lets-get-it-right-using-correct-pronouns-and-names)
+* [Words Matter](https://thenewstack.io/words-matter-finally-tech-looks-at-removing-exclusionary-language/)
