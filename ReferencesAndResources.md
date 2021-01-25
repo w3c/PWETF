@@ -13,9 +13,16 @@ This is a collection of references and resources that are useful for information
 * [Organizational Statements on BLM](https://docs.google.com/spreadsheets/d/1vUj3BBJ2Xps5OhvRntQrx2zo1lGg12Q5MGt-rVeWTmI/edit#gid=0) compilation of organizationa statements in support of Black Lives Matter
 * [Resources on Diversity on Boards](https://boardsource.org/research-critical-issues/diversity-equity-inclusion/) - boards of directors, advisory boards, etc
 * [Colorism Impacts the Global Black Community](https://medium.com/age-of-awareness/colorism-impacts-the-global-black-community-bf213cb6b722) -- looks beyond US-based BLM at skin-tone based discrimination internationally
+* [Ruha Benjamin at Lafayette](https://media.lafayette.edu/media/1_s420mk6t) [video]
+* [Is Surveillance Tech Widening America’s Racial Divide?](https://www.govtech.com/public-safety/Is-Surveillance-Tech-Widening-Americas-Racial-Divide.html) by Naomi Ishisaka
+* [The Colour of Surviellance](https://slate.com/technology/2016/01/what-the-fbis-surveillance-of-martin-luther-king-says-about-modern-spying.html) by Alvaro M. Bedoya
+* [So you want to talk about race in tech with Ijeoma Oluo](https://techcrunch.com/2020/06/13/so-you-want-to-talk-about-race-in-tech-with-ijeoma-oluo/) by Greg Epstein
 
 ## Sexism and Feminism
 * [Masculine Defaults: Identifying and Mitigating Hidden Cultural Biases](https://doi.org/10.1037/rev0000209)
+* [What Is Intersectional Feminism (and How Is It Different from Regular Feminism)?](https://www.purewow.com/wellness/what-is-intersectional-feminism) by Sarah Stiefvater
+* [Feminism Claims to Represent All Women. So Why Does It Ignore So Many of Them?](https://time.com/5789438/feminism-poverty-gun-violence/) by Mikki Kendall
+* [Mapping the Margins: Intersectionality, Identity Politics, and Violence Against Women of Color](https://drive.google.com/file/d/1ifzT7WVGj-C7k_f0qiQDSTDxqp7bssK3/view) by Kimberlé Williams Crenshaw
 
 ## Resources about Sexual Harrassment and Assault - this needs many more resources
 
