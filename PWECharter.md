@@ -1,7 +1,8 @@
 The mission of the Positive Work Environment Community Group is to create an environment of belonging for all participants in the World Wide Consortium and to increase the presence of under-represented groups at the W3C. We believe that we strengthen W3C culture by supporting diversity, equity, and inclusion.
 
 Our goals are to:
-* manage CEPC and its associated and Procedures, including the Ombudsperson program
+
+* manage the Code of Ethics and Professional Conduct (CEPC) and its associated and procedures, including the Ombudsperson program
 * provide a space to share experiences and information;
 * produce best practices and use case documents regarding gathering data, reporting/feedback mechanisms, and practical ways to support each other; (data collection)
-* make recommendations to the W3C management for specific actions and changes to our working environment to better support inclusion and diversity
+* make recommendations to the W3C for specific actions and changes to our working environment to better support inclusion and diversity
