@@ -23,9 +23,11 @@ Ombudspersons will meet regularly with one another to share learnings and provid
 ## Qualifications
 * Ability to communicate effectively with individuals from a wide variety of backgrounds and cultures.
 * Ability to engage thoughtfully and sensitively with issues related to diversity, equity, justice, and inclusion. Including but not limited to:
+
 ** Understanding of common microaggressions, and ability to discuss them with care and consideration for the aggressed party. 
 ** Understanding of power and privilege, and how both impact interpersonal interactions. 
 ** Familiarity with inclusive terminology, and a commitment to combating racism, sexism, ableism, and other harmful practices at the W3C. 
+
 * Ability to gather information, analyze it and, as necessary, help the inquirer develop appropriate options and actions.
 * Thorough understanding of W3C structure, culture, policies, and practices, and willingness to help the inquirer navigate them. 
 * A thorough understanding of what leads to conflict, the nature of conflict, and methods of resolution.
