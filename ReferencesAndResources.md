@@ -2,6 +2,7 @@
 
 This is a collection of references and resources that are useful for information about codes of conduct, diversity, inclusion, and equity. Please feel free to add to the list. Please include a brief description of the resource you provide. If you are interested in adding to this list, please create a pull request and tag @TzviyaSiegman, @lolaodelola. and @eoncins as reviewers.
 
+Please see our [Zotero library](https://www.zotero.org/groups/2864452/w3c_pwe/library) for the full list of resources. 
 
 ## Educational Resources -- Race and Tech
 
