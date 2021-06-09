@@ -42,14 +42,14 @@ The W3C wants to be a model of supporting greater diversity in technology. Over 
 
 W3C has established a TPAC Diversity Fund, sponsored this year by [sponsors]. W3C uses this fund to help remove barriers for those who want to attend or contribute to TPAC in a meaningful way.
 
-The Inclusion Fund can help pay for:
+Examples of things the Inclusion Fund might help to cover:
 * technology to participate more effectively online
 * help with paying internet costs
 * a carer for children or a relative
 * noise cancelling headphones if you need quiet to concentrate 
 * co-working space if you don’t have room at your office or home
 
-If there are other types of help you think would apply to your situation, you can still apply and explain the reason in your application. 
+If there are other types of help you think would apply to your situation, please explain in your application. 
 
 #### Eligibility
 In order to apply for the TPAC Inclusion Fund, you should:
