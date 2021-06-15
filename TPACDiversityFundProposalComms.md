@@ -280,7 +280,7 @@ We’re continuing to support the Diversity Fund for 2021, with some changes to 
 
 We still have [amount] let in the Diversity Fund and so suggest that we run fund retrospectively, for example your sponsorships this year will affect next year’s fund. This will allow us to have a larger time to have applications submitted, scrutinise, decide and pay the successful applications. 
 
-[Details of what the Fund did last year] 
+For TPAC 2020, the Diversity Fund supported financially the work of 8 external contributors from underrepresented communities in organizing 3 breakout sessions exploring the intersection of W3C technologies and the challenges facing underrepresented communities in using or shaping them to their needs: [Creative Imagination for an Ethical Web](https://www.w3.org/2020/10/TPAC/breakout-schedule.html#ethical-web), [Accessing WebXR Through Art](https://www.w3.org/2020/10/TPAC/breakout-schedule.html#webxr-art) and [Consent Communication on the Web](https://www.w3.org/2020/10/TPAC/breakout-schedule.html#consentful-comm). In the feedback we collected on breakouts, these sessions were often quoted as the best of this TPAC edition and even the best ever by several participants.
 
 This year, for the W3C has decided for 2020 to contribute [amount].
 
