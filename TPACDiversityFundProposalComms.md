@@ -282,7 +282,7 @@ We still have [amount] let in the Diversity Fund and so suggest that we run fund
 
 [Details of what the Fund did last year] 
 
-This year, for the W3C has decided for 2020 to contribute [amount].
+This year, for the W3C has decided for 2021 to contribute [amount].
 
 Sponsors in the past have typically given $1,500 (or equivalent in local currency) and we hope they will continue to do so.
 
