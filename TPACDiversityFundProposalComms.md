@@ -40,7 +40,7 @@ Introduction
 
 W3C wants to be a model of supporting greater diversity in bringing people together to develop web technology. 60% of the world is online and is growing every year. We want to reflect the diversity of the whole world as more people continue to access, use and create the web.
 
-W3C has established a TPAC Inclusion Fund, sponsored this year by [sponsors]. W3C uses this fund to help remove barriers for those who want to attend or contribute to TPAC in a meaningful way.
+W3C has established a TPAC Inclusion Fund, sponsored this year by W3C, Adobe, Samsung Electronics, Coil, Charles Nevile, Microsoft, TetraLogical, Siteimprove, and an anonymous donor. W3C uses this fund to help remove barriers for those who want to attend or contribute to TPAC in a meaningful way.
 
 Examples ofof what the Inclusion Fund helps to cover:
 * technology to participate more effectively online
@@ -128,7 +128,7 @@ Contributions can be on any topic that is appropriate for TPAC, and don’t spec
 
 W3C wants to be a model of supporting greater diversity in bringing people together to develop web technology. 60% of the world is online and is growing every year. We want to reflect the diversity of the whole world as more people continue to access, use and create the web.
 
-W3C has established a TPAC Inclusion Fund, sponsored this year by [sponsors]. W3C is this fund to help remove barriers for those who want to attend or contribute to TPAC in a meaningful way.
+W3C has established a TPAC Inclusion Fund, sponsored this year by W3C, Adobe, Samsung Electronics, Coil, Charles Nevile, Microsoft, TetraLogical, Siteimprove, and an anonymous donor. W3C is this fund to help remove barriers for those who want to attend or contribute to TPAC in a meaningful way.
 
 A TPAC Fellow will be given $500 to prepare to participate in TPAC in a meaningful way. This means:
 * pitching and running a particular session
@@ -228,7 +228,7 @@ The W3C TPAC Inclusion Fund and the new TPAC Fellows Stipend is now open for app
 
 If there are other types of help you think would be appropriate in your case, you can still apply and explain the reason in your application. 
 
-The TPAC Inclusion Fund is sponsored by [sponsors]. If your organisation would like to become a sponsor, contact 
+The TPAC Inclusion Fund is sponsored by W3C, Adobe, Samsung Electronics, Coil, Charles Nevile, Microsoft, TetraLogical, Siteimprove, and an anonymous donor. If your organisation would like to become a sponsor, contact 
 
 Read more about diversity at the W3C with the [2020 update on Diversity and Inclusion](https://www.w3.org/blog/2020/06/diversity-and-inclusion-at-w3c-2020-update-future-of-the-w3c-diversity-fund/).
 
