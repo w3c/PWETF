@@ -45,7 +45,7 @@ W3C has established a TPAC Diversity Fund, sponsored this year by [sponsors]. W3
 Examples ofof what the Inclusion Fund helps to cover:
 * technology to participate more effectively online
 * help with paying internet costs
-* a carer for children or a relative
+* child care (or care for a relative)
 * noise cancelling headphones if you need quiet to concentrate 
 * co-working space if you don’t have room at your office or home
 
