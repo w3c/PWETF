@@ -82,7 +82,7 @@ Three people from the Positive Work Environment Community Group will short list 
 
 Your applications won’t be judged on their written quality, in case it’s hard for you to complete, for example if English is your second language or you have a disability.
 
-Information supplied in this form will be submitted to the diversity fund selection committee and stored on W3C's servers and is subject to W3C Privacy Policy.
+Information supplied in this form will be submitted to the diversity fund selection committee and stored on W3C's servers and is subject to [W3C Privacy Policy](https://www.w3.org/Consortium/Legal/privacy-statement).
 
 #### Timeline
 
@@ -171,7 +171,7 @@ Three people from the Positive Work Environment Community Group will short list 
 
 Your applications won’t be judged on their written quality, in case it’s hard for you to complete, for example if English is your second language or you have a disability.
 
-Information supplied in this form will be submitted to the diversity fund selection committee and stored on W3C's servers and is subject to W3C Privacy Policy.
+Information supplied in this form will be submitted to the diversity fund selection committee and stored on W3C's servers and is subject to [W3C Privacy Policy](https://www.w3.org/Consortium/Legal/privacy-statement).
 
 #### Timeline
 
