@@ -30,7 +30,7 @@ It is suggested, given the balance remaining in the Diversity Fund, that grants 
 
 This way, the process for applying and distributing the funds can be based on a known quantity of funds for any given year. 
 
-In addition, it is suggested that 3 nominated individuals from the Positive Working Group manage the short listing of candidates for both funds. Decisions on the funds will be made jointly by representatives from the W3C Management and the Positive Working Group (in order to keep the decision-making loop streamlined and prioritised). 
+In addition, it is suggested that 3 nominated individuals from the [Positive Work Environment Community Group](https://www.w3.org/community/pwe/) manage the short listing of candidates for both funds. Decisions on the funds will be made jointly by representatives from the W3C Management and the Positive Work Environment Community Group (in order to keep the decision-making loop streamlined and prioritised). 
 
 ## Inclusion Fund
 This fund operates the same as the previous TPAC fund - helping those with particular barriers to attend TPAC. The details of the fund are in the application form introduction  and eligibility section. 
@@ -78,7 +78,7 @@ W3C reviewers will prioritise:
 * new W3C participants and established participants who have not previously attended TPAC
 * diversity among the applications, where that can be determined
 
-Three people from the Positive Working Environment Community Group will short list candidates for both funds. Decisions on the funds will be made jointly by two representatives from the W3C Management and the three members of the Positive Working Environment Community Group.
+Three people from the Positive Work Environment Community Group will short list candidates for both funds. Decisions on the funds will be made jointly by two representatives from the W3C Management and the three members of the Positive Work Environment Community Group.
 
 Your applications won’t be judged on their written quality, in case it’s hard for you to complete, for example if English is your second language or you have a disability.
 
@@ -167,7 +167,7 @@ W3C reviewers will prioritise:
 * new W3C participants and established participants who have not previously attended TPAC
 * diversity among the applications, where that can be determined
 
-Three people from the Positive Working Environment Community Group will short list candidates for both funds. Decisions on the funds will be made jointly by two representatives from the W3C Management and the three members of the Positive Working Environment Community Group.
+Three people from the Positive Work Environment Community Group will short list candidates for both funds. Decisions on the funds will be made jointly by two representatives from the W3C Management and the three members of the Positive Work Environment Community Group.
 
 Your applications won’t be judged on their written quality, in case it’s hard for you to complete, for example if English is your second language or you have a disability.
 
@@ -241,7 +241,7 @@ As you know TPAC is taking place on [date]
 
 We want to get as many people to TPAC as we can, which is why we’re hoping you could communicate the Inclusion Fund and the TPAC Fellows Stipend to your group.
 
-We’d really appreciate if you could mention the available funds  at  your next meeting and encourage anyone who has questions to get in touch with the Positive Working Environment group [email].
+We’d really appreciate if you could mention the available funds  at  your next meeting and encourage anyone who has questions to get in touch with the Positive Work Environment Community Group [email].
 
 Also, please tweet or share this information with anyone you know who might benefit from the fund.
 
