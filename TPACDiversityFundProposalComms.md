@@ -3,9 +3,9 @@
 May 2020, 
 v. 1
 
-## Diversity Fund proposed update 
-This goals of this proposal are to:
-* increase the diversity of attendees represented at TPAC 
+## TPAC Diversity Fund proposed update 
+The goals of this proposal are to:
+* increase the diversity of attendees represented at <abbr title="Technical Plenary Advisory Committee meetings">TPAC</abbr> 
 * increase the diversity of attendees who can make meaningful contributions to web standards, at TPAC and beyond
 * ease the administrative burden and time pressure of administering the fund
 
