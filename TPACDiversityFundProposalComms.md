@@ -42,7 +42,7 @@ W3C wants to be a model of supporting greater diversity in bringing people toget
 
 W3C has established a TPAC Diversity Fund, sponsored this year by [sponsors]. W3C uses this fund to help remove barriers for those who want to attend or contribute to TPAC in a meaningful way.
 
-Examples of things the Inclusion Fund might help to cover:
+Examples ofof what the Inclusion Fund helps to cover:
 * technology to participate more effectively online
 * help with paying internet costs
 * a carer for children or a relative
