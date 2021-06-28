@@ -1,18 +1,18 @@
-# TPAC Diversity Fund Proposal and Comms Plan
+# TPAC Inclusion Fund Proposal and Comms Plan
 
 May 2020, 
 v. 1
 
-## TPAC Diversity Fund proposed update 
+## TPAC Inclusion Fund proposed update 
 The goals of this proposal are to:
 * increase the diversity of attendees represented at <abbr title="Technical Plenary Advisory Committee meetings">TPAC</abbr> 
 * increase the diversity of attendees who can make meaningful contributions to web standards, at TPAC and beyond
 * ease the administrative burden and time pressure of administering the fund
 
-This proposal builds on the previous work and use of the Diversity Fund in 2020.
+This proposal builds on the previous work and use of the TPAC Diversity Fund in 2020.
 
 Increasing representation
-To increase the representation at TPAC, W3C should use the diversity fund to run:
+To increase the representation at TPAC, W3C should use the inclusion fund to run:
 * Inclusion Fund: continue the use of the fund to help W3C members to attend, through assistance with technology needs or to reduce the barriers that would prevent them from attending and participating
 * TPAC Fellow: a stipend aimed at those from under represented backgrounds who may not have ability to prioritise a meaningful contribution without financial support.
 
@@ -20,13 +20,13 @@ The Inclusion Fund would follow broadly the same structure as the 2020 Fund, wit
 
 The TPAC Fellow stipend would be $500, paid to the fellow to prepare and contribute to TPAC in a meaningful way. It is proposed that there be a maximum of 3-5 TPAC fellows.
 
-### Streamlining the administration of the Diversity Fund
+### Streamlining the administration of the Inclusion Fund
 There is a significant time pressure to ask for contributions to the fund alongside the need to:
 * run the application process for the fund
 * assess the applications
 * pay the funds in a reasonable time for TPAC
 
-It is suggested, given the balance remaining in the Diversity Fund, that grants be made from existing funds, and requests for donation be made to support the succeeding year’s grants. So for example, the request for donations for this year would contribute to the 2022 fund, while 2021 grants would be supported by 2020 contributions.
+It is suggested, given the balance remaining in the TPAC 2020 Diversity Fund, that grants be made from existing funds, and requests for donation be made to support the succeeding year’s grants. So for example, the request for donations for this year would contribute to the 2022 fund, while 2021 grants would be supported by 2020 contributions.
 
 This way, the process for applying and distributing the funds can be based on a known quantity of funds for any given year. 
 
@@ -40,7 +40,7 @@ Introduction
 
 W3C wants to be a model of supporting greater diversity in bringing people together to develop web technology. 60% of the world is online and is growing every year. We want to reflect the diversity of the whole world as more people continue to access, use and create the web.
 
-W3C has established a TPAC Diversity Fund, sponsored this year by [sponsors]. W3C uses this fund to help remove barriers for those who want to attend or contribute to TPAC in a meaningful way.
+W3C has established a TPAC Inclusion Fund, sponsored this year by [sponsors]. W3C uses this fund to help remove barriers for those who want to attend or contribute to TPAC in a meaningful way.
 
 Examples ofof what the Inclusion Fund helps to cover:
 * technology to participate more effectively online
@@ -82,7 +82,7 @@ Three people from the Positive Work Environment Community Group will short list 
 
 Your applications won’t be judged on their written quality, in case it’s hard for you to complete, for example if English is your second language or you have a disability.
 
-Information supplied in this form will be submitted to the diversity fund selection committee and stored on W3C's servers and is subject to [W3C Privacy Policy](https://www.w3.org/Consortium/Legal/privacy-statement).
+Information supplied in this form will be submitted to the inclusion fund selection committee and stored on W3C's servers and is subject to [W3C Privacy Policy](https://www.w3.org/Consortium/Legal/privacy-statement).
 
 #### Timeline
 
@@ -128,7 +128,7 @@ Contributions can be on any topic that is appropriate for TPAC, and don’t spec
 
 W3C wants to be a model of supporting greater diversity in bringing people together to develop web technology. 60% of the world is online and is growing every year. We want to reflect the diversity of the whole world as more people continue to access, use and create the web.
 
-W3C has established a TPAC Diversity Fund, sponsored this year by [sponsors]. W3C is this fund to help remove barriers for those who want to attend or contribute to TPAC in a meaningful way.
+W3C has established a TPAC Inclusion Fund, sponsored this year by [sponsors]. W3C is this fund to help remove barriers for those who want to attend or contribute to TPAC in a meaningful way.
 
 A TPAC Fellow will be given $500 to prepare to participate in TPAC in a meaningful way. This means:
 * pitching and running a particular session
@@ -141,7 +141,7 @@ There are [number] of TPAC Fellow stipends available this year.
 
 #### Eligibility
 
-In order to apply for the TPAC Diversity Fund, you should:
+In order to apply for the TPAC Inclusion Fund, you should:
 * be from a group that is under-represented in the web community
 * may not be given the time or support to contribute to W3C in a meaningful way through your workplace’s W3C membership
 
@@ -171,7 +171,7 @@ Three people from the Positive Work Environment Community Group will short list 
 
 Your applications won’t be judged on their written quality, in case it’s hard for you to complete, for example if English is your second language or you have a disability.
 
-Information supplied in this form will be submitted to the diversity fund selection committee and stored on W3C's servers and is subject to [W3C Privacy Policy](https://www.w3.org/Consortium/Legal/privacy-statement).
+Information supplied in this form will be submitted to the inclusion fund selection committee and stored on W3C's servers and is subject to [W3C Privacy Policy](https://www.w3.org/Consortium/Legal/privacy-statement).
 
 #### Timeline
 
@@ -207,7 +207,7 @@ Potential social media lines:
 
 | Activity   |      Date     | Who |
 |----------|-------------|------|
-| Email groups about diversity fund |  June 5 | W3C Comm team |
+| Email groups about inclusion fund |  June 5 | W3C Comm team |
 | Email to sponsors about changes to the fund and to solicitor donations|    June 5   |    |
 | Publish TPAC page with info | June 15 |   Comm |
 | Publish new application pages| June 15 |   Comm |
@@ -228,7 +228,7 @@ The W3C TPAC Inclusion Fund and the new TPAC Fellows Stipend is now open for app
 
 If there are other types of help you think would be appropriate in your case, you can still apply and explain the reason in your application. 
 
-The TPAC Diversity Fund is sponsored by [sponsors]. If your organisation would like to become a sponsor, contact 
+The TPAC Inclusion Fund is sponsored by [sponsors]. If your organisation would like to become a sponsor, contact 
 
 Read more about diversity at the W3C with the [2020 update on Diversity and Inclusion](https://www.w3.org/blog/2020/06/diversity-and-inclusion-at-w3c-2020-update-future-of-the-w3c-diversity-fund/).
 
@@ -272,13 +272,13 @@ Cheers
 
 Dear Advisory Committee representative, Chairs,
 
-We’d like to draw your attention to the 2021 update of Diversity and Inclusion at W3C and communication on the future of a TPAC Diversity Fund, via a CEO post published on the W3C Blog: [link]
+We’d like to draw your attention to the 2021 update of Diversity and Inclusion at W3C and communication on the future of a TPAC Inclusion Fund, via a CEO post published on the W3C Blog: [link]
 
-We’re continuing to support the Diversity Fund for 2021, with some changes to ensure  that:
+We’re continuing to support the Inclusion Fund for 2021, with some changes to ensure  that:
 * applications have enough time to apply and receive fund in time for TPAC
 * ease the administrative burden and time pressure for managing the fund
 
-We still have [amount] let in the Diversity Fund and so suggest that we run fund retrospectively, for example your sponsorships this year will affect next year’s fund. This will allow us to have a larger time to have applications submitted, scrutinise, decide and pay the successful applications. 
+We still have [amount] left in the Inclusion Fund and so suggest that we run fund retrospectively, for example your sponsorships this year will affect next year’s fund. This will allow us to have a larger time to have applications submitted, scrutinise, decide and pay the successful applications. 
 
 For TPAC 2020, the Diversity Fund supported financially the work of 8 external contributors from underrepresented communities in organizing 3 breakout sessions exploring the intersection of W3C technologies and the challenges facing underrepresented communities in using or shaping them to their needs: [Creative Imagination for an Ethical Web](https://www.w3.org/2020/10/TPAC/breakout-schedule.html#ethical-web), [Accessing WebXR Through Art](https://www.w3.org/2020/10/TPAC/breakout-schedule.html#webxr-art) and [Consent Communication on the Web](https://www.w3.org/2020/10/TPAC/breakout-schedule.html#consentful-comm). In the feedback we collected on breakouts, these sessions were often quoted as the best of this TPAC edition and even the best ever by several participants.
 
