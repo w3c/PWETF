@@ -38,7 +38,7 @@ This fund operates the same as the previous TPAC fund - helping those with parti
 Application form
 Introduction
 
-The W3C wants to be a model of supporting greater diversity in technology. 60% of the world is online and is growing every year. We want to reflect the diversity of the whole world as more and more people continue to access, use and create the web.
+W3C wants to be a model of supporting greater diversity in technology. 60% of the world is online and is growing every year. We want to reflect the diversity of the whole world as more people continue to access, use and create the web.
 
 W3C has established a TPAC Diversity Fund, sponsored this year by [sponsors]. W3C uses this fund to help remove barriers for those who want to attend or contribute to TPAC in a meaningful way.
 
@@ -74,7 +74,7 @@ If you have questions about your eligibility, or have difficulty using this form
 
 How applications are assessed
 
-The W3C reviewers will prioritise:
+W3C reviewers will prioritise:
 * new W3C participants and established participants who have not previously attended TPAC
 * diversity among the applications, where that can be determined
 
@@ -126,7 +126,7 @@ Contributions can be on any topic that is appropriate for TPAC, and don’t spec
 
 #### Introduction
 
-The W3C wants to be a model of supporting greater diversity in technology. 60% of the world is online and is growing every year. We want to reflect the diversity of the whole world as more and more people continue to access, use and create the web.
+W3C wants to be a model of supporting greater diversity in technology. 60% of the world is online and is growing every year. We want to reflect the diversity of the whole world as more people continue to access, use and create the web.
 
 W3C has established a TPAC Diversity Fund, sponsored this year by [sponsors]. W3C is this fund to help remove barriers for those who want to attend or contribute to TPAC in a meaningful way.
 
@@ -163,7 +163,7 @@ If you have questions about your eligibility, or have difficulty using this form
 
 How applications are assessed
 
-The W3C members will prioritise:
+W3C reviewers will prioritise:
 * new W3C participants and established participants who have not previously attended TPAC
 * diversity among the applications, where that can be determined
 
