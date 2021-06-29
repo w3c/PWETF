@@ -42,7 +42,7 @@ W3C wants to be a model of supporting greater diversity in bringing people toget
 
 W3C has established a TPAC Inclusion Fund, sponsored this year by W3C, Adobe, Samsung Electronics, Coil, Charles Nevile, Microsoft, TetraLogical, Siteimprove, and an anonymous donor. W3C uses this fund to help remove barriers for those who want to attend or contribute to TPAC in a meaningful way.
 
-Examples ofof what the Inclusion Fund helps to cover:
+Examples of what the Inclusion Fund might help to cover:
 * technology to participate more effectively online
 * help with paying internet costs
 * child care (or care for a relative)
