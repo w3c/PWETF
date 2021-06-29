@@ -207,7 +207,7 @@ Potential social media lines:
 
 | Activity   |      Date     | Who |
 |----------|-------------|------|
-| [TPAC Inclusion Fund application form](https://www.w3.org/2002/09/wbs/1/InclusionFund2021/)| June 28 | Wendy|
+| [TPAC Inclusion Fund application form](https://www.w3.org/2002/09/wbs/1/InclusionFund2021/)| June 25 | Wendy|
 | [CEO blog post about inclusion and diversity](https://www.w3.org/blog/2021/06/diversity-and-inclusion-at-w3c-inclusion-fund-and-fellowships-for-tpac-2021/) | June 29 | W3C Comm Team|
 | Email groups about inclusion fund |  June 29 | W3C Comm team |
 | Email to sponsors about changes to the fund and to solicitor donations|    June 29  |  W3C Comm team  |
