@@ -288,7 +288,7 @@ Sponsors in the past have typically given $1,500 (or equivalent in local currenc
 
 As this year’s TPAC will continue to be virtual, we’re continuing the efforts to ensure that people can attend, for example through assistive technology or caring support. We’re happy to hear ideas on what the fund should support.
 
-We’re also trialling a TPAC Fellow honorarium of $500 to encourage members from underrespresntives groups to contribute in a more meaningful way, such as:
+In September 2021, we will award three to five persons a TPAC Fellow honorarium of $500 to encourage members from underrespresntives groups to contribute in a more meaningful way, such as:
 * pitching and running a particular session
 * preparing documents such as explainers or drafts for discussion
 * reviewing a group’s work and preparing comments for discussion
