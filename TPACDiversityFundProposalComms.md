@@ -207,20 +207,19 @@ Potential social media lines:
 
 | Activity   |      Date     | Who |
 |----------|-------------|------|
+| [TPAC Inclusion Fund application form](https://www.w3.org/2002/09/wbs/1/InclusionFund2021/)| June 28 | Wendy|
 | [CEO blog post about inclusion and diversity](https://www.w3.org/blog/2021/06/diversity-and-inclusion-at-w3c-inclusion-fund-and-fellowships-for-tpac-2021/) | June 29 | W3C Comm Team|
-| Email groups about inclusion fund |  June 5 | W3C Comm team |
-| Email to sponsors about changes to the fund and to solicitor donations|    June 5   |    |
-| Publish TPAC page with info | June 15 |   Comm |
-| Publish new application pages| June 15 |   Comm |
-| Publish comms | June 15 |   Comm |
-| Main W3C (and other relevant accounts): Tweet | Every week from June 15 |   Comm |
-| W3C: LinkedIn| Every week from June 15 |   Comm |
-| Reminder email to groups | August 5|   Comm |
+| Email groups about inclusion fund |  June 29 | W3C Comm team |
+| Email to sponsors about changes to the fund and to solicitor donations|    June 29  |  W3C Comm team  |
+| Publish TPAC page with info | TBD|   W3C Comm team |
+| Main W3C (and other relevant accounts): Tweet | Every week from June 15 |  W3C Comm team |
+| W3C: LinkedIn| Every week from June 15 |   W3C Comm team |
+| Reminder email to groups | August 5|   W3C Comm team |
 | Applications close | August 15 |   |
 | PWE shortlisting | August 29 |   PWE |
 | W3C decision | September 5	 |   PWE / W3M |
 | Notification of successful applications with payment instructions| September 15 |    |
-| Blog post of result of the fund and sponsors for next year| September 15 |  PWE / Comm  |
+| Blog post of result of the fund and sponsors for next year| September 15 |  PWE / W3C Comm team  |
 
 ## Generic comms/TPAC page
 W3C believe that more diversity means better representation, which leads to better and more inclusive design. We believe that more background, more use cases, more edge cases, lead to a better Web. More diversity also brings higher quality results. 
