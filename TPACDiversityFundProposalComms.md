@@ -210,7 +210,7 @@ Potential social media lines:
 | [TPAC Inclusion Fund application form](https://www.w3.org/2002/09/wbs/1/InclusionFund2021/)| June 25 | Wendy|
 | [CEO blog post about inclusion and diversity](https://www.w3.org/blog/2021/06/diversity-and-inclusion-at-w3c-inclusion-fund-and-fellowships-for-tpac-2021/) | June 29 | W3C Comm Team|
 | [Email groups about inclusion fund](https://lists.w3.org/Archives/Member/chairs/2021AprJun/0118.html) (member-only link) |  June 29 | W3C Comm team |
-| W3C homepage news | TBD | W3C Comm team |
+| [W3C (top story) homepage news](https://www.w3.org/blog/news/archives/9131) | June 29 | W3C Comm team |
 | Email to sponsors about changes to the fund and to solicit donations|   TBD |  W3C Comm team  |
 | Publish TPAC page with info | TBD|  W3C Comm team |
 | Main W3C (and other relevant accounts): Tweet | Every week from June 15 |  W3C Comm team |
