@@ -38,7 +38,7 @@ This fund operates the same as the previous TPAC fund - helping those with parti
 Application form
 Introduction
 
-W3C wants to be a model of supporting greater diversity in bringing people together to develop web technology. 60% of the world is online and is growing every year. We want to reflect the diversity of the whole world as more people continue to access, use and create the web.
+W3C wants to be a model of supporting greater diversity in bringing people together to develop web technology. [60% of the world is online](https://datareportal.com/reports/6-in-10-people-around-the-world-now-use-the-internet) and is growing every year. We want to reflect the diversity of the whole world as more people continue to access, use and create the web.
 
 W3C has established a TPAC Inclusion Fund, sponsored this year by W3C, Adobe, Samsung Electronics, Coil, Charles Nevile, Microsoft, TetraLogical, Siteimprove, and an anonymous donor. W3C uses this fund to help remove barriers for those who want to attend or contribute to TPAC in a meaningful way.
 
