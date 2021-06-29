@@ -14,11 +14,11 @@ This proposal builds on the previous work and use of the TPAC Diversity Fund in 
 Increasing representation
 To increase the representation at TPAC, W3C should use the inclusion fund to run:
 * Inclusion Fund: continue the use of the fund to help W3C members to attend, through assistance with technology needs or to reduce the barriers that would prevent them from attending and participating
-* TPAC Fellow: a stipend aimed at those from under represented backgrounds who may not have ability to prioritise a meaningful contribution without financial support.
+* TPAC Fellow: a honorarium aimed at those from under represented backgrounds who may not have ability to prioritise a meaningful contribution without financial support.
 
 The Inclusion Fund would follow broadly the same structure as the 2020 Fund, with minor amends made to the administrative process, application form and comms.
 
-The TPAC Fellow stipend would be $500, paid to the fellow to prepare and contribute to TPAC in a meaningful way. It is proposed that there be a maximum of 3-5 TPAC fellows.
+The TPAC Fellow honorarium would be $500, paid to the fellow to prepare and contribute to TPAC in a meaningful way. It is proposed that there be a maximum of 3-5 TPAC fellows.
 
 ### Streamlining the administration of the Inclusion Fund
 There is a significant time pressure to ask for contributions to the fund alongside the need to:
@@ -110,17 +110,17 @@ You should also consider any funding from your company or organisation to attend
 
 * Any other information to support your application
 
-## TPAC Fellows Stipend
-The goal of the TPAC Fellows Stipend is to support those members of TPAC who may not have the wider support from their organisation to dedicate to W3C goals. 
+## TPAC Fellows honorarium
+The goal of the TPAC Fellows honorarium is to support those members of TPAC who may not have the wider support from their organisation to dedicate to W3C goals. 
 
-As W3C wants to increase diversity, it can show that it values diversity and the contribution to W3C to offer a stipend, to pay for the work that members will have to do outside of their work to contribute in a meaningful way.
+As W3C wants to increase diversity, it can show that it values diversity and the contribution to W3C to offer an honorarium, to pay for the work that members will have to do outside of their work to contribute in a meaningful way.
 
 Meaningful could mean:
 * pitching and running a particular session
 * preparing documents such as explainers or drafts for discussion
 * reviewing a group’s work and preparing comments for discussion
 
-Contributions can be on any topic that is appropriate for TPAC, and don’t specifically have to focus on diversity. The goal of the stipend is to increase representation by those from underrepresented groups in all aspects of the W3C.
+Contributions can be on any topic that is appropriate for TPAC, and don’t specifically have to focus on diversity. The goal of the honorarium is to increase representation by those from underrepresented groups in all aspects of the W3C.
 
 ### Application form
 
@@ -137,7 +137,7 @@ A TPAC Fellow will be given $500 to prepare to participate in TPAC in a meaningf
 
 Contributions can be on any topic that is appropriate for TPAC, and don’t specifically have to focus on diversity. 
 
-There are [number] of TPAC Fellow stipends available this year.
+There are [number] of TPAC Fellow honoraria available this year.
 
 #### Eligibility
 
@@ -198,7 +198,7 @@ The plan is to use:
 
 Potential social media lines: 
 * Remember that you can apply for the TPAC Inclusion Fund if you’re from an underrepresented group and need some support to attend TPAC: {link}
-* Remember that you can apply for the TPAC Fellows Stipend if you’re from an underrepresented group and you want to contribute to TPAC in a more meaningful way: {link}
+* Remember that you can apply for the TPAC Fellows honorarium if you’re from an underrepresented group and you want to contribute to TPAC in a more meaningful way: {link}
 * TPAC registrations are open! You can also apply to the Inclusion Fund to attend if you need some support to attend: {link}
 * Do you know someone that might benefit from the TPAC Inclusion Fund? {link}
 * Do you know someone that make a great TPAC fellow? {link}
@@ -224,7 +224,7 @@ Potential social media lines:
 ## Generic comms/TPAC page
 W3C believe that more diversity means better representation, which leads to better and more inclusive design. We believe that more background, more use cases, more edge cases, lead to a better Web. More diversity also brings higher quality results. 
 
-The W3C TPAC Inclusion Fund and the new TPAC Fellows Stipend is now open for applications and we encourage you to apply if you feel you are from an underrepresented group and wouldn’t be able to attend or meaningfully contribute to TPAC without financial support.
+The W3C TPAC Inclusion Fund and the new TPAC Fellows honorarium is now open for applications and we encourage you to apply if you feel you are from an underrepresented group and wouldn’t be able to attend or meaningfully contribute to TPAC without financial support.
 
 If there are other types of help you think would be appropriate in your case, you can still apply and explain the reason in your application. 
 
@@ -239,7 +239,7 @@ Hello,
 
 As you know TPAC is taking place on [date]
 
-We want to get as many people to TPAC as we can, which is why we’re hoping you could communicate the Inclusion Fund and the TPAC Fellows Stipend to your group.
+We want to get as many people to TPAC as we can, which is why we’re hoping you could communicate the Inclusion Fund and the TPAC Fellows honorarium to your group.
 
 We’d really appreciate if you could mention the available funds  at  your next meeting and encourage anyone who has questions to get in touch with the Positive Work Environment Community Group [email].
 
@@ -253,7 +253,7 @@ Thanks!
 
 Dear all,
 
-This is a just a reminder that there’s still time to apply to the Inclusion Fund and the TPAC Fellows Stipend for TPAC 2021.
+This is a just a reminder that there’s still time to apply to the Inclusion Fund and the TPAC Fellows honorarium for TPAC 2021.
 
 We’d really appreciate it if you could share the links with your teams, your friends that are concerned with TPAC participation, on your social networks, enterprise networks, at virtual meet-ups, etc. Also consider encouraging someone directly if you think W3C could benefit from their attendance at TPAC.
 
@@ -288,7 +288,7 @@ Sponsors in the past have typically given $1,500 (or equivalent in local currenc
 
 As this year’s TPAC will continue to be virtual, we’re continuing the efforts to ensure that people can attend, for example through assistive technology or caring support. We’re happy to hear ideas on what the fund should support.
 
-We’re also trialling a TPAC Fellow Stipend of $500 to encourage members from underrespresntives groups to contribute in a more meaningful way, such as:
+We’re also trialling a TPAC Fellow honorarium of $500 to encourage members from underrespresntives groups to contribute in a more meaningful way, such as:
 * pitching and running a particular session
 * preparing documents such as explainers or drafts for discussion
 * reviewing a group’s work and preparing comments for discussion
