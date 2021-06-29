@@ -33,7 +33,7 @@ This way, the process for applying and distributing the funds can be based on a 
 In addition, it is suggested that 3 nominated individuals from the [Positive Work Environment Community Group](https://www.w3.org/community/pwe/) manage the short listing of candidates for both funds. Decisions on the funds will be made jointly by representatives from the W3C Management and the Positive Work Environment Community Group (in order to keep the decision-making loop streamlined and prioritised). 
 
 ## Inclusion Fund
-This fund operates the same as the previous TPAC fund - helping those with particular barriers to attend TPAC. The details of the fund are in the application form introduction  and eligibility section. 
+This fund operates the same as the previous TPAC fund - helping those with particular barriers to attend TPAC. The details of the fund are in the application form introduction and eligibility section. 
 
 Application form
 Introduction
@@ -176,7 +176,7 @@ Information supplied in this form will be submitted to the inclusion fund select
 #### Timeline
 
 The important dates are:
-* applications open on 15 June 2021
+* applications open on 29 June 2021
 * applications close on 15 August 2021
 * successful applicants notified by 15 September 2021
 
@@ -194,7 +194,7 @@ You should also consider any funding from your company or organisation to attend
 The plan is to use:
 * existing W3C channels to promote applications to the fund 
 * use working group and personal networks to promote the fund
-* use an update on diversity to promote the fund (if W3C plans on doing this)
+* use an update on diversity to promote the fund 
 
 Potential social media lines: 
 * Remember that you can apply for the TPAC Inclusion Fund if you’re from an underrepresented group and need some support to attend TPAC: {link}
@@ -207,6 +207,7 @@ Potential social media lines:
 
 | Activity   |      Date     | Who |
 |----------|-------------|------|
+| [CEO blog post about inclusion and diversity](https://www.w3.org/blog/2021/06/diversity-and-inclusion-at-w3c-inclusion-fund-and-fellowships-for-tpac-2021/) | June 29 | W3C Comm Team|
 | Email groups about inclusion fund |  June 5 | W3C Comm team |
 | Email to sponsors about changes to the fund and to solicitor donations|    June 5   |    |
 | Publish TPAC page with info | June 15 |   Comm |
@@ -230,7 +231,7 @@ If there are other types of help you think would be appropriate in your case, yo
 
 The TPAC Inclusion Fund is sponsored by W3C, Adobe, Samsung Electronics, Coil, Charles Nevile, Microsoft, TetraLogical, Siteimprove, and an anonymous donor. If your organisation would like to become a sponsor, contact 
 
-Read more about diversity at the W3C with the [2020 update on Diversity and Inclusion](https://www.w3.org/blog/2020/06/diversity-and-inclusion-at-w3c-2020-update-future-of-the-w3c-diversity-fund/).
+Read more in the 2021 update on Diversity and Inclusion at W3C in our [CEO blog post](https://www.w3.org/blog/2021/06/diversity-and-inclusion-at-w3c-inclusion-fund-and-fellowships-for-tpac-2021/).
 
 ## Email to groups
 Initial email
@@ -261,7 +262,7 @@ Here are the resources we have available if you want to draw from them,
 or boost them:
 
 News entry: [link]
-The application form itself which contains all the necessary information: [link]
+The application form itself which contains all the necessary information: https://www.w3.org/2002/09/wbs/1/InclusionFund2021/
 W3C Tweet: [link]
 
 Cheers
