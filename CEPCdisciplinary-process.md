@@ -44,6 +44,6 @@ If you want to appeal the outcome of disciplinary action, please follow our [gri
 ## Open Questions:
 * Who will carry out this process?
 * What is relationship to membership agreement?
-* What is relationship to https://www.w3.org/2002/09/discipline?
+* What is relationship to https://www.w3.org/Guide/process/banning?
 * Rapid Response?
 * Can this be doctored?
