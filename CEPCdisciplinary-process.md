@@ -30,11 +30,12 @@ Disciplinary action commences with step 5. Reasons for disciplinary action inclu
 
 1. Verbal warning.
 2. Corrective action and/or counseling.
-3. Official written reprimand.
-4. Disciplinary meeting with ???.
-5. Final written warning.
-6. Indefinite suspension.
-7. Termination of membership or invited expert status.
+3. Agree to a mediation process
+4. Official written reprimand.
+5. Disciplinary meeting with ???.
+6. Final written warning.
+7. Indefinite suspension.
+8. Termination of membership or invited expert status.
 
 All steps of the disciplinary process must be documented. If appropriate this should include evidence, testimonies, notes and evidence of progress or improvement.
 
