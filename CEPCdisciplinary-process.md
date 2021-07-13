@@ -28,7 +28,7 @@ Disciplinary action commences with step 5. Reasons for disciplinary action inclu
 
 ## Process
 
-1. Verbal warning.
+1. Informal warning.
 2. Corrective action and/or counseling.
 3. Official written reprimand.
 4. Disciplinary meeting with ???.
