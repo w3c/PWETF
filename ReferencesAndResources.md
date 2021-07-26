@@ -1,6 +1,6 @@
 # References and Resources
 
-This is a collection of references and resources that are useful for information about codes of conduct, diversity, inclusion, and equity. Please feel free to add to the list. Please include a brief description of the resource you provide. If you are interested in adding to this list, please create a pull request and tag @TzviyaSiegman, @lolaodelola. and @eoncins as reviewers.
+This is a collection of references and resources that are useful for information about codes of conduct, diversity, inclusion, and equity. Please feel free to add to the list. Please include a brief description of the resource you provide. If you are interested in adding to this list, please create a pull request and tag @TzviyaSiegman, @lolaodelola and @eoncins as reviewers.
 
 Please see our [Zotero library](https://www.zotero.org/groups/2864452/w3c_pwe/library) for the full list of resources. 
 
@@ -24,7 +24,11 @@ Please see our [Zotero library](https://www.zotero.org/groups/2864452/w3c_pwe/li
 * [BetterBrave](https://www.betterbrave.org/) Rights and Options in the US Workplace for Sexual Harassment targets and allies
 * [Sexual Harassment in Academic Sciences, Engineering, and Medicine](http://sites.nationalacademies.org/SHStudy/index.htm) - a study of the influence of sexual harassment in academia on the career advancement of women in the scientific, technical, and medical workforce 
 * [To Girls Everywhere, I Am With You](https://www.democracynow.org/2019/10/11/to_girls_everywhere_i_am_with) - Chanel Miller Reads from Her Victim Impact Statement
-* [Understanding Pronouns](https://lbgtq.mit.edu/resources/understanding-pronouns-and-using-pronoun-stickers) - information on pronouns, including printable pronoun stickers and usage guides
+* [Understanding Pronouns](https://lbgtq.mit.edu/resources/understanding-pronouns-and-using-pronoun-stickers) - information on pronouns, including printable pronoun stickers and usage guides\]
+
+## Community Management
+* [GitHub Guide to Growing Your Community](https://opensource.guide/building-community/#growing-your-community)
+* [GitHub Community Guidelines](https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-community-guidelines)
 
 ## Articles about Codes of Conduct
 
