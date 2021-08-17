@@ -87,7 +87,7 @@ Information supplied in this form will be submitted to the inclusion fund select
 #### Timeline
 
 The important dates are:
-* applications open on 15 June 2021
+* applications open on 29 June 2021
 * applications close on 15 August 2021
 * successful applicants notified by 15 September 2021
 
@@ -176,9 +176,9 @@ Information supplied in this form will be submitted to the inclusion fund select
 #### Timeline
 
 The important dates are:
-* applications open on 29 June 2021
-* applications close on 15 August 2021
-* successful applicants notified by 15 September 2021
+* applications open on @@ 2021
+* applications close on @@ 2021
+* successful applicants notified by @@ 2021
 
 #### Application
 
@@ -275,41 +275,28 @@ Cheers
 
 Dear Advisory Committee representative, Chairs,
 
-I would like to draw your attention to the 2021 update of Diversity and Inclusion at W3C, and that we just announced the Inclusion Fund and Fellowships for TPAC 2021, via a CEO post published on the W3C Blog earlier today: 
+In this call for sponsors, I would like to draw your attention to the topic of diversity in tech --a topic that we started to pay particular attention to in 2018, spurred by W3C Member Samsung Electronics. Indeed, we really need W3C Members to buy into this if we want to truly be the model in supporting greater diversity in technology that we aspire to become. The diversity of the whole world needs to be reflected, as 60% of the world is now online and as more people continue to access and use the Web that we develop the standards of, here together at the Web Consortium.
 
-Diversity and Inclusion at W3C: Inclusion Fund and Fellowships for TPAC 2021
-https://www.w3.org/blog/2021/06/diversity-and-inclusion-at-w3c-inclusion-fund-and-fellowships-for-tpac-2021/. 
+Last June, our CEO Jeff Jaffe wrote [1] an update of the state of Diversity and Inclusion at W3C, and announced the Inclusion Fund and Fellowships for the virtual TPAC 2021. Today we issued a press release [2] announcing that South African social media company Snake Nation has become the first W3C member under our new Inclusion Grants, which aim to support membership for organizations in low income countries, and that are part of a project [3] we started doing in January with Grant for the Web. 
 
-Applications for the Inclusion Fund opened today. The Fellowships application will open in September.
-
-In 2021, we are continuing to support the Inclusion Fund (formerly "Diversity Fund"), with some changes to ensure that:
+For TPAC 2021 we continue to offer an Inclusion Fund (formerly "Diversity Fund") to ensure that people can attend, for example through assistive technology or caring support. We made some changes to the process in order to ensure that:
 * applicants have enough time to apply and receive fund in time for TPAC
 * ease the administrative burden and time pressure for managing the fund
 
-We still have [amount] left in the Inclusion Fund and so suggest that we run fund retrospectively, for example your sponsorships this year will affect next year’s fund. This will allow applications, scrutiny, decision and payment of the successful applications. 
+Applications for the TPAC 2021 Inclusion Fund closed a few days ago, and we will notify the successful applicants by 15 September 2021. We will open the Fellowships application in September when the TPAC 2021 registration opens, aiming to award three to five Honoraria. You can read more about Fellowships in Jeff's post [1], including about the successful 8 breakout sessions that last year's fund supported and which explored the intersection of W3C technologies and the challenges facing underrepresented communities in using or shaping them to their needs.
 
-For TPAC 2020, the Diversity Fund supported financially the work of 8 external contributors from underrepresented communities in organizing 3 breakout sessions exploring the intersection of W3C technologies and the challenges facing underrepresented communities in using or shaping them to their needs: [Creative Imagination for an Ethical Web](https://www.w3.org/2020/10/TPAC/breakout-schedule.html#ethical-web), [Accessing WebXR Through Art](https://www.w3.org/2020/10/TPAC/breakout-schedule.html#webxr-art) and [Consent Communication on the Web](https://www.w3.org/2020/10/TPAC/breakout-schedule.html#consentful-comm). In the feedback we collected on breakouts, these sessions were often quoted as the best of this TPAC edition and even the best ever by several participants.
+Because still have some money left in the Fund, we suggest to run the fund retrospectively: Your sponsorships this year will affect next year’s fund. This will allow applications, scrutiny, decision and payment of the successful applications. 
 
-This year, W3C has decided to contribute [amount].
+W3C has approved a contribute of $5,000 toward the TPAC Inclusion Fund. Sponsors in the past have typically donated US $1,500 (or equivalent in local currency) and we hope new sponsors will join continuing sponsors.
 
-Sponsors in the past have typically given $1,500 (or equivalent in local currency) and we hope they will continue to do so.
+Financial commitments made by 10 October 2021 will be announced at the Advisory Committee Meeting and following TPAC.
 
-As this year’s TPAC will continue to be virtual, we’re continuing the efforts to ensure that people can attend, for example through assistive technology or caring support. We’re happy to hear ideas on what the fund should support.
+Kind regards,
+Coralie Mercier, Head of W3C Marketing & Communications
 
-In September 2021, we will award three to five persons a TPAC Fellow honorarium of $500 to encourage members from underrespresntives groups to contribute in a more meaningful way, such as:
-* pitching and running a particular session
-* preparing documents such as explainers or drafts for discussion
-* reviewing a group’s work and preparing comments for discussion
-
-Contributions can be on any topic that is appropriate for TPAC, and don’t specifically have to focus on diversity. This fund recognises that participating in these events can be time consuming and people from unrepresented backgrounds face struggles within their workplaces and life that may mean they can’t prioritise attendance or a meaningful contribution without financial support.
-
-You can find more details on the application process and eligibility here: [link]
-
-We request that sponsorship commitments be made by 15 August 2021 if possible, so we can announce sponsors for next year at TPAC.
-
-Kind regards
-
-[name]
+[1] https://www.w3.org/blog/2021/06/diversity-and-inclusion-at-w3c-inclusion-fund-and-fellowships-for-tpac-2021/. 
+[2] https://www.w3.org/2021/08/pressrelease-snakenation.html
+[3] https://www.w3.org/blog/2021/01/grant-for-the-web/
 
 ## Email about the Fellows honorarium for TPAC 2021
 
