@@ -215,7 +215,7 @@ Potential social media lines:
 | [W3C LinkedIn](https://www.linkedin.com/posts/w3c_w3c-offers-an-inclusion-fund-and-fellowships-activity-6815674012169994240-kIhR) | After June 29 |   W3C Comm team |
 | ~~Reminder email to groups~~ | ~~August 5~~|   ~~W3C Comm team~~ (W3C team contacts were reminded to remind groups) |
 | [Applications close](https://www.w3.org/2002/09/wbs/1/InclusionFund2021/results) | August 15 | n/a  |
-| Email to W3C AC reps + sponsors about changes to the fund and to solicit donations | August 17 | W3C Comm team |
+| [Email to W3C AC reps + sponsors about changes to the fund and to solicit donations](https://lists.w3.org/Archives/Member/w3c-ac-members/2021JulSep/0028.html) | August 17 | W3C Comm team |
 | PWE shortlisting | August 29 |   PWE |
 | W3C decision | September 5	 |   PWE / W3M |
 | Notification of successful applications with payment instructions| September 15 |   WHO? |
