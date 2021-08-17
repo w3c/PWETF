@@ -211,16 +211,16 @@ Potential social media lines:
 | [CEO blog post about inclusion and diversity](https://www.w3.org/blog/2021/06/diversity-and-inclusion-at-w3c-inclusion-fund-and-fellowships-for-tpac-2021/) | June 29 | W3C Comm Team|
 | [Email groups about inclusion fund](https://lists.w3.org/Archives/Member/chairs/2021AprJun/0118.html) (member-only link) |  June 29 | W3C Comm team |
 | [W3C (top story) homepage news](https://www.w3.org/blog/news/archives/9131) | June 29 | W3C Comm team |
-| Email to sponsors about changes to the fund and to solicit donations|   TBD |  W3C Comm team  |
-| Publish TPAC page with info | TBD|  W3C Comm team |
 | Main W3C (and other relevant accounts): Tweet | Every few weeks from June 29 |  W3C Comm team |
 | [W3C LinkedIn](https://www.linkedin.com/posts/w3c_w3c-offers-an-inclusion-fund-and-fellowships-activity-6815674012169994240-kIhR) | After June 29 |   W3C Comm team |
-| Reminder email to groups | August 5|   W3C Comm team |
-| Applications close | August 15 |   |
+| ~~Reminder email to groups | August 5|   W3C Comm team~~ (W3C team contacts were reminded to remind groups) |
+| [Applications close](https://www.w3.org/2002/09/wbs/1/InclusionFund2021/results) | August 15 | n/a  |
+| Email to W3C AC reps + sponsors about changes to the fund and to solicit donations | August 17 | W3C Comm team |
 | PWE shortlisting | August 29 |   PWE |
 | W3C decision | September 5	 |   PWE / W3M |
-| Notification of successful applications with payment instructions| September 15 |    |
+| Notification of successful applications with payment instructions| September 15 |   WHO? |
 | Blog post of result of the fund and sponsors for next year| September 15 |  PWE / W3C Comm team  |
+| Publish TPAC page with info | September 20 (when registration opens)|  W3C Comm team |
 
 ## Generic comms/TPAC page
 60% of the world is online and we want and need to reflect the diversity of the whole world as more people continue to access, use and create the web. We believe that more diversity means better representation, which leads to better and more inclusive design. Indeed, more background, more use cases, more edge cases, lead to a better Web. More diversity also brings higher quality results.
