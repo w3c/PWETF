@@ -312,4 +312,11 @@ The Inclusion Fund can support your request for @@ [if you requested multiple fo
 
 It sounds as though you are already participating in at least one Working Group. If we can help you with introductions or orientation to other parts of TPAC, please let me know. 
 
-Thank you for participating in development of the Open Web Platform,
+Thank you for participating in development of the Open Web Platform, and a warm welcome to TPAC!
+
+[1] https://w3.org/TPAC
+
+## Email to unsuccessful applicants
+
+We regret to inform you that the W3C Inclusion Fund is unable to fund your request. We still hope you will participate in TPAC[1] and get more involved with the W3C community.
+
