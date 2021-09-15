@@ -219,9 +219,11 @@ Potential social media lines:
 | [Email to W3C AC reps + sponsors about changes to the fund and to solicit donations](https://lists.w3.org/Archives/Member/w3c-ac-members/2021JulSep/0028.html) | August 17 | W3C Comm team (Coralie) |
 | PWE shortlisting | August 29 |   PWE |
 | W3C decision | September 5	 |   PWE / W3M |
-| Notification of successful applications with payment instructions| September 15 |   WHO? |
-| Blog post of result of the fund and sponsors for next year| September 15 |  PWE / W3C Comm team  |
+| Notification of successful applications for Inclusion Fund with payment instructions| September 15 |   Wendy |
+| Launch TPAC Fellowship Application -- deadline when Breakout apps close | September 20? |   Wendy |
 | Publish TPAC page with info | September 20 (when registration opens)|  W3C Comm team |
+| Blog post of result of the fund and sponsors for next year| October ?? |  PWE / W3C Comm team  |
+
 
 ## Generic comms/TPAC page
 60% of the world is online and we want and need to reflect the diversity of the whole world as more people continue to access, use and create the web. We believe that more diversity means better representation, which leads to better and more inclusive design. Indeed, more background, more use cases, more edge cases, lead to a better Web. More diversity also brings higher quality results.
