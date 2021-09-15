@@ -304,3 +304,12 @@ Coralie Mercier, Head of W3C Marketing & Communications
 ## Email about the Fellows honorarium for TPAC 2021
 
 TBD
+
+## Email to successful applicants
+Congratulations! On behalf of W3C and its Positive Work Environment Community Group, I am pleased to offer you support for TPAC participation from the W3C Inclusion Fund. We look forward to your engagement in the upcoming Technical Plenary meeting[1].
+
+The Inclusion Fund can support your request for @@ [if you requested multiple forms of support, this grant covers those listed here]. MIT will administer this grant in the form of a reimbursement for the relevant purchases upon submission of itemized receipts. (Susan Westhaver, copied, will gather the necessary information from you for reimbursement.)
+
+It sounds as though you are already participating in at least one Working Group. If we can help you with introductions or orientation to other parts of TPAC, please let me know. 
+
+Thank you for participating in development of the Open Web Platform,
