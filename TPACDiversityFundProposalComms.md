@@ -318,5 +318,5 @@ Thank you for participating in development of the Open Web Platform, and a warm 
 
 ## Email to unsuccessful applicants
 
-We regret to inform you that the W3C Inclusion Fund is unable to fund your request. We still hope you will participate in TPAC[1] and get more involved with the W3C community.
 
+We regret to inform you that the W3C Inclusion Fund is unable to fund your request. We nonetheless welcome your participation. We hope you will get involved with the W3C Community and participate in the virtual Technical Plenary Meeting[1]. 
