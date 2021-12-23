@@ -1,54 +1,140 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>
-      W3C积极的工作环境：道德和职业行为守则 
-    </title>
-    <script src="https://www.w3.org/Tools/respec/respec-w3c" class="remove"
-    defer="defer"></script>
-    <script class='remove'>
-    // See https://github.com/w3c/respec/wiki/ for how to configure ReSpec
-    var respecConfig = {
-      edDraftURI: "https://github.com/w3c/PWETF/",
-      latestVersion: "https://www.w3.org/Consortium/cepc/",
-      specStatus: "ED",
-      otherLinks: [
-        {
-        key: "Current Operative Version",
-	      data: [
-	        { value: "",
-	          href: "http://www.w3.org/Consortium/cepc" }
-        ] }
-    	],
-      shortName: "pwe",
-      editors: [{
-        name: "Tzviya Siegman",
-        company: "Wiley",
-        companyURL: "https://www.wiley.com",
-        w3cid: 65542
-      }, {
-        name: "An Qi Li",
-        company: "Ali Baba",
-        companyURL: "https://www.alibaba.com",
-        w3cid: 40190
-      }, {
-        name: "Ada Rose Cannon",
-        company: "Samsung",
-        companyURL: "https://samsung.com",
-        w3cid: 66378
-      }],
-      github: {
-        repoURL: "https://github.com/w3c/PWETF/",
-        branch: "main"
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="generator" content="ReSpec 25.6.2"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>W3C积极的工作环境：道德和职业行为守则</title>
+    
+    
+  <script data-dapp-detection="">
+(function() {
+  let alreadyInsertedMetaTag = false
+
+  function __insertDappDetected() {
+    if (!alreadyInsertedMetaTag) {
+      const meta = document.createElement('meta')
+      meta.name = 'dapp-detected'
+      document.head.appendChild(meta)
+      alreadyInsertedMetaTag = true
+    }
+  }
+
+  if (window.hasOwnProperty('web3')) {
+    // Note a closure can't be used for this var because some sites like
+    // www.wnyc.org do a second script execution via eval for some reason.
+    window.__disableDappDetectionInsertion = true
+    // Likely oldWeb3 is undefined and it has a property only because
+    // we defined it. Some sites like wnyc.org are evaling all scripts
+    // that exist again, so this is protection against multiple calls.
+    if (window.web3 === undefined) {
+      return
+    }
+    __insertDappDetected()
+  } else {
+    var oldWeb3 = window.web3
+    Object.defineProperty(window, 'web3', {
+      configurable: true,
+      set: function (val) {
+        if (!window.__disableDappDetectionInsertion)
+          __insertDappDetected()
+        oldWeb3 = val
       },
-    };
-    </script>
-  </head>
-  <body>
-    <section id="abstract">
+      get: function () {
+        if (!window.__disableDappDetectionInsertion)
+          __insertDappDetected()
+        return oldWeb3
+      }
+    })
+  }
+})()</script><style id="respec-mainstyle">@keyframes pop{0%{transform:scale(1,1)}25%{transform:scale(1.25,1.25);opacity:.75}100%{transform:scale(1,1)}}.hljs{background:0 0!important}a abbr,h1 abbr,h2 abbr,h3 abbr,h4 abbr,h5 abbr,h6 abbr{border:none}dfn{font-weight:700}a.internalDFN{color:inherit;border-bottom:1px solid #99c;text-decoration:none}a.externalDFN{color:inherit;border-bottom:1px dotted #ccc;text-decoration:none}a.bibref{text-decoration:none}.respec-offending-element:target{animation:pop .25s ease-in-out 0s 1}.respec-offending-element,a[href].respec-offending-element{text-decoration:red wavy underline}@supports not (text-decoration:red wavy underline){.respec-offending-element:not(pre){display:inline-block}.respec-offending-element{background:url(data:image/gif;base64,R0lGODdhBAADAPEAANv///8AAP///wAAACwAAAAABAADAEACBZQjmIAFADs=) bottom repeat-x}}#references :target{background:#eaf3ff;animation:pop .4s ease-in-out 0s 1}cite .bibref{font-style:normal}code{color:#c63501}th code{color:inherit}a[href].orcid{padding-left:4px;padding-right:4px}a[href].orcid>svg{margin-bottom:-2px}.toc a,.tof a{text-decoration:none}a .figno,a .secno{color:#000}ol.tof,ul.tof{list-style:none outside none}.caption{margin-top:.5em;font-style:italic}table.simple{border-spacing:0;border-collapse:collapse;border-bottom:3px solid #005a9c}.simple th{background:#005a9c;color:#fff;padding:3px 5px;text-align:left}.simple th a{color:#fff;padding:3px 5px;text-align:left}.simple th[scope=row]{background:inherit;color:inherit;border-top:1px solid #ddd}.simple td{padding:3px 10px;border-top:1px solid #ddd}.simple tr:nth-child(even){background:#f0f6ff}.section dd>p:first-child{margin-top:0}.section dd>p:last-child{margin-bottom:0}.section dd{margin-bottom:1em}.section dl.attrs dd,.section dl.eldef dd{margin-bottom:0}#issue-summary>ul,.respec-dfn-list{column-count:2}#issue-summary li,.respec-dfn-list li{list-style:none}details.respec-tests-details{margin-left:1em;display:inline-block;vertical-align:top}details.respec-tests-details>*{padding-right:2em}details.respec-tests-details[open]{z-index:999999;position:absolute;border:thin solid #cad3e2;border-radius:.3em;background-color:#fff;padding-bottom:.5em}details.respec-tests-details[open]>summary{border-bottom:thin solid #cad3e2;padding-left:1em;margin-bottom:1em;line-height:2em}details.respec-tests-details>ul{width:100%;margin-top:-.3em}details.respec-tests-details>li{padding-left:1em}a[href].self-link:hover{opacity:1;text-decoration:none;background-color:transparent}h2,h3,h4,h5,h6{position:relative}aside.example .marker>a.self-link{color:inherit}h2>a.self-link,h3>a.self-link,h4>a.self-link,h5>a.self-link,h6>a.self-link{border:none;color:inherit;font-size:83%;height:2em;left:-1.6em;opacity:.5;position:absolute;text-align:center;text-decoration:none;top:0;transition:opacity .2s;width:2em}h2>a.self-link::before,h3>a.self-link::before,h4>a.self-link::before,h5>a.self-link::before,h6>a.self-link::before{content:"§";display:block}@media (max-width:767px){dd{margin-left:0}h2>a.self-link,h3>a.self-link,h4>a.self-link,h5>a.self-link,h6>a.self-link{left:auto;top:auto}}@media print{.removeOnSave{display:none}}</style><meta name="description" content="W3C's Code of Ethics and Professional Conduct defines
+        accepted and acceptable behaviors and promotes high standards of
+        professional practice. The goals of this code are to:"><link rel="canonical" href="https://www.w3.org/TR/pwe/"><style>var{position:relative;cursor:pointer}var[data-type]::after,var[data-type]::before{position:absolute;left:50%;top:-6px;opacity:0;transition:opacity .4s;pointer-events:none}var[data-type]::before{content:"";transform:translateX(-50%);border-width:4px 6px 0 6px;border-style:solid;border-color:transparent;border-top-color:#000}var[data-type]::after{content:attr(data-type);transform:translateX(-50%) translateY(-100%);background:#000;text-align:center;font-family:"Dank Mono","Fira Code",monospace;font-style:normal;padding:6px;border-radius:3px;color:#daca88;text-indent:0;font-weight:400}var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}</style><script id="initialUserConfig" type="application/json">{
+  "specStatus": "base",
+  "shortName": "pwe",
+  "editors": [
+    {
+      "name": "Tzviya Siegman",
+      "company": "Wiley",
+      "companyURL": "https://www.wiley.com",
+      "w3cid": 65542
+    },
+    {
+      "name": "An Qi Li",
+      "company": "Ali Baba",
+      "companyURL": "https://www.alibaba.com",
+      "w3cid": 40190
+    },
+    {
+      "name": "Ada Rose Cannon",
+      "company": "Samsung",
+      "companyURL": "https://samsung.com",
+      "w3cid": 66378
+    }
+  ],
+  "github": {
+    "repoURL": "https://github.com/w3c/PWETF/",
+    "branch": "master"
+  },
+  "publishISODate": "2020-07-16T00:00:00.000Z",
+  "generatedSubtitle": "Document 16 July 2020"
+}</script><link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2016/base.css"></head>
+  <body class="h-entry informative toc-inline"><div class="head">
+    <a class="logo" href="https://www.w3.org/"><img alt="W3C" width="72" height="48" src="https://www.w3.org/StyleSheets/TR/2016/logos/W3C"></a> <h1 id="title" class="title">W3C积极的工作环境：道德和职业行为守则 </h1>
+    
+    <h2>
+      W3C Document
+      <time class="dt-published" datetime="2020-07-16">16 Jul 2020</time>
+    </h2>
+    <dl>
+      <dt>This version:</dt>
+      <dd><a href="https://www.w3.org/Consortium/cepc/cepc-20200716/">https://www.w3.org/Consortium/cepc/cepc-20200716</a></dd>
+
+      <dt>Latest published version:</dt>
+      <dd><a href="https://www.w3.org/Consortium/cepc/">https://www.w3.org/Consortium/cepc</a></dd>
+      
+      <dt>Latest editor's draft:</dt><dd><a href="https://w3c.github.io/PWETF/">https://w3c.github.io/PWETF/</a></dd>
+      
+      <dt>Previous version:</dt>
+      <dd><a href="http://www.w3.org/Consortium/cepc/cepc-20151007/">http://www.w3.org/Consortium/cepc/cepc-20151007</a></dd>
+            
+      <dt>Editors:</dt>
+      <dd class="p-author h-card vcard" data-editor-id="65542"><span class="p-name fn">Tzviya Siegman</span>
+            (<a class="p-org org h-org h-card" href="https://www.wiley.com">Wiley</a>)
+          </dd><dd class="p-author h-card vcard" data-editor-id="40190"><span class="p-name fn">An Qi Li</span>
+            (<a class="p-org org h-org h-card" href="https://www.alibaba.com">Ali Baba</a>)
+          </dd><dd class="p-author h-card vcard" data-editor-id="66378"><span class="p-name fn">Ada Rose Cannon</span>
+            (<a class="p-org org h-org h-card" href="https://samsung.com">Samsung</a>)
+          </dd>
+      
+      
+      <dt>Participate:</dt><dd>
+    <a href="https://github.com/w3c/PWETF/">GitHub w3c/PWETF</a>
+  </dd><dd>
+    <a href="https://github.com/w3c/PWETF/issues/">File a bug</a>
+  </dd><dd>
+    <a href="https://github.com/w3c/PWETF/commits/master">Commit history</a>
+  </dd><dd>
+    <a href="https://github.com/w3c/PWETF/pulls/">Pull requests</a>
+  </dd>
+    </dl>
+    
+    <p>See also <strong><a href="translations">translations</a></strong>.
+    
+    
+    <p class="copyright">
+    <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a>
+    ©
+    2020
+    
+    <a href="https://www.w3.org/"><abbr title="World Wide Web Consortium">W3C</abbr></a><sup>®</sup> (<a href="https://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>,
+    <a href="https://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="https://www.keio.ac.jp/">Keio</a>,
+    <a href="https://ev.buaa.edu.cn/">Beihang</a>). 
+    W3C <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>,
+    <a href="https://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a> and <a rel="license" href="https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document">permissive document license</a> rules
+    apply.
+  </p>
+    <hr title="Separator for header">
+  </div>
+    <section id="abstract" class="introductory"><h2>Abstract</h2>
       <p>
-        W3C's <cite>Code of Ethics and Professional Conduct</cite> defines
+        <abbr title="World Wide Web Consortium">W3C</abbr>'s <cite>Code of Ethics and Professional Conduct</cite> defines
         accepted and acceptable behaviors and promotes high standards of
         professional practice. The goals of this code are to:
       </p>
@@ -66,20 +152,42 @@
         </li>
       </ul>
     </section>
-    <section id="sotd">
+    <section id="sotd" class="introductory"><h2>文档状态</h2><p>
+      This document has been reviewed by <abbr title="World Wide Web Consortium">W3C</abbr> Members and is endorsed by the
+      Director as the <abbr title="World Wide Web Consortium">W3C</abbr> Code of Ethics and Professional Conduct (<abbr title="Code of Ethics and Professional Conduct">CEPC</abbr>).  This
+      document supersedes the <a href="http://www.w3.org/Consortium/cepc/cepc-20151007/">2015 CEPC</a>.</p>
       <p>
-        This is an editors' draft; a Work in Progress which will be submitted to W3C
-	as a proposed update to the currently operational version of the
-	<a href="https://www.w3.org/Consortium/cepc/">Code of Ethics and Professional Conduct</a>.
-      </p>
-    </section>
+      This document was developed by the <a href="https://www.w3.org/community/pwe/">Positive Work Environment Community Group</a>.
+    </section><nav id="toc"><h2 class="introductory" id="table-of-contents">Table of Contents</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#introduction"><bdi class="secno">1. </bdi>
+        Introduction
+      </a></li><li class="tocline"><a class="tocxref" href="#statement-of-intent"><bdi class="secno">2. </bdi>
+        Statement of Intent
+      </a></li><li class="tocline"><a class="tocxref" href="#code"><bdi class="secno">3. </bdi>
+        Code
+      </a><ol class="toc"><li class="tocline"><a class="tocxref" href="#expected-behavior"><bdi class="secno">3.1 </bdi>
+          Expected Behavior
+        </a></li><li class="tocline"><a class="tocxref" href="#unacceptablebehavior"><bdi class="secno">3.2 </bdi>
+          Unacceptable Behavior
+        </a><ol class="toc"><li class="tocline"><a class="tocxref" href="#safety-versus-comfort"><bdi class="secno">3.2.1 </bdi>Safety versus Comfort</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#Reporting"><bdi class="secno">4. </bdi>
+        Reporting Violations and Supporting the Code
+      </a><ol class="toc"><li class="tocline"><a class="tocxref" href="#immediately"><bdi class="secno">4.1 </bdi>
+          Immediately
+        </a></li><li class="tocline"><a class="tocxref" href="#after-the-meeting"><bdi class="secno">4.2 </bdi>
+          After the Meeting
+        </a></li></ol></li><li class="tocline"><a class="tocxref" href="#mistake"><bdi class="secno">5. </bdi>
+        If You've Done Something Improper
+      </a></li><li class="tocline"><a class="tocxref" href="#glossary"><bdi class="secno">6. </bdi>
+        Glossary
+      </a></li><li class="tocline"><a class="tocxref" href="#Attribution"><bdi class="secno">7. </bdi>
+        Attribution
+      </a></li></ol></nav>
     <section id="introduction">
-      <h2>
-        简介
-      </h2>
+      <h2 id="x1-introduction"><bdi class="secno">1. </bdi>
+        Introduction
+      <a class="self-link" aria-label="§" href="#introduction"></a></h2>
       <p>
-        W3C is a growing and global community where <a>participants</a> choose
-        to work together. W3C is committed to maintaining a positive working
+        <abbr title="World Wide Web Consortium">W3C</abbr> is a growing and global community where <a href="#dfn-participant" class="internalDFN" data-link-type="dfn">participants</a> choose
+        to work together. <abbr title="World Wide Web Consortium">W3C</abbr> is committed to maintaining a positive working
         environment, where each participant feels appreciated and respected and
         where everyone adheres to the same high level of standards of personal
         behavior. In that process we experience differences in language,
@@ -88,50 +196,48 @@
         resolved informally.
       </p>
             <p>
-        W3C's <cite>Code of Ethics and Professional Conduct</cite>
+        <abbr title="World Wide Web Consortium">W3C</abbr>'s <cite>Code of Ethics and Professional Conduct</cite>
         (<abbr title="Code of Ethics and Professional Conduct">CEPC</abbr>) is
-        useful to define accepted and <a>acceptable behaviors</a> and to
+        useful to define accepted and <a href="#dfn-acceptable" class="internalDFN" data-link-type="dfn">acceptable behaviors</a> and to
         promote high standards of professional practice. The goal of this code
-        of conduct is to ensure that W3C is an environment where everyone can
-        participate without fear of <a>harassment</a>. It also provides a
+        of conduct is to ensure that <abbr title="World Wide Web Consortium">W3C</abbr> is an environment where everyone can
+        participate without fear of <a href="#dfn-harass" class="internalDFN" data-link-type="dfn">harassment</a>. It also provides a
         benchmark for self evaluation and acts as a vehicle for better identity
         of the organization.
       </p>
       <p>
-        The CEPC is complemented by a set of <a href=
-        "https://www.w3.org/Consortium/pwe/#Procedures">Procedures</a>, applies
-        to any member of the W3C community – staff, members, invited experts,
-        and <a>participants</a> in W3C meetings, W3C teleconferences, W3C
-        mailing lists, code repositories, W3C conferences or W3C functions, etc.
+        The <abbr title="Code of Ethics and Professional Conduct">CEPC</abbr> is complemented by a set of <a href="https://www.w3.org/Consortium/pwe/#Procedures">Procedures</a>, applies
+        to any member of the <abbr title="World Wide Web Consortium">W3C</abbr> community – staff, members, invited experts,
+        and <a href="#dfn-participant" class="internalDFN" data-link-type="dfn">participants</a> in <abbr title="World Wide Web Consortium">W3C</abbr> meetings, <abbr title="World Wide Web Consortium">W3C</abbr> teleconferences, <abbr title="World Wide Web Consortium">W3C</abbr>
+        mailing lists, code repositories, <abbr title="World Wide Web Consortium">W3C</abbr> conferences or <abbr title="World Wide Web Consortium">W3C</abbr> functions, etc.
         Note that this code complements rather than replaces legal rights and
         obligations pertaining to any particular situation.
       </p>
       <p>
         <a href="https://www.w3.org/Consortium/pwe/#Education">Education and training
-        materials</a> are available from the <a href=
-        "https://www.w3.org/Consortium/pwe/">Positive Work Environment public homepage</a>.
+        materials</a> are available from the <a href="https://www.w3.org/Consortium/pwe/">Positive Work Environment public homepage</a>.
       </p>
     </section>
-    <section>
-      <h2>
+    <section id="statement-of-intent">
+      <h2 id="x2-statement-of-intent"><bdi class="secno">2. </bdi>
         Statement of Intent
-      </h2>
+      <a class="self-link" aria-label="§" href="#statement-of-intent"></a></h2>
       <p>
-        W3C is committed to maintaining a <strong>positive</strong> work
+        <abbr title="World Wide Web Consortium">W3C</abbr> is committed to maintaining a <strong>positive</strong> work
         environment. This commitment calls for a workplace where
-        <a>participants</a> at all levels behave according to the rules of the
+        <a href="#dfn-participant" class="internalDFN" data-link-type="dfn">participants</a> at all levels behave according to the rules of the
         following code. A foundational concept of this code is that <em>we all
         share responsibility</em> for our work environment.
       </p>
     </section>
-    <section>
-      <h2>
+    <section id="code">
+      <h2 id="x3-code"><bdi class="secno">3. </bdi>
         Code
-      </h2>
-      <section>
-        <h3>
+      <a class="self-link" aria-label="§" href="#code"></a></h2>
+      <section id="expected-behavior">
+        <h3 id="x3-1-expected-behavior"><bdi class="secno">3.1 </bdi>
           Expected Behavior
-        </h3>
+        <a class="self-link" aria-label="§" href="#expected-behavior"></a></h3>
 
         <p>
           Treat each other with respect,
@@ -155,7 +261,7 @@
           as stalking or sexual assault; in cases when the need arises to
           discuss these issues and how they affect people - do so with tact and
           empathy taking into account the gravity of the situation, and make
-          sure that <a>participants</a> are appropriately warned in advance so
+          sure that <a href="#dfn-participant" class="internalDFN" data-link-type="dfn">participants</a> are appropriately warned in advance so
           they can choose to step out of these discussions.
           </li>
           <li>Treat everyone with respect. We are a large community of people who are passionate
@@ -169,7 +275,7 @@
           <li>Do not accept or engage in abusive behavior in any form, whether it is
         verbal, physical, sexual, or implied.</li>
           <li>Be honest. Be truthful, sincere, forthright and, unless professional duties require confidentiality or special discretion, candid, straightforward, and frank.</li>
-          <li>Be inclusive and promote <a>diversity</a>. Seek diverse
+          <li>Be inclusive and promote <a href="#dfn-diversity" class="internalDFN" data-link-type="dfn">diversity</a>. Seek diverse
           perspectives. Diversity of views and of people powers innovation,
           even if it is not always comfortable. Encourage all voices. Help new
           perspectives be heard and listen actively. If you find yourself
@@ -197,8 +303,8 @@
           </li>
 		<li>Accommodate participants' needs for physical distancing and other accommodations or precautions due to health concerns such as immune deficiency, allergies, or chemical sensitivity.</li>
           <li>Be sensitive to language differences. English is the default
-          language of the W3C. However, only some of us are native English
-          speakers. Many <a>participants</a> speak English as a second (or
+          language of the <abbr title="World Wide Web Consortium">W3C</abbr>. However, only some of us are native English
+          speakers. Many <a href="#dfn-participant" class="internalDFN" data-link-type="dfn">participants</a> speak English as a second (or
           third) language. People who communicate in non-native language often
           struggle to understand fast and/or quiet speech and may speak louder
           than they usually would when communicating in their native tongue. If
@@ -206,8 +312,7 @@
           are adequately expressed, heard, and granted thorough consideration.
           </li>
           <li>Respect confidentiality and privacy. Sometimes, matters we discuss may
-          fall under various <a href=
-          "https://www.w3.org/2019/Process-20190301/#confidentiality-levels">confidentiality</a>
+          fall under various <a href="https://www.w3.org/2019/Process-20190301/#confidentiality-levels">confidentiality</a>
           agreements and strict adherence to these agreements is expected. In
           addition, certain pieces of information disclosed in a group setting
           may be private in nature, or we may inadvertently learn confidential
@@ -217,27 +322,27 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h3 id="unacceptablebehavior">
+      <section id="unacceptable-behavior">
+        <h3 id="unacceptablebehavior"><bdi class="secno">3.2 </bdi>
           Unacceptable Behavior
-        </h3>
+        <a class="self-link" aria-label="§" href="#unacceptablebehavior"></a></h3>
         <p>
-          <dfn>Unacceptable behaviors</dfn> run counter to the Code
-          of Ethics and Professional Conduct. This list of <a>unacceptable
+          <dfn data-dfn-type="dfn" id="dfn-unacceptable-behaviors">Unacceptable behaviors</dfn> run counter to the Code
+          of Ethics and Professional Conduct. This list of <a href="#dfn-unacceptable-behaviors" class="internalDFN" data-link-type="dfn">unacceptable
           behaviors</a> does not cover every case. Each person you interact
           with is unique, and behavior must be assessed on an individual level.
           Ensuring that your behavior does not have a negative impact is your
-          responsibility. W3C strictly prohibits <a>discrimination</a>,
-          intimidation, <a>harassment</a>, and <a>bullying</a> of any kind and
+          responsibility. <abbr title="World Wide Web Consortium">W3C</abbr> strictly prohibits <a href="#dfn-discriminate" class="internalDFN" data-link-type="dfn">discrimination</a>,
+          intimidation, <a href="#dfn-harass" class="internalDFN" data-link-type="dfn">harassment</a>, and <a href="#dfn-bully" class="internalDFN" data-link-type="dfn">bullying</a> of any kind and
           on any basis.
         </p>
         <p>
-          <a>Unacceptable behaviors</a> include, but are not limited to:
+          <a href="#dfn-unacceptable-behaviors" class="internalDFN" data-link-type="dfn">Unacceptable behaviors</a> include, but are not limited to:
         </p>
         <ul>
-          <li>Offensive comments related to gender, <a>gender identity</a> and
-          <a>gender expression</a>, sexual orientation, disability (both
-          visible and invisible), mental health, <a>neurotype</a>, physical
+          <li>Offensive comments related to gender, <a href="#dfn-gender-identity" class="internalDFN" data-link-type="dfn">gender identity</a> and
+          <a href="#dfn-gender-expression" class="internalDFN" data-link-type="dfn">gender expression</a>, sexual orientation, disability (both
+          visible and invisible), mental health, <a href="#dfn-neurotype" class="internalDFN" data-link-type="dfn">neurotype</a>, physical
           appearance, body, age, race, socio-economic status, ethnicity,
           caste, nationality, language, or religion
           </li>
@@ -246,16 +351,16 @@
           and employment
           </li>
           <li>
-            <a>Misgendering</a> someone by deliberately referring to a person
+            <a href="#dfn-misgendering" class="internalDFN" data-link-type="dfn">Misgendering</a> someone by deliberately referring to a person
             using the wrong pronouns or by using someone's proper names or
             other terms that person has asked not to be used, also known as
-            <a>deadnaming</a>.
+            <a href="#dfn-deadnaming" class="internalDFN" data-link-type="dfn">deadnaming</a>.
           </li>
           <li>Gratuitous or off-topic sexual images or behavior in spaces where
           they are not appropriate.
           </li>
           <li>Physical contact and simulated physical contact (e.g., textual
-          descriptions like “hug” or “backrub”) without <a>consent</a> or after
+          descriptions like “hug” or “backrub”) without <a href="#dfn-consent" class="internalDFN" data-link-type="dfn">consent</a> or after
           a request to stop.
           </li>
           <li>Threats of violence.
@@ -266,41 +371,13 @@
           <li>Deliberate intimidation.
           </li>
           <li>Stalking or physically following or invading someone's personal space after a request to stop.</li>
-		<li>Exposing others to contagious disease.</lI>
+		<li>Exposing others to contagious disease.</li>
 
 		<li>
-            <a>Harassing</a> photography or recording, including logging online
-            activity for <a>harassment</a> purposes.
+            <a href="#dfn-harass" class="internalDFN" data-link-type="dfn">Harassing</a> photography or recording, including logging online
+            activity for <a href="#dfn-harass" class="internalDFN" data-link-type="dfn">harassment</a> purposes.
           </li>
-          <li>Sustained disruption of discussion. This may include, but
-          is not limited to, various common methods of engaging in bad
-          faith discourse such as:<ul>
-              <li><dfn>concern trolling</dfn>: disingenuously
-              expressesing concern in order to undermine or derail a
-              discussion, <cite><a href=
-              "https://geekfeminism.wikia.org/wiki/Concern_troll">Geek
-              Feminism Wiki</a></cite>
-              </li>
-              <li><dfn>sealioning</dfn>: asking numerous questions about
-              basic concepts in an attempt to derail discussion, to
-              stifle participation, or to provoke a critical response in
-              order to appear a victim, <cite><a href=
-              "https://rationalwiki.org/wiki/Just_asking_questions#Sealioning">
-              RationalWiki</a></cite>
-              </li>
-              <li><dfn>Gish Galloping</dfn>: overwhelming a debate with
-              many weak arguments in an attempt to cause others to waste
-              time refuting them,
-              <cite><a href="https://rationalwiki.org/wiki/Gish_Gallop"
-              >RationalWiki</a></cite>
-              </li>
-              <li>or
-              <dfn lang=la>argumentum ad nauseam</dfn>: repeatedly
-              making claims already shown to be false. <cite><a
-              href="https://rationalwiki.org/wiki/Argumentum_ad_nauseam"
-              >RationalWiki</a></cite>
-              </li>
-            </ul>
+          <li>Sustained disruption of discussion.
           </li>
           <li>Unwelcome sexual attention.
           </li>
@@ -309,11 +386,11 @@
           </li>
           <li>Continued one-on-one communication after requests to cease.
           </li>
-          <li>Deliberate outing of any aspect of a person’s <a>gender
-          identity</a> without their <a>consent</a>.
+          <li>Deliberate outing of any aspect of a person’s <a href="#dfn-gender-identity" class="internalDFN" data-link-type="dfn">gender
+          identity</a> without their <a href="#dfn-consent" class="internalDFN" data-link-type="dfn">consent</a>.
           </li>
           <li>Publication of non-harassing private communication without
-          <a>consent</a> by the involved parties.
+          <a href="#dfn-consent" class="internalDFN" data-link-type="dfn">consent</a> by the involved parties.
           </li>
           <li>Use of coded language (also known as "dog whistles") used to
           rally support for hate groups or to intimidate vulnerable groups.
@@ -351,7 +428,7 @@
               <li>The use of racially charged language to describe an
               individual or thing (such as “thug” or “ghetto”).
               </li>
-              <li>Referring to an individual in a way that <a>demeans</a> or
+              <li>Referring to an individual in a way that <a href="#dfn-demeaning" class="internalDFN" data-link-type="dfn">demeans</a> or
               challenges the validity of their racial identity.
               </li>
               <li>Mocking someone’s real or perceived accent or first language.
@@ -362,18 +439,18 @@
           violated this code of conduct.
           </li>
         </ul>
-	      <section><h4>Safety versus Comfort</h4>
+	      <section id="safety-versus-comfort"><h4 id="x3-2-1-safety-versus-comfort"><bdi class="secno">3.2.1 </bdi>Safety versus Comfort<a class="self-link" aria-label="§" href="#safety-versus-comfort"></a></h4>
         <p>This Code prioritizes the safety of individuals, particularly those in marginalized communities, over the comfort of others, for example in situations involving:</p>
         <ul>
           <li>"Reverse" -isms, including "reverse racism," "reverse
-          <a>sexism</a>," and "cisphobia".
+          <a href="#dfn-sexism" class="internalDFN" data-link-type="dfn">sexism</a>," and "cisphobia".
           </li>
           <li>Reasonable communication of boundaries, such as “leave me alone,”
           “go away,” or “I’m not discussing this with you”.
           </li>
           <li>Communication in a tone you don’t find congenial.
           </li>
-          <li>Criticisms of racist, sexist, <a>cissexist</a>, or otherwise
+          <li>Criticisms of racist, sexist, <a href="#dfn-cissexist" class="internalDFN" data-link-type="dfn">cissexist</a>, or otherwise
           oppressive behavior or assumptions.
           </li>
         </ul>
@@ -381,12 +458,11 @@
       </section>
     </section>
     <section id="Reporting">
-      <h2>
+      <h2 id="x4-reporting-violations-and-supporting-the-code"><bdi class="secno">4. </bdi>
         Reporting Violations and Supporting the Code
-      </h2>
+      <a class="self-link" aria-label="§" href="#Reporting"></a></h2>
       <p>
-        If you are concerned about your immediate safety, contact <a href=
-        "https://en.wikipedia.org/wiki/List_of_emergency_telephone_numbers">local
+        If you are concerned about your immediate safety, contact <a href="https://en.wikipedia.org/wiki/List_of_emergency_telephone_numbers">local
         emergency services</a>. For a face to face event you may need to contact
         venue staff for assistance contacting emergency services.
       </p>
@@ -404,42 +480,40 @@
         address the issue.
       </p>
       <p>
-	You are welcome to raise issues directly with the <a>Ombudspeople</a> as a <a href=
-        "mailto:ombuds@w3.org">group</a> or <a href="https://www.w3.org/Consortium/pwe/#Procedures">individually</a>. All
+	You are welcome to raise issues directly with the <a href="#dfn-ombudsperson" class="internalDFN" data-link-type="dfn">Ombudspeople</a> as a <a href="mailto:ombuds@w3.org">group</a> or <a href="https://www.w3.org/Consortium/pwe/#Procedures">individually</a>. All
         complaints will be taken seriously and will receive a response.
       </p>
       <p>
-        If you are responsible for a community within the W3C such as in the
-        role of a chair of a working group and you witness <a>harassment</a> or
+        If you are responsible for a community within the <abbr title="World Wide Web Consortium">W3C</abbr> such as in the
+        role of a chair of a working group and you witness <a href="#dfn-harass" class="internalDFN" data-link-type="dfn">harassment</a> or
         any other behavior which goes against this code you are encouraged to
         address the issue directly. If you need assistance, you might get
-        assistance from an Ombudsperson or senior W3C management.
+        assistance from an Ombudsperson or senior <abbr title="World Wide Web Consortium">W3C</abbr> management.
       </p>
       <p>
         Chairs, Team Contacts, and Event Organizers should take such immediate
-        action as they deem necessary in order to stop <a href=
-        "#unacceptablebehavior">unacceptable behavior</a>. This action may take
+        action as they deem necessary in order to stop <a href="#unacceptablebehavior">unacceptable behavior</a>. This action may take
         many forms, but examples may include:
       </p>
-      <section>
-        <h3>
+      <section id="immediately">
+        <h3 id="x4-1-immediately"><bdi class="secno">4.1 </bdi>
           Immediately
-        </h3>
+        <a class="self-link" aria-label="§" href="#immediately"></a></h3>
         <ul>
-          <li>Pointing out if someone is violating the CEPC to give them the
+          <li>Pointing out if someone is violating the <abbr title="Code of Ethics and Professional Conduct">CEPC</abbr> to give them the
           chance to withdraw or edit their statement
           </li>
-          <li>Reminding <a>participants</a> that meetings and work operate
-          under the CEPC
+          <li>Reminding <a href="#dfn-participant" class="internalDFN" data-link-type="dfn">participants</a> that meetings and work operate
+          under the <abbr title="Code of Ethics and Professional Conduct">CEPC</abbr>
           </li>
           <li>Asking someone to leave a meeting or a conversation thread
           </li>
         </ul>
       </section>
-      <section>
-        <h3>
+      <section id="after-the-meeting">
+        <h3 id="x4-2-after-the-meeting"><bdi class="secno">4.2 </bdi>
           After the Meeting
-        </h3>
+        <a class="self-link" aria-label="§" href="#after-the-meeting"></a></h3>
         <ul>
           <li>Following up with affected participants, possibly in separate
           meetings
@@ -457,16 +531,15 @@
           under the terms of this Code.
         </p>
         <p>
-          You can read more in the <a href=
-          "https://www.w3.org/Consortium/pwe/#Procedures">PWETF Procedures</a>
+          You can read more in the <a href="https://www.w3.org/Consortium/pwe/#Procedures">PWETF Procedures</a>
           document.
         </p>
       </section>
     </section>
     <section id="mistake">
-      <h2>
+      <h2 id="x5-if-you-ve-done-something-improper"><bdi class="secno">5. </bdi>
         If You've Done Something Improper
-      </h2>
+      <a class="self-link" aria-label="§" href="#mistake"></a></h2>
       <p>
         As we engage in diverse communities we may accidentally cause offense,
         whether through using unknowingly offensive terminology or through
@@ -501,69 +574,55 @@
         If you don't understand what you did wrong, assume that the hurt party
         has good cause and accept it. We cannot know everyone's background and
         should do our best to avoid harm. You are welcome to discuss it with a
-        W3C <a href="https://www.w3.org/Consortium/pwe/#Procedures">ombudsperson</a> later.
+        <abbr title="World Wide Web Consortium">W3C</abbr> <a href="https://www.w3.org/Consortium/pwe/#Procedures">ombudsperson</a> later.
       </p>
     </section>
     <section id="glossary">
-      <h2>
+      <h2 id="x6-glossary"><bdi class="secno">6. </bdi>
         Glossary
-      </h2>
-      <dl data-sort="">
-        <dt>
-          <dfn data-lt="Acceptable|accepted">Acceptable Behavior</dfn>
+      <a class="self-link" aria-label="§" href="#glossary"></a></h2>
+      <dl data-sort=""><dt>
+          <dfn data-lt="Acceptable|accepted|Acceptable Behavior" data-dfn-type="dfn" data-plurals="acceptable behaviors" id="dfn-acceptable">Acceptable Behavior</dfn>
         </dt>
         <dd>
           <p>
-            Within the W3C, this is behavior which abides by this Code of
+            Within the <abbr title="World Wide Web Consortium">W3C</abbr>, this is behavior which abides by this Code of
             Ethics and Professional Conduct.
           </p>
         </dd>
         <dt>
-          <dfn data-lt="bully|bullying">Workplace Bullying</dfn>
+          <dfn data-lt="cisgender|cis person|cis people" data-lt-nodefault="" data-dfn-type="dfn" id="dfn-cisgender">Cisgender/cis person</dfn>
         </dt>
         <dd>
           <p>
-            A tendency of individuals or groups to use persistent aggressive
-            or unreasonable behavior (e.g. verbal or written abuse, offensive
-            conduct or any interference which undermines or impedes work)
-            against a co-worker or any professional relations.
-          </p>
-        </dd>
-        <dt>
-          <dfn data-lt="cisgender|cis person|cis people" data-lt-nodefault=
-          "">Cisgender/cis person</dfn>
-        </dt>
-        <dd>
-          <p>
-            A person whose <a>gender identity</a> matches the one they were
+            A person whose <a href="#dfn-gender-identity" class="internalDFN" data-link-type="dfn">gender identity</a> matches the one they were
             assigned at birth.
           </p>
         </dd>
         <dt>
-          <dfn data-lt="cissexist">Cissexism</dfn>
+          <dfn data-lt="cissexist|Cissexism" data-dfn-type="dfn" id="dfn-cissexist">Cissexism</dfn>
         </dt>
         <dd>
           <p>
-            The belief or assumption that <a>cis people</a>'s gender
+            The belief or assumption that <a href="#dfn-cisgender" class="internalDFN" data-link-type="dfn">cis people</a>'s gender
             identities, expressions, and embodiments are more natural and
             legitimate than those of trans people. The term is related to
-            <a>transphobia</a>.
+            <a href="#dfn-transphobia" class="internalDFN" data-link-type="dfn">transphobia</a>.
           </p>
         </dd>
         <dt>
-          <dfn>Consent</dfn>
+          <dfn data-dfn-type="dfn" id="dfn-consent">Consent</dfn>
         </dt>
         <dd>
           <p>
-            <a>Consent</a> occurs when one person voluntarily agrees to the
+            <a href="#dfn-consent" class="internalDFN" data-link-type="dfn">Consent</a> occurs when one person voluntarily agrees to the
             proposal or desires of another. It is a term of common speech, with
             specific definitions as used in such fields as the law, medicine,
-            research, and sexual relationships. <cite><a href=
-            "https://en.wikipedia.org/wiki/Consent">Wikipedia</a></cite>
+            research, and sexual relationships. <cite><a href="https://en.wikipedia.org/wiki/Consent">Wikipedia</a></cite>
           </p>
         </dd>
         <dt>
-          <dfn>Deadnaming</dfn>
+          <dfn data-dfn-type="dfn" id="dfn-deadnaming">Deadnaming</dfn>
         </dt>
         <dd>
           <p>
@@ -584,7 +643,7 @@
           </ul>
         </dd>
         <dt>
-          <dfn data-lt="demeaning|demean">Demeaning behavior</dfn>
+          <dfn data-lt="demeaning|demean|Demeaning behavior" data-dfn-type="dfn" data-plurals="demeans" id="dfn-demeaning">Demeaning behavior</dfn>
         </dt>
         <dd>
           <p>
@@ -593,7 +652,7 @@
           </p>
         </dd>
         <dt>
-          <dfn data-lt="discriminate">Discrimination</dfn>
+          <dfn data-lt="discriminate|Discrimination" data-dfn-type="dfn" id="dfn-discriminate">Discrimination</dfn>
         </dt>
         <dd>
           <p>
@@ -601,12 +660,12 @@
             such as: physical appearance, race, ethnic origin, genetic
             differences, national or social origin, name, religion, gender,
             sexual orientation, family or health situation, pregnancy,
-            disability, age, education, wealth, domicile,
+            disability, age, education, wealth, domicile, political view,
             morals, employment, or union activity.
           </p>
         </dd>
         <dt>
-          <dfn>Diversity</dfn>
+          <dfn data-dfn-type="dfn" id="dfn-diversity">Diversity</dfn>
         </dt>
         <dd>
           <p>
@@ -617,46 +676,27 @@
           </p>
         </dd>
         <dt>
-          <dfn>Gender Identity</dfn>
-        </dt>
-        <dd>
-          <p>
-            Gender identity is the personal sense of one's own gender. Gender
-            identity can correlate with assigned sex at birth or can differ
-            from it. <cite><a href=
-            "https://en.wikipedia.org/wiki/Gender_identity">Wikipedia</a></cite>
-          </p>
-        </dd>
-        <dt>
-          <dfn>Gender Expression</dfn>
+          <dfn data-dfn-type="dfn" id="dfn-gender-expression">Gender Expression</dfn>
         </dt>
         <dd>
           <p>
             Gender expression is a person's behavior, mannerisms, interests,
             and appearance that are associated with gender in a particular
-            cultural context. <cite><a href=
-            "https://en.wikipedia.org/wiki/Gender_expression">Wikipedia</a></cite>
+            cultural context. <cite><a href="https://en.wikipedia.org/wiki/Gender_expression">Wikipedia</a></cite>
           </p>
         </dd>
         <dt>
-          <dfn>Inclusivity</dfn>
+          <dfn data-dfn-type="dfn" id="dfn-gender-identity">Gender Identity</dfn>
         </dt>
         <dd>
           <p>
-            The practice or policy of including people who might otherwise
-            be excluded or marginalized.
+            Gender identity is the personal sense of one's own gender. Gender
+            identity can correlate with assigned sex at birth or can differ
+            from it. <cite><a href="https://en.wikipedia.org/wiki/Gender_identity">Wikipedia</a></cite>
           </p>
         </dd>
         <dt>
-          <dfn data-lt="insulting|insult">Insulting behavior</dfn>
-        </dt>
-        <dd>
-          <p>
-            Treating another person with scorn or disrespect.
-          </p>
-        </dd>
-        <dt>
-          <dfn data-lt="harass|harassing">Harassment</dfn>
+          <dfn data-lt="harass|harassing|Harassment" data-dfn-type="dfn" id="dfn-harass">Harassment</dfn>
         </dt>
         <dd>
           <p>
@@ -666,7 +706,24 @@
           </p>
         </dd>
         <dt>
-          <dfn>Marginalized Communities</dfn>
+          <dfn data-dfn-type="dfn" id="dfn-inclusivity">Inclusivity</dfn>
+        </dt>
+        <dd>
+          <p>
+            The practice or policy of including people who might otherwise
+            be excluded or marginalized.
+          </p>
+        </dd>
+        <dt>
+          <dfn data-lt="insulting|insult|Insulting behavior" data-dfn-type="dfn" id="dfn-insulting">Insulting behavior</dfn>
+        </dt>
+        <dd>
+          <p>
+            Treating another person with scorn or disrespect.
+          </p>
+        </dd>
+        <dt>
+          <dfn data-dfn-type="dfn" id="dfn-marginalized-communities">Marginalized Communities</dfn>
         </dt>
         <dd>
           <p>
@@ -676,7 +733,7 @@
           </p>
         </dd>
         <dt>
-          <dfn>Mental Health</dfn>
+          <dfn data-dfn-type="dfn" id="dfn-mental-health">Mental Health</dfn>
         </dt>
         <dd>
           <p>
@@ -685,7 +742,7 @@
           </p>
         </dd>
         <dt>
-          <dfn>Microagression</dfn>
+          <dfn data-dfn-type="dfn" id="dfn-microagression">Microagression</dfn>
         </dt>
         <dd>
           <p>
@@ -693,12 +750,11 @@
             verbal, behavioral, or environmental indignities, whether
             intentional or unintentional, that communicate hostile, derogatory,
             or negative prejudicial slights and insults toward any group,
-            particularly culturally marginalized group. <cite><a href=
-            "https://en.wikipedia.org/wiki/Microaggression">Wikipedia</a></cite>
+            particularly culturally marginalized group. <cite><a href="https://en.wikipedia.org/wiki/Microaggression">Wikipedia</a></cite>
           </p>
         </dd>
         <dt>
-          <dfn>Misgendering</dfn>
+          <dfn data-dfn-type="dfn" id="dfn-misgendering">Misgendering</dfn>
         </dt>
         <dd>
           <p>
@@ -712,7 +768,7 @@
           </p>
         </dd>
         <dt>
-          <dfn>Neurotype</dfn>
+          <dfn data-dfn-type="dfn" id="dfn-neurotype">Neurotype</dfn>
         </dt>
         <dd>
           <p>
@@ -721,18 +777,18 @@
           </p>
         </dd>
         <dt>
-          <dfn>Ombudsperson</dfn>
+          <dfn data-dfn-type="dfn" data-plurals="ombudspeople" id="dfn-ombudsperson">Ombudsperson</dfn>
         </dt>
         <dd>
           <p>
             One who assists individuals and groups in the resolution of
             conflicts or concerns. They are a designated neutral who is
-            appointed or employed by the W3C to facilitate the informal
-            resolution of concerns of <a>participants</a> within the W3C.
+            appointed or employed by the <abbr title="World Wide Web Consortium">W3C</abbr> to facilitate the informal
+            resolution of concerns of <a href="#dfn-participant" class="internalDFN" data-link-type="dfn">participants</a> within the <abbr title="World Wide Web Consortium">W3C</abbr>.
           </p>
         </dd>
         <dt>
-          <dfn>Participant</dfn>
+          <dfn data-dfn-type="dfn" data-plurals="participants" id="dfn-participant">Participant</dfn>
         </dt>
         <dd>
           <p>
@@ -741,23 +797,22 @@
         </dd>
         <dd>
           <ul>
-            <li>W3C Team (employees, contractors,
-	      <a href=
-	      "https://www.w3.org/Consortium/Process/#Team">
+            <li><abbr title="World Wide Web Consortium">W3C</abbr> Team (employees, contractors,
+	      <a href="https://www.w3.org/Consortium/Process/#Team">
 	      Fellows</a>)
             </li>
-            <li>W3C group participants (member representatives and invited experts)
+            <li><abbr title="World Wide Web Consortium">W3C</abbr> group participants (member representatives and invited experts)
             </li>
             <li>Advisory Committee Representatives (and their guests)
             </li>
-            <li>Anyone from the Public partaking in the W3C work environment
+            <li>Anyone from the Public partaking in the <abbr title="World Wide Web Consortium">W3C</abbr> work environment
             (e.g. commenting on our specs, emailing us, attending our
             conferences or functions, etc.)
             </li>
           </ul>
         </dd>
         <dt>
-          <dfn>Prejudice</dfn>
+          <dfn data-dfn-type="dfn" id="dfn-prejudice">Prejudice</dfn>
         </dt>
         <dd>
           <p>
@@ -765,7 +820,7 @@
           </p>
         </dd>
         <dt>
-          <dfn>Racism</dfn>
+          <dfn data-dfn-type="dfn" id="dfn-racism">Racism</dfn>
         </dt>
         <dd>
           <p>
@@ -775,11 +830,11 @@
           </p>
         </dd>
                 <dt>
-          <dfn>Sexism</dfn>
+          <dfn data-dfn-type="dfn" id="dfn-sexism">Sexism</dfn>
         </dt>
         <dd>
           <p>
-            Prejudice or <a>discrimination</a> based on sex or perceived sex.
+            Prejudice or <a href="#dfn-discriminate" class="internalDFN" data-link-type="dfn">discrimination</a> based on sex or perceived sex.
             Usually against women or non-binary people.
           </p>
           <p>
@@ -787,11 +842,23 @@
             imbalances within communities to further marginalize groups.
           </p>
         </dd>
+
         <dt>
-          <dfn data-lt="sexually harass">Sexual harassment</dfn>
+          <dfn data-lt="bully|bullying|Workplace Bullying" data-dfn-type="dfn" id="dfn-bully">Workplace Bullying</dfn>
         </dt>
-        <dd><p>Includes requests for sexual favors, and other verbal or physical
-          conduct of a sexual nature, where:</p>
+        <dd>
+          <p>
+            A tendency of individuals or groups to use persistent aggressive
+            or unreasonable behavior (e.g. verbal or written abuse, offensive
+            conduct or any interference which undermines or impedes work)
+            against a co-worker or any professional relations.
+          </p>
+        </dd>
+        <dt>
+	  <dfn data-lt="sexually harass|Sexual harassment" data-dfn-type="dfn" id="dfn-sexually-harass">Sexual harassment</dfn>
+	</dt>
+	<dd><p>Includes requests for sexual favors, and other verbal or physical
+            conduct of a sexual nature, where:</p>
           <ul>
             <li>submission to such conduct is made either explicitly or implicitly
               a term or condition of an individual's employment</li>
@@ -801,9 +868,9 @@
               with an individual's work performance or creating an intimidating
               hostile or offensive working environment</li>
           </ul>
-        </dd>
+	</dd>
         <dt>
-          <dfn>Sexual Orientation</dfn>
+          <dfn data-dfn-type="dfn" id="dfn-sexual-orientation">Sexual Orientation</dfn>
         </dt>
         <dd>
           <p>
@@ -811,9 +878,9 @@
             attracted to in relation to their own gender.
           </p>
         </dd>
-        <dt>
-          <dfn>Socio-economic status</dfn>
-        </dt>
+	<dt>
+          <dfn data-dfn-type="dfn" id="dfn-socio-economic-status">Socio-economic status</dfn>
+        
         <dd>
           <p>
             Socio-economic status is the combined effects relating to someone’s
@@ -821,7 +888,7 @@
           </p>
         </dd>
         <dt>
-          <dfn>Transphobia</dfn>
+          <dfn data-dfn-type="dfn" id="dfn-transphobia">Transphobia</dfn>
         </dt>
         <dd>
           <p>
@@ -833,32 +900,33 @@
           </p>
         </dd>
         <dt>
-          <dfn>Unwelcome sexual advance</dfn>
-        </dt>
-      <dd><p>includes visual displays of degrading sexual images, sexually suggestive conduct, offensive remarks of a sexual nature, requests for sexual favors, unwelcome physical contact, and sexual assault.</p></dd>
-    </dl>
+	  <dfn data-dfn-type="dfn" id="dfn-unwelcome-sexual-advance">Unwelcome sexual advance</dfn>
+	</dt>
+	<dd><p>includes visual displays of degrading sexual images, sexually suggestive conduct, offensive remarks of a sexual nature, requests for sexual favors, unwelcome physical contact, and sexual assault.</p></dd>
+    
     </section>
     <section id="Attribution">
-      <h2>
+      <h2 id="x7-attribution"><bdi class="secno">7. </bdi>
         Attribution
-      </h2>
+      <a class="self-link" aria-label="§" href="#Attribution"></a></h2>
       <p>
         Large portions of the text for this policy were taken from the
         following resources:
       </p>
       <ul>
         <li>
-          <a href=
-          "https://www.w3.org/Consortium/cepc/cepc-20141022/Overview.html">W3C
+          <a href="https://www.w3.org/Consortium/cepc/cepc-20141022/Overview.html"><abbr title="World Wide Web Consortium">W3C</abbr>
           Code of Ethics and Professional Conduct 2014</a>
         </li>
 	      <li>
-          <a href=
-          "https://geekfeminism.wikia.org/wiki/Community_anti-harassment/Policy">
+          <a href="https://geekfeminism.wikia.org/wiki/Community_anti-harassment/Policy">
           Geek Feminism Community anti-harassment/Policy</a>
         </li>
 
       </ul>
     </section>
-  </body>
-</html>
+  
+
+<p role="navigation" id="back-to-top">
+    <a href="#title"><abbr title="Back to Top">↑</abbr></a>
+  </p><script src="https://www.w3.org/scripts/TR/2016/fixup.js"></script></body></html>
