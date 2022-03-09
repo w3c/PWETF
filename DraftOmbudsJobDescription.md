@@ -1,6 +1,6 @@
 # Ombuds Job Description W3C, draft
 ## Purpose
-The role of the ombudsperson is to ensure every member of the W3C community has access to impartial peer support. The ombudsperson acts as a designated neutral party, serving neither as an advocate for the organization nor for any particular individual. Rather, the ombudsperson’s role is to:
+The role of the ombudsperson is to ensure every member of the W3C community has access to impartial peer support. The ombudsperson acts as a designated neutral party, advocating neither for the organization nor for any particular individual. Rather, the ombudsperson’s role is to:
 * Be present and listen to the concerns of members of the W3C community.
 * Where appropriate, suggest options for addressing member concerns through existing processes and pathways. 
 * Share (anonymous) learnings with the W3C Leadership to offer feedback on the organization. 
@@ -17,7 +17,7 @@ Ombudspersons will meet regularly with one another to share learnings and provid
 * Facilitate the inquirer’s assessment of the pros and cons of possible options
 * If necessary, and while maintaining confidentiality, engage in informal information gathering in order to better understand an issue from all perspectives.
 * Consult with appropriate individuals to develop cooperative strategies for resolving concerns and complaints.
-* Remain independent, neutral and impartial, and exercise good judgment.
+* Remain independent, neutral, and impartial, and exercise good judgment.
 * Follow up with inquirers as appropriate to determine outcome and further need of assistance.
 
 ## Qualifications
