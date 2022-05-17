@@ -1,8 +1,8 @@
 # Ombuds Job Description W3C, draft
 ## Purpose
-The role of the ombudsperson is to ensure every member of the W3C community has access to impartial peer support. The ombudsperson acts as a designated neutral party, advocating neither for the organization nor for any particular individual. Rather, the ombudsperson’s role is to:
-* Be present and listen to the concerns of members of the W3C community.
-* Where appropriate, suggest options for addressing member concerns through existing processes and pathways. 
+The role of the ombudsperson is to ensure every member of the W3C community has access to impartial support. This role is intended to complement the formal grievance process (in development) by offering a designated neutral party, serving neither as an advocate for the organization nor for any particular individual. Rather, the ombudsperson’s role is to:
+* Be present and listen to the concerns of members of the W3C community, whether or not they seek to engage with formal processes.
+* As requested, help members of the W3C community enage with formal processes by suggesting options for addressing their concerns and helping them pursue those options. 
 * Share (anonymous) learnings with the W3C Leadership to offer feedback on the organization. 
 
 ## Reporting
@@ -12,9 +12,10 @@ Ombudspersons will meet regularly with one another to share learnings and provid
 
 ## Responsibilities
 * Provide impartial advice to inquiring community members looking to voice concern regarding any issues they have with other individuals or groups.
+* Receive training in W3C policies and procedures and help inquiring community members navigate them.
 * Assist inquirers in obtaining relevant information regarding W3C policies and procedures.
 * Assist inquirers in clarifying issues and generating options for resolution.
-* Facilitate the inquirer’s assessment of the pros and cons of possible options
+* Facilitate the inquirer’s assessment of the pros and cons of possible options.
 * If necessary, and while maintaining confidentiality, engage in informal information gathering in order to better understand an issue from all perspectives.
 * Consult with appropriate individuals to develop cooperative strategies for resolving concerns and complaints.
 * Remain independent, neutral, and impartial, and exercise good judgment.
@@ -22,6 +23,7 @@ Ombudspersons will meet regularly with one another to share learnings and provid
 
 ## Qualifications
 * Ability to communicate effectively with individuals from a wide variety of backgrounds and cultures.
+* Eagerness to actively learn about and receive ongoing training in W3C structure, culture, policies, practices, and procedures.
 * Ability to engage thoughtfully and sensitively with issues related to diversity, equity, justice, and inclusion. Including but not limited to:
 
   * Understanding of common microaggressions, and ability to discuss them with care and consideration for the aggressed party. 
@@ -29,7 +31,6 @@ Ombudspersons will meet regularly with one another to share learnings and provid
   * Familiarity with inclusive terminology, and a commitment to combating racism, sexism, ableism, and other harmful practices at the W3C. 
 
 * Ability to gather information, analyze it and, as necessary, help the inquirer develop appropriate options and actions.
-* Thorough understanding of W3C structure, culture, policies, and practices, and willingness to help the inquirer navigate them. 
 * A thorough understanding of what leads to conflict, the nature of conflict, and methods of resolution.
 * Excellent interpersonal skills and the ability to establish and maintain broad relationships throughout the community.
 * Open, thoughtful, and willing to understand issues from multiple perspectives.
