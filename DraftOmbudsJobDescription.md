@@ -18,7 +18,7 @@ Ombudspersons will meet regularly with one another to share learnings and provid
 * Facilitate the inquirer’s assessment of the pros and cons of possible options.
 * If necessary, and while maintaining confidentiality, engage in informal information gathering in order to better understand an issue from all perspectives.
 * Consult with appropriate individuals to develop cooperative strategies for resolving concerns and complaints.
-* Remain independent, neutral and impartial, and exercise good judgment.
+* Remain independent, neutral, and impartial, and exercise good judgment.
 * Follow up with inquirers as appropriate to determine outcome and further need of assistance.
 
 ## Qualifications

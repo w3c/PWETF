@@ -1,0 +1,653 @@
+<!DOCTYPE html><html lang="zh-Hans"><head><meta charset="utf-8"><meta name="generator" content="ReSpec 25.6.2"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>W3C积极的工作环境：道德和职业行为准则</title>
+    
+    
+  <script data-dapp-detection="">
+(function() {
+  let alreadyInsertedMetaTag = false
+
+  function __insertDappDetected() {
+    if (!alreadyInsertedMetaTag) {
+      const meta = document.createElement('meta')
+      meta.name = 'dapp-detected'
+      document.head.appendChild(meta)
+      alreadyInsertedMetaTag = true
+    }
+  }
+
+  if (window.hasOwnProperty('web3')) {
+    // Note a closure can't be used for this var because some sites like
+    // www.wnyc.org do a second script execution via eval for some reason.
+    window.__disableDappDetectionInsertion = true
+    // Likely oldWeb3 is undefined and it has a property only because
+    // we defined it. Some sites like wnyc.org are evaling all scripts
+    // that exist again, so this is protection against multiple calls.
+    if (window.web3 === undefined) {
+      return
+    }
+    __insertDappDetected()
+  } else {
+    var oldWeb3 = window.web3
+    Object.defineProperty(window, 'web3', {
+      configurable: true,
+      set: function (val) {
+        if (!window.__disableDappDetectionInsertion)
+          __insertDappDetected()
+        oldWeb3 = val
+      },
+      get: function () {
+        if (!window.__disableDappDetectionInsertion)
+          __insertDappDetected()
+        return oldWeb3
+      }
+    })
+  }
+})()</script><style id="respec-mainstyle">@keyframes pop{0%{transform:scale(1,1)}25%{transform:scale(1.25,1.25);opacity:.75}100%{transform:scale(1,1)}}.hljs{background:0 0!important}a abbr,h1 abbr,h2 abbr,h3 abbr,h4 abbr,h5 abbr,h6 abbr{border:none}dfn{font-weight:700}a.internalDFN{color:inherit;border-bottom:1px solid #99c;text-decoration:none}a.externalDFN{color:inherit;border-bottom:1px dotted #ccc;text-decoration:none}a.bibref{text-decoration:none}.respec-offending-element:target{animation:pop .25s ease-in-out 0s 1}.respec-offending-element,a[href].respec-offending-element{text-decoration:red wavy underline}@supports not (text-decoration:red wavy underline){.respec-offending-element:not(pre){display:inline-block}.respec-offending-element{background:url(data:image/gif;base64,R0lGODdhBAADAPEAANv///8AAP///wAAACwAAAAABAADAEACBZQjmIAFADs=) bottom repeat-x}}#references :target{background:#eaf3ff;animation:pop .4s ease-in-out 0s 1}cite .bibref{font-style:normal}code{color:#c63501}th code{color:inherit}a[href].orcid{padding-left:4px;padding-right:4px}a[href].orcid>svg{margin-bottom:-2px}.toc a,.tof a{text-decoration:none}a .figno,a .secno{color:#000}ol.tof,ul.tof{list-style:none outside none}.caption{margin-top:.5em;font-style:italic}table.simple{border-spacing:0;border-collapse:collapse;border-bottom:3px solid #005a9c}.simple th{background:#005a9c;color:#fff;padding:3px 5px;text-align:left}.simple th a{color:#fff;padding:3px 5px;text-align:left}.simple th[scope=row]{background:inherit;color:inherit;border-top:1px solid #ddd}.simple td{padding:3px 10px;border-top:1px solid #ddd}.simple tr:nth-child(even){background:#f0f6ff}.section dd>p:first-child{margin-top:0}.section dd>p:last-child{margin-bottom:0}.section dd{margin-bottom:1em}.section dl.attrs dd,.section dl.eldef dd{margin-bottom:0}#issue-summary>ul,.respec-dfn-list{column-count:2}#issue-summary li,.respec-dfn-list li{list-style:none}details.respec-tests-details{margin-left:1em;display:inline-block;vertical-align:top}details.respec-tests-details>*{padding-right:2em}details.respec-tests-details[open]{z-index:999999;position:absolute;border:thin solid #cad3e2;border-radius:.3em;background-color:#fff;padding-bottom:.5em}details.respec-tests-details[open]>summary{border-bottom:thin solid #cad3e2;padding-left:1em;margin-bottom:1em;line-height:2em}details.respec-tests-details>ul{width:100%;margin-top:-.3em}details.respec-tests-details>li{padding-left:1em}a[href].self-link:hover{opacity:1;text-decoration:none;background-color:transparent}h2,h3,h4,h5,h6{position:relative}aside.example .marker>a.self-link{color:inherit}h2>a.self-link,h3>a.self-link,h4>a.self-link,h5>a.self-link,h6>a.self-link{border:none;color:inherit;font-size:83%;height:2em;left:-1.6em;opacity:.5;position:absolute;text-align:center;text-decoration:none;top:0;transition:opacity .2s;width:2em}h2>a.self-link::before,h3>a.self-link::before,h4>a.self-link::before,h5>a.self-link::before,h6>a.self-link::before{content:"§";display:block}@media (max-width:767px){dd{margin-left:0}h2>a.self-link,h3>a.self-link,h4>a.self-link,h5>a.self-link,h6>a.self-link{left:auto;top:auto}}@media print{.removeOnSave{display:none}}</style><meta name="description" content="W3C's Code of Ethics and Professional Conduct defines
+        accepted and acceptable behaviors and promotes high standards of
+        professional practice. The goals of this code are to:"><link rel="canonical" href="https://www.w3.org/TR/pwe/"><style>var{position:relative;cursor:pointer}var[data-type]::after,var[data-type]::before{position:absolute;left:50%;top:-6px;opacity:0;transition:opacity .4s;pointer-events:none}var[data-type]::before{content:"";transform:translateX(-50%);border-width:4px 6px 0 6px;border-style:solid;border-color:transparent;border-top-color:#000}var[data-type]::after{content:attr(data-type);transform:translateX(-50%) translateY(-100%);background:#000;text-align:center;font-family:"Dank Mono","Fira Code",monospace;font-style:normal;padding:6px;border-radius:3px;color:#daca88;text-indent:0;font-weight:400}var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}</style><script id="initialUserConfig" type="application/json">{
+  "specStatus": "base",
+  "shortName": "pwe",
+  "editors": [
+    {
+      "name": "Tzviya Siegman",
+      "company": "Wiley",
+      "companyURL": "https://www.wiley.com",
+      "w3cid": 65542
+    },
+    {
+      "name": "Anqi Li (Angel)",
+      "company": "W3C",
+      "companyURL": "https://www.w3.org",
+      "w3cid": 40190
+    },
+    {
+      "name": "Ada Rose Cannon",
+      "company": "Samsung",
+      "companyURL": "https://samsung.com",
+      "w3cid": 66378
+    }
+  ],
+  "github": {
+    "repoURL": "https://github.com/w3c/PWETF/",
+    "branch": "main"
+  },
+  "publishISODate": "2020-07-16T00:00:00.000Z",
+  "generatedSubtitle": "Document 16 July 2020"
+}</script><link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2016/base.css"></head>
+  <body class="h-entry informative toc-inline"><div class="head">
+    <a class="logo" href="https://www.w3.org/"><img alt="W3C" width="72" height="48" src="https://www.w3.org/StyleSheets/TR/2016/logos/W3C"></a> <h1 id="title" class="title">W3C积极的工作环境：道德和职业行为准则</h1>
+    
+    <h2>
+      2020年7月16日发布
+      <time class="dt-published" datetime="2020-07-16"> </time>
+    </h2>
+    <dl>
+      <dt>此版本:</dt>
+      <dd><a href="https://www.w3.org/Consortium/cepc/cepc-20200716/">https://www.w3.org/Consortium/cepc/cepc-20200716</a></dd>
+
+      <dt>最新发布的版本:</dt>
+      <dd><a href="https://www.w3.org/Consortium/cepc/">https://www.w3.org/Consortium/cepc</a></dd>
+      
+      <dt>最新的编辑草案:</dt><dd><a href="https://w3c.github.io/PWETF/">https://w3c.github.io/PWETF/</a></dd>
+      
+      <dt>上一个版本:</dt>
+      <dd><a href="http://www.w3.org/Consortium/cepc/cepc-20151007/">http://www.w3.org/Consortium/cepc/cepc-20151007</a></dd>
+            
+      <dt>本文编辑:</dt>
+      <dd class="p-author h-card vcard" data-editor-id="65542"><span class="p-name fn">Tzviya Siegman</span>
+            (<a class="p-org org h-org h-card" href="https://www.wiley.com">Wiley</a>)
+          </dd><dd class="p-author h-card vcard" data-editor-id="40190"><span class="p-name fn">Anqi Li (Angel)</span>
+            (<a class="p-org org h-org h-card" href="https://www.w3.org">W3C</a>)
+          </dd><dd class="p-author h-card vcard" data-editor-id="66378"><span class="p-name fn">Ada Rose Cannon</span>
+            (<a class="p-org org h-org h-card" href="https://samsung.com">Samsung</a>)
+          </dd>
+      
+      
+      <dt>参与本文工作的相关链接:</dt><dd>
+    <a href="https://github.com/w3c/PWETF/">GitHub w3c/PWETF</a>
+  </dd><dd>
+    <a href="https://github.com/w3c/PWETF/issues/">File a bug</a>
+  </dd><dd>
+    <a href="https://github.com/w3c/PWETF/commits/main">Commit history</a>
+  </dd><dd>
+    <a href="https://github.com/w3c/PWETF/pulls/">Pull requests</a>
+  </dd>
+    </dl>
+    
+    <p>更多其他语言的 <strong><a href="translations">翻译版本</a></strong>。
+    
+    
+    <p class="copyright">
+    <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a>
+    ©
+    2020
+    
+    <a href="https://www.w3.org/"><abbr title="World Wide Web Consortium">W3C</abbr></a><sup>®</sup> (<a href="https://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>,
+    <a href="https://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="https://www.keio.ac.jp/">Keio</a>,
+    <a href="https://ev.buaa.edu.cn/">Beihang</a>). 
+    W3C <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>,
+    <a href="https://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a> and <a rel="license" href="https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document">permissive document license</a> rules
+    apply.
+  </p>
+    <hr title="Separator for header">
+  </div>
+    <section id="abstract" class="introductory"><h2>摘要</h2>
+      <p>
+       《W3C道德和职业行为准则》定义W3C工作环境中可接受的行为，推广高水准的职业行为实践。本准则旨在：</p>
+      <ul>
+        <li>定义可接受及期待的行为标准；
+        </li>
+        <li>为职业行为提供一个基准；
+        </li>
+        <li>确保W3C社区和各类小组管理的透明度；
+        </li>
+        <li>确保一个人人都可以放心参与的工作环境，而无需担心被骚扰；
+        </li>
+        <li>助力打造良好的组织形象。
+        </li>
+      </ul>
+    </section>
+    <section id="sotd" class="introductory"><h2>文档状态</h2><p>
+      此文档经过W3C会员审阅，并由W3C理事长批准发布为《W3C道德和职业行为准则》。此文档取代
+ <a href="http://www.w3.org/Consortium/cepc/cepc-20151007/">2015版《W3C道德和职业行为准则》</a>。</p>
+      <p>
+      此文档由 <a href="https://www.w3.org/community/pwe/">W3C积极工作环境社区组（Positive Work Environment Community Group）</a> 组织编写。
+    </section><nav id="toc"><h2 class="introductory" id="table-of-contents">目录</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#introduction"><bdi class="secno">1. </bdi>
+        简介
+      </a></li><li class="tocline"><a class="tocxref" href="#statement-of-intent"><bdi class="secno">2. </bdi>
+        意向声明
+      </a></li><li class="tocline"><a class="tocxref" href="#code"><bdi class="secno">3. </bdi>
+        行为准则
+      </a><ol class="toc"><li class="tocline"><a class="tocxref" href="#expected-behavior"><bdi class="secno">3.1 </bdi>
+          期望的行为
+        </a></li><li class="tocline"><a class="tocxref" href="#unacceptablebehavior"><bdi class="secno">3.2 </bdi>
+          不可接受的行为
+        </a><ol class="toc"><li class="tocline"><a class="tocxref" href="#safety-versus-comfort"><bdi class="secno">3.2.1 </bdi>安全Vs 舒适</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#Reporting"><bdi class="secno">4. </bdi>
+        报告违规行为，支持行为规范
+      </a><ol class="toc"><li class="tocline"><a class="tocxref" href="#immediately"><bdi class="secno">4.1 </bdi>
+          立即报告
+        </a></li><li class="tocline"><a class="tocxref" href="#after-the-meeting"><bdi class="secno">4.2 </bdi>
+         会后报告
+        </a></li></ol></li><li class="tocline"><a class="tocxref" href="#mistake"><bdi class="secno">5. </bdi>
+        如果您做了不妥当的事情
+      </a></li><li class="tocline"><a class="tocxref" href="#glossary"><bdi class="secno">6. </bdi>
+        词汇表
+      </a></li><li class="tocline"><a class="tocxref" href="#Attribution"><bdi class="secno">7. </bdi>
+        引用
+      </a></li></ol></nav>
+    <section id="introduction">
+      <h2 id="x1-introduction"><bdi class="secno">1. </bdi>
+        简介
+      <a class="self-link" aria-label="§" href="#introduction"></a></h2>
+      <p>
+	W3C是一个不断发展的国际社区，这里有来自全球的<a href="#dfn-participant" class="internalDFN" data-link-type="dfn">参与者</a>一起并肩工作。W3C一直致力于维护一个积极的工作环境，以便每个参与者都能感受到被赞赏和被尊重，每个人都遵守同样高水准的个人行为标准。在共同工作的过程中，我们会经历语言、地区、国籍和经验的差异。在这样一个多样化的环境中，发生误解和分歧是很正常的，而在大多数情况下，这些误解和分歧可以通过非正式方式得到解决。
+      </p>
+        <p>
+	《W3C道德和职业行为准则》（W3C's Code of Ethics and Professional Conduct，简称CEPC）有助于定义W3C工作环境中<a href="#dfn-acceptable" class="internalDFN" data-link-type="dfn">可接受的行为</a>，推广高水准的职业行为实践。本准则旨在确保W3C拥有一个人人都可以放心参与的工作环境，而无需担心被<a href="#dfn-harass" class="internalDFN" data-link-type="dfn">骚扰</a>，并为职业行为提供基本准则，打造更好的组织形象。
+      </p>
+      <p>
+	本准则配套有一系列的<a href="https://www.w3.org/Consortium/pwe/#Procedures">流程</a>，适用于W3C社区中的任何成员，包括W3C员工、会员、特邀专家以及参与W3C线下会议、电话会议、邮件组以及Github等工作协同的个人。请注意，本准则是补充，而不是取代与任何特定情况相关的法律权利和义务。
+      </p>
+      <p>
+        <a href="https://www.w3.org/Consortium/pwe/#Education">相关的培训和教育材料</a>请见 <a href="https://www.w3.org/Consortium/pwe/">积极工作环境社区组公开主页（Positive Work Environment public homepage）</a>。
+      </p>
+    </section>
+    <section id="statement-of-intent">
+      <h2 id="x2-statement-of-intent"><bdi class="secno">2. </bdi>
+        意向声明
+      <a class="self-link" aria-label="§" href="#statement-of-intent"></a></h2>
+      <p>
+	 W3C一直积极致力于维护一个积极地工作环境。为了实现这一目标，W3C社区所有的<a href="#dfn-participant" class="internalDFN" data-link-type="dfn">参与者</a>应按照以下准则的规则行事。本准则的一个基本概念是，我们每一个人都对我们的工作环境负有责任。
+      </p>
+    </section>
+    <section id="code">
+      <h2 id="x3-code"><bdi class="secno">3. </bdi>
+        准则
+      <a class="self-link" aria-label="§" href="#code"></a></h2>
+      <section id="expected-behavior">
+        <h3 id="x3-1-expected-behavior"><bdi class="secno">3.1 </bdi>
+          期望的行为
+        <a class="self-link" aria-label="§" href="#expected-behavior"></a></h3>
+
+        <p>
+        用尊重、专业及公平的方式来对待彼此，对我们之间的差异和优势保持敏感，即使在压力和紧急情况下也应如此。
+        </p>
+        <ul>
+          <li>欣赏并包容我们的相似之处和差异。我们来自不同的文化及背景，有不同的生活方式和行为标准。文化差异可以涵盖从官方宗教仪式到个人习惯到服装等一切内容。对于有着不同习俗、不同态度和不同信仰的人，我们要保持尊重。为了帮助我们达到并保持这些高水准，每个W3C工作的参与者都应遵守此行为准则，对我们的工作环境共同承担责任； </li>
+	  <li>讨论敏感问题时，要有同理心。一些参与者可能在生活中经历过（或遭受过）不同形式的暴力，当他们想起这些时，可能会感到痛苦。要避免开关于跟踪或者性暴力等内容的玩笑，也不要冷漠的提及这些事情；如果我们需要讨论这些话题，以及探讨这些问题带来的影响，要考虑到情况的严重性，带着方式技巧和同理心进行讨论，并确保<a href="#dfn-participant" class="internalDFN" data-link-type="dfn">参与者</a>事先得到适当的警告，以便他们可以选择退出这些讨论；</li>
+          <li>尊重每一个人。W3C全球社区是一个庞大的群体，社区成员们对工作充满热情，有时也会持有强烈的观点和信念。我们承诺在任何时候都以礼貌和尊重的方式对待彼此。误解和分歧确实会发生。当冲突发生时，即便有情绪，也要保持礼貌和尊重的方式来解决冲突；</li>
+          <li>不要接受或参与任何形式的虐待行为，无论是口头、肢体、性还是暗示；</li>
+          <li>真诚。除非有保密要求或者特殊原因需要谨慎，否则我们应该尽可能的诚实、直接及坦率；</li>
+          <li> 包容并促进<a href="#dfn-diversity" class="internalDFN" data-link-type="dfn">多样性</a>。寻求多样化的观点。观点和人员的多样性能够推动创新，即使过程并不一定是舒适的。鼓励所有人都发出自己的声音。让那些新观点能够被听到。如果您发现自己正在主导一个讨论，那么应该后退一步，鼓励其他人加入到讨论中来。提供不同的可以参与和贡献的方式； </li>
+          <li>要留意团队中占主导地位的成员占用了多少时间；</li>
+          <li>请注意，表达好感可能会使职业关系复杂化。在某些文化中，对另一个参与者通过身体接触等方式表现出过度友好（例如拥抱、触摸手臂或肩膀，或亲吻）是不常见的，可能被视为侵犯个人空间或不受欢迎的行为；</li>
+          <li>努力消除自己带有偏见、成见和歧视性的做法；</li>
+          <li>从他人的角度来思考他们的需求。使用他们喜好的名称、称谓（包括代词）以及适当的语调。严于律己，宽以待人，感谢他人的贡献； </li>
+	  <li>满足参与者因免疫缺陷、过敏、或化学敏感性等健康问题而需要保持的身体距离，以及其他相关的适应或预防措施的需求；</li>
+          <li>对语言差异保持敏感。英语是W3C的默认工作语言。然而，我们中只有一部分人是以英语为母语。许多W3C的<a href="#dfn-participant" class="internalDFN" data-link-type="dfn">参与者</a>将英语作为第二（或第三）语言。用非母语交流的人往往难以理解快速和/或低声诉说的语言，并且可能比用母语交流时更大的声音来说话。如果有人难以表达自己的想法，请帮助确保他们的想法得到充分的表达、倾听和考虑；</li>
+          <li> 尊重<a href="https://www.w3.org/2019/Process-20190301/#confidentiality-levels">保密性（confidentiality）</a>和隐私。有时，我们讨论的事项可能属于各种保密协议的范畴，希望所有参与者能够严格遵守这些协议。此外，在小组中披露的某些信息可能本质上是个人隐私的信息，我们可能无意中得知其他参与者意外披露的机密信息。请做出正确判断，并尽努力保护所有参与者的隐私和机密。</li>
+        </ul>
+      </section>
+      <section id="unacceptable-behavior">
+        <h3 id="unacceptablebehavior"><bdi class="secno">3.2 </bdi>
+          不可接受的行为
+        <a class="self-link" aria-label="§" href="#unacceptablebehavior"></a></h3>
+        <p>
+          <dfn data-dfn-type="dfn" id="dfn-unacceptable-behaviors">不可接受的行为</dfn> 违反此《W3C道德和职业行为准则》。以下列出的不可接受行为并没有包括所有情况。我们接触的每一个人都是独特的，行为是否妥当需要在个人层面进行评估。确保我们的行为对他人没有负面影响是我们的责任。W3C严格禁止任何形式及基于任何原因的<a href="#dfn-discriminate" class="internalDFN" data-link-type="dfn">歧视</a>、恐吓、<a href="#dfn-harass" class="internalDFN" data-link-type="dfn">骚扰</a>和<a href="#dfn-bully" class="internalDFN" data-link-type="dfn">霸凌</a> 。
+        </p>
+        <p>
+          <a href="#dfn-unacceptable-behaviors" class="internalDFN" data-link-type="dfn">不可接受的行为</a>包括但不限于:
+        </p>
+        <ul>
+          <li>与性别、<a href="#dfn-gender-identity" class="internalDFN" data-link-type="dfn">性别认同</a>、<a href="#dfn-gender-expression" class="internalDFN" data-link-type="dfn">性别表达 </a>、性取向、残疾（可见和不可见的）、心理健康、学习认知能力、外貌、身体情况、年龄、种族、社会经济地位、种姓、国籍、语言或宗教有关的攻击性评论；</li>
+          <li>关于他人生活方式选择和做法的不受欢迎的评论，包括与食物、健康、养育子女、药物和就业相关的评论；</li>
+          <li> <a href="#dfn-misgendering" class="internalDFN" data-link-type="dfn">故意使用错误的代词来指代他人</a>，或使用他人特别声明不要使用的专有名称或其他术语来指代他人，从而造成性别歧视；</li>
+          <li>在不合适的场合内出现无正当理由的或偏离主题的性形象或行为；</li>
+          <li>未经<a href="#dfn-consent" class="internalDFN" data-link-type="dfn">同意</a>或在要求停止后进行身体接触和模拟身体接触（例如“拥抱”或“按摩背部”等）；</li>
+          <li>暴力威胁；</li>
+          <li>煽动对他人使用暴力，包括鼓励他人自杀或自残；</li>
+          <li>蓄意恐吓；</li>
+          <li>在被要求停止后，依然继续跟踪或实际尾随或侵入他人的个人空间；</li>
+	  <li>使得他人暴露在传染性疾病的环境下；</li>
+	  <li>拍摄<a href="#dfn-harass" class="internalDFN" data-link-type="dfn">骚扰</a>性质的照片或录音，包括出于骚扰目的记录他人在线活动；</li>
+          <li>持续性的打断讨论；</li>
+          <li>不受欢迎的性关注；</li>
+          <li>不恰当的社交接触方式，例如要求/假设与他人的不适当的亲密程度；</li>
+          <li>在对方要求停止后，依然继续一对一的沟通；</li>
+          <li>未经他人<a href="#dfn-consent" class="internalDFN" data-link-type="dfn">同意</a>，故意暴露他人的<a href="#dfn-gender-identity" class="internalDFN" data-link-type="dfn">性别认同</a>；</li>
+          <li>未经相关方<a href="#dfn-consent" class="internalDFN" data-link-type="dfn">同意</a> ，擅自发布非骚扰性的私人通信内容； </li>
+          <li>使用仅特定目标人群能听懂的编码语言（又称“狗哨”）来聚集对仇恨群体的支持或恐吓弱势群体；</li>
+          <li>微歧视，带有攻击性的言语或小动作，是指有意或无意的通过简单的评论或问题，传达带有敌意的、贬损的或消极的信息，使他人边缘化。例子包括：
+            <ul>
+              <li>看似友好却体现自己高人一等的语言或者行为:
+                <ul>
+                  <li>无论说话者的意图如何，有些短语或说话方式会导致人们认为将听到一句抬高说话者贬低他人的话，要避免使用以下这些语句，例如，以“嗯，实际上……（Well, actually...）”开始谈话，可能会被视为不尊重对方；
+                  </li>
+                  <li>不经过询问，就假设需要向特定的个人或群体解释某些定义或者概念。我们应该留意自己经常使用的词语是否其他人也会了解，但是认为其他人对情况不了解可能会造成看似友好，但实际上抬高自己贬低别人；
+                  </li>
+                  <li>假设特定人群在技术上是不熟练的，例如“这件事太容易了，你奶奶也能做(So easy your grandmother could do it)”。 </li>
+                </ul>
+              </li>
+              <li>反复打断别人或抢话题；
+              </li>
+              <li>假装惊讶于他人对某一话题缺乏知识或认识；</li>
+              <li>使用带有种族歧视的语言来描述个人或事物；
+              </li>
+              <li>以<a href="#dfn-demeaning" class="internalDFN" data-link-type="dfn">贬低</a>或质疑其种族身份有效性的方式提及个人；</li>
+              <li>嘲笑他人的口音或母语。</li>
+            </ul>
+          </li>
+          <li>对投诉他人违反本行为准则的人进行打击报复等不利行动。</li>
+        </ul>
+	      <section id="safety-versus-comfort"><h4 id="x3-2-1-safety-versus-comfort"><bdi class="secno">3.2.1 </bdi>安全Vs舒适<a class="self-link" aria-label="§" href="#safety-versus-comfort"></a></h4>
+        <p>本准则优先考虑个人的安全，特别是边缘化群体中的个人，而不是他人的舒适感，例如在如下情形下：</p>
+        <ul>
+          <li>“反向种族主义”、<a href="#dfn-sexism" class="internalDFN" data-link-type="dfn">“反向性别歧视”主义</a>和“女性恐惧症”等；
+          </li>
+          <li>设计合理的沟通边界，如“别管我/leave me alone”、“走开/go away”或“我不想和你讨论这个/I’m not discussing this with you”； </li>
+          <li>对方以一种您觉得不易相处的语调进行交流；
+          </li>
+          <li>对种族主义、性别歧视、<a href="#dfn-cissexist" class="internalDFN" data-link-type="dfn">对变性人的性别歧视</a>或其他压迫性行为或假设的批评。
+          </li>
+        </ul>
+		      </section>
+      </section>
+    </section>
+    <section id="Reporting">
+      <h2 id="x4-reporting-violations-and-supporting-the-code"><bdi class="secno">4. </bdi>
+        报告违规行为，支持行为规范
+      <a class="self-link" aria-label="§" href="#Reporting"></a></h2>
+      <p>如果您担心当前的人身安全，请联系<a href="https://en.wikipedia.org/wiki/List_of_emergency_telephone_numbers">当地应急服务机构</a>。对于面对面的线下活动，您可能需要联系场馆工作人员，来协助您获得紧急服务部门的帮助。</p>
+      <p>
+        在大多数情况下，如果您认为有些人的行为虽然符合本准则但是也有问题，请及时反馈；根据您所处的实际情景和您的安全情况，您可以联系以下几个可能合适的人选。 
+      </p>
+      <p>
+       一般情况下，问题最好在源头解决。因此，首先可以向小组主席或W3C团队联系人（Team Contact）反映问题。小组主席和W3C团队联系人可能了解更多背景信息，来帮助解决问题。
+      </p>
+      <p>
+	欢迎您向W3C积极工作环境监察员（Ombudspeople）反馈问题，可以直接联系他们中的<a href="https://www.w3.org/Consortium/pwe/#Procedures">一员</a>，也可以联系该<a href="#dfn-ombudsperson" class="internalDFN" data-link-type="dfn">W3C积极工作环境监察员（Ombudspeople）</a>的<a href="mailto:ombuds@w3.org">小组</a> 。所有投诉都将被认真对待，并将得到响应回复。
+      </p>
+      <p>
+        如果您在W3C社区内承担一些管理职能，例如担任工作组主席，并且您目睹了骚扰或任何其他违反本准则的行为，我们鼓励您直接解决该问题。如果需要，您可以向W3C积极工作环境监察员（Ombudspeople）或W3C管理团队寻求帮助。
+      </p>
+      <p>
+       小组主席、W3C团队联系人和活动组织者应立即采取他们认为必要的行动，以制止<a href="#unacceptablebehavior">不可接受的行为</a>，例如：
+      </p>
+      <section id="immediately">
+        <h3 id="x4-1-immediately"><bdi class="secno">4.1 </bdi>
+          立即处理
+        <a class="self-link" aria-label="§" href="#immediately"></a></h3>
+        <ul>
+          <li>如果有人违反了本准则，可以立即指出，并给他们机会撤回或重新编辑其表述内容；</li>
+          <li>提醒参会者W3C的会议和工作需要遵守本准则；</li>
+          <li>让违反本准则的人离开会议或者讨论。 </li>
+        </ul>
+      </section>
+      <section id="after-the-meeting">
+        <h3 id="x4-2-after-the-meeting"><bdi class="secno">4.2 </bdi>
+          会后处理
+        <a class="self-link" aria-label="§" href="#after-the-meeting"></a></h3>
+        <ul>
+          <li>可以通过单独会面/会议的方式，及时与受到影响的参与者进行跟进和沟通；</li>
+          <li>联系W3C积极工作环境监察员（Ombudspeople）寻求帮助；</li>
+          <li>为小组主席们准备的更多信息和资源可以在“小组主席培训项目”中找到。
+          </li>
+        </ul>
+        <p>
+          <strong>请注意</strong>，如果需要采取行动，行动必须与停止伤害直接相关，并且必须适当。受不当行为侵害的人可要求监察员根据本准则的条款判断其所受到的行为是否为不可接受行为。
+        </p>
+        <p> 
+       点击阅读更多关于<a href="https://www.w3.org/Consortium/pwe/#Procedures">积极工作环境流程相关文件</a>。
+        </p>
+      </section>
+    </section>
+    <section id="mistake">
+      <h2 id="x5-if-you-ve-done-something-improper"><bdi class="secno">5. </bdi>
+        如果您做了不妥当的事情
+      <a class="self-link" aria-label="§" href="#mistake"></a></h2>
+      <p>
+        A当我们在参与不同的W3C小组/活动时，由于无意间使用了带有冒犯意味的词语，或者不了解相关社交线索，可能会偶尔冒犯到别人。
+      </p>
+      <p>
+       如果您意识到（或被告知）您冒犯了某人，应采取适当的行为：
+      </p>
+      <ol>
+        <li>承认自己做了不妥当的事情；</li>
+        <li>简要道歉。不要试图解释自己或者将问题最小化；</li>
+        <li>如果可能，请重新组织语言，以更好的方式再次进行沟通，或撤回您之前的表述内容。以公开的方式重新修改您的表述会助于帮助他人更好的了解这种文化。</li>
+      </ol>
+      <p> 
+        Alice: “是的，我使用了X，这真是疯了！/ Yeah I used X and it was really crazy!” </p>
+     <p> Eve: “嘿，你能不能不用‘疯了’这个词？而是用‘荒谬/没道理’来代替呢？/ Hey, could you not use that word? What about ‘ridiculous’ instead? ” </p>
+     <p>Alice重新表述说：“对不起！是的，我用了X，这真是让人困惑！/ oh sorry, sure.Yeah I used X and it was really confusing!”
+     </p>
+      <p>
+        以上行为将有利于对话快速继续，而无需采取进一步行动或使进展局势升级。
+      </p>
+      <p>
+     如果您不明白自己做错了什么，那么假设受害方是有充分的理由感到受伤害，并接受这件事。我们不能了解每个人的背景，应该尽最大努力避免伤害他人。如果此类情况发生，欢迎您稍后与<a href="https://www.w3.org/Consortium/pwe/#Procedures">W3C积极工作环境监察员（Ombudspeople）</a> 进行沟通。
+      </p>
+    </section>
+    <section id="glossary">
+      <h2 id="x6-glossary"><bdi class="secno">6. </bdi>
+        词汇表
+      <a class="self-link" aria-label="§" href="#glossary"></a></h2>
+      <dl data-sort=""><dt>
+          <dfn data-lt="Acceptable|accepted|Acceptable Behavior" data-dfn-type="dfn" data-plurals="acceptable behaviors" id="dfn-acceptable">可接受的行为/Acceptable Behavior</dfn>
+        </dt>
+        <dd>
+          <p>
+            在W3C，与《W3C道德和职业行为准则》要求相符合的行为是可接受的行为。
+          </p>
+        </dd>
+        <dt>
+          <dfn data-lt="cisgender|cis person|cis people" data-lt-nodefault="" data-dfn-type="dfn" id="dfn-cisgender"> 原性别/顺性别人/Cisgender/cis person</dfn>
+        </dt>
+        <dd>
+          <p>
+            性别身份与出生时分配的<a href="#dfn-gender-identity" class="internalDFN" data-link-type="dfn">性别身份</a>相匹配的人。 
+          </p>
+        </dd>
+        <dt>
+          <dfn data-lt="cissexist|Cissexism" data-dfn-type="dfn" id="dfn-cissexist"> （对）变性（人的）歧视主义/Cissexism</dfn>
+        </dt>
+        <dd>
+          <p>
+         关于<a href="#dfn-cisgender" class="internalDFN" data-link-type="dfn">原性别/顺性别人/cis people</a>的性别、表达和体现变性人的性别、表达和体现更自然、更合法的信念或假设。该词汇与<a href="#dfn-transphobia" class="internalDFN" data-link-type="dfn">变性歧视/transphobia</a>相关。
+          </p>
+        </dd>
+        <dt>
+          <dfn data-dfn-type="dfn" id="dfn-consent">同意/Consent</dfn>
+        </dt>
+        <dd>
+          <p>
+            <a href="#dfn-consent" class="internalDFN" data-link-type="dfn">Consent</a>
+            当一个人自愿同意另一个人的提议或意愿时，即表示同意。该词汇在法律、医学、研究和性关系等领域有着特定的定义。详见 <cite><a href="https://en.wikipedia.org/wiki/Consent">Wikipedia</a></cite>
+          </p>
+        </dd>
+        <dt>
+          <dfn data-dfn-type="dfn" id="dfn-deadnaming">使用旧名字称呼他人/Deadnaming</dfn>
+        </dt>
+        <dd>
+          <p>
+            在他人更改名字之后依然使用他们原来的旧名字称呼他们。很多情况下，一个人的名字可能不是他们法律意义上的名字。
+          </p>
+          <p>
+            如果有人让您用某个名字称呼他/她，您应该照做。此类情景包括：
+          </p>
+          <ul>
+            <li>变性过后更改名字的变性人
+            </li>
+            <li>结婚后更改名字的人
+            </li>
+            <li>因为其他原因改名字的人 
+            </li>
+          </ul>
+        </dd>
+        <dt>
+          <dfn data-lt="demeaning|demean|Demeaning behavior" data-dfn-type="dfn" data-plurals="demeans" id="dfn-demeaning">贬低他人的行为/Demeaning Behavior</dfn>
+        </dt>
+        <dd>
+          <p>
+             以降低他人尊严、自我价值感，或对他人不尊重的方式行事。
+          </p>
+        </dd>
+        <dt>
+          <dfn data-lt="discriminate|Discrimination" data-dfn-type="dfn" id="dfn-discriminate">歧视性的区别对待/Discrimination</dfn>
+        </dt>
+        <dd>
+          <p>
+            基于以下标准对他人的歧视性对待：外貌、种族、民族血统、遗传差异、民族或社会出身、姓名、宗教信仰、性别、性取向、家庭或健康状况、怀孕、残疾、年龄、受教育情况、财富、住所、政治观点、道德品行、就业情况或工会活动。
+          </p>
+        </dd>
+        <dt>
+          <dfn data-dfn-type="dfn" id="dfn-diversity">多样性/Diversity</dfn>
+        </dt>
+        <dd>
+          <p>
+            为了实现更多样化和更包容的目的，多样性可以是能够区分群体和个人的任何维度，主要包括年龄、性别、种族、宗教信仰、残疾情况、性取向、受教育情况和民族血统。
+          </p>
+        </dd>
+        <dt>
+          <dfn data-dfn-type="dfn" id="dfn-gender-expression">性别表达/Gender Expression</dfn>
+        </dt>
+        <dd>
+          <p>
+            性别表达指的是一个人在特定文化背景下与性别相关的行为、举止、兴趣和外表。详见 <cite><a href="https://en.wikipedia.org/wiki/Gender_expression">Wikipedia</a></cite>
+          </p>
+        </dd>
+        <dt>
+          <dfn data-dfn-type="dfn" id="dfn-gender-identity">性别认同/Gender Identity</dfn>
+        </dt>
+        <dd>
+          <p>
+            性别认同指的是个人对自己性别的识别和理解。性别认同可能与出生的性别相关，也可能与之不同。详见 <cite><a href="https://en.wikipedia.org/wiki/Gender_identity">Wikipedia</a></cite>
+          </p>
+        </dd>
+        <dt>
+          <dfn data-lt="harass|harassing|Harassment" data-dfn-type="dfn" id="dfn-harass">骚扰/Harassment</dfn>
+        </dt>
+        <dd>
+          <p>
+            任何意图或产生实际效果对他人进行干扰、恐吓、敌对或侵犯性的口头或身体行为。
+          </p>
+        </dd>
+        <dt>
+          <dfn data-dfn-type="dfn" id="dfn-inclusivity">包容性/Inclusivity</dfn>
+        </dt>
+        <dd>
+          <p>
+            使那些可能被排斥或边缘化的人也被容纳进来的做法或政策。
+          </p>
+        </dd>
+        <dt>
+          <dfn data-lt="insulting|insult|Insulting behavior" data-dfn-type="dfn" id="dfn-insulting">侮辱他人的行为/Insulting Behavior</dfn>
+        </dt>
+        <dd>
+          <p>
+            以蔑视或不尊重的方式对待他人。
+          </p>
+        </dd>
+        <dt>
+          <dfn data-dfn-type="dfn" id="dfn-marginalized-communities">边缘群体/Marginalized Communities</dfn>
+        </dt>
+        <dd>
+          <p>
+           经常被故意忽视或诋毁，其成员利益不被重视的群体，比如同性恋和残疾人群体。
+          </p>
+        </dd>
+        <dt>
+          <dfn data-dfn-type="dfn" id="dfn-mental-health">心理健康/Mental Health</dfn>
+        </dt>
+        <dd>
+          <p>
+          一个人的心理和情感健康状况。
+          </p>
+        </dd>
+        <dt>
+          <dfn data-dfn-type="dfn" id="dfn-microagression">微歧视/Microagression</dfn>
+        </dt>
+        <dd>
+          <p>
+           微歧视是一个专用术语，用来形容无论是有意还是无意的，通过简单平常的语言或行为，来传达带有敌意的、贬损的或消极的对某个群体/个人的负面偏见、轻视或侮辱，使他人边缘化。 详见<cite><a href="https://en.wikipedia.org/wiki/Microaggression">Wikipedia</a></cite>
+          </p>
+        </dd>
+        <dt>
+          <dfn data-dfn-type="dfn" id="dfn-misgendering">性别误用/Misgendering</dfn>
+        </dt>
+        <dd>
+          <p>
+          性别误用是指通过能够指示性别的词语来暗示或说明某人与他们要求使用的性别不同，例如拒绝使用正确的代词，如他、她、他们或其他人。
+          </p>
+        </dd>
+        <dt>
+          <dfn data-dfn-type="dfn" id="dfn-neurotype">神经类型/Neurotype</dfn>
+        </dt>
+        <dd>
+          <p>
+            指代个人如何读解和回应社交信息/线索。
+          </p>
+        </dd>
+        <dt>
+          <dfn data-dfn-type="dfn" data-plurals="ombudspeople" id="dfn-ombudsperson">（积极工作环境）监察员/Ombudsperson</dfn>
+        </dt>
+        <dd>
+          <p>
+           协助个人及群体解决冲突或顾虑的人。他们是W3C任命或雇用的中立人士，帮助以非正式的方式解决W3C参与者遇到的问题。
+          </p>
+        </dd>
+        <dt>
+          <dfn data-dfn-type="dfn" data-plurals="participants" id="dfn-participant">参与者/Participant</dfn>
+        </dt>
+        <dd>
+          <p>
+            包括如下群体: 
+          </p>
+        </dd>
+        <dd>
+          <ul>
+            <li>W3C团队成员（包括W3C雇员、合同雇员以及<a href="https://www.w3.org/Consortium/Process/#Team">
+	     合作研究员Fellows</a>)</li>
+            <li>W3C小组成员（会员代表及特邀专家）</li>
+            <li>顾问委员会代表（以及他们邀请的嘉宾）</li>
+            <li>来自公众的任何一个参与到W3C工作环境中的人（例如对标准提出评论的人、参与邮件讨论的人、以及参与会议或线上协同的人，等等）
+            </li>
+          </ul>
+        </dd>
+        <dt>
+          <dfn data-dfn-type="dfn" id="dfn-prejudice">偏见/Prejudice</dfn>
+        </dt>
+        <dd>
+          <p>
+            基于对种族、文化、宗教信仰、肤色、年龄、性取向、性别、残疾或性别表达等方面的看法而产生的一系列歧视或贬损态度。
+          </p>
+        </dd>
+        <dt>
+          <dfn data-dfn-type="dfn" id="dfn-racism">种族主义/Racism</dfn>
+        </dt>
+        <dd>
+          <p>
+            种族偏见加剧群体内权力的不平衡分布，导致某一种族的群体被进一步边缘化。
+          </p>
+        </dd>
+                <dt>
+          <dfn data-dfn-type="dfn" id="dfn-sexism">性别主义/Sexism</dfn>
+        </dt>
+        <dd>
+          <p>
+            基于性别或感知到的性别而产生的偏见或歧视。通常针对女性或非二元性别人群。性别歧视带来的偏见加剧群体内权力的不平衡分布，导致某一种族的群体被进一步边缘化。
+          </p>
+        </dd>
+
+        <dt>
+          <dfn data-lt="bully|bullying|Workplace Bullying" data-dfn-type="dfn" id="dfn-bully">职场霸凌/Workplace Bullying</dfn>
+        </dt>
+        <dd>
+          <p>
+           个人或群体对同事或因为工作关系而打交道的人持续施以攻击性行为或不合理行为（如口头或书面虐待、攻击性行为、或任何破坏或妨碍工作的干扰）。
+          </p>
+        </dd>
+        <dt>
+	  <dfn data-lt="sexually harass|Sexual harassment" data-dfn-type="dfn" id="dfn-sexually-harass">性骚扰/Sexual Harassment</dfn>
+	</dt>
+	<dd><p>包括要求得到性方面的好处，以及其他口头或者肢体上的性行为：</p>
+          <ul>
+            <li>明确或隐含的表达屈服此类要求将成为个人得到雇佣的条件;</li>
+            <li>屈服或拒绝此类行为将被用作影响个人雇佣决策（译者注：例如晋升、获得项目等）的依据工作相关的决定;</li>
+            <li>此类行为的目的或效果是不合理地干扰他人的工作表绩效现，或创造一个令人害怕的敌对的或攻击性的工作环境。</li>
+          </ul>
+	</dd>
+        <dt>
+          <dfn data-dfn-type="dfn" id="dfn-sexual-orientation">性取向/Sexual Orientation</dfn>
+        </dt>
+        <dd>
+          <p>
+            性取向与一个人可能被吸引的性别有关。
+          </p>
+        </dd>
+	<dt>
+          <dfn data-dfn-type="dfn" id="dfn-socio-economic-status">社会经济地位/Socio-economic Status</dfn>
+        
+        <dd>
+          <p>
+            社会经济地位指的是某人的财富、社会地位/阶级和财产所有权有关的综合情况。
+          </p>
+        </dd>
+        <dt>
+          <dfn data-dfn-type="dfn" id="dfn-transphobia">跨性别恐惧症/Transphobia</dfn>
+        </dt>
+        <dd>
+          <p>
+            包括对变性人或变性的一系列消极态度、情感或行为，包括对不符合社会性别期望的人的恐惧、厌恶、仇恨、暴力、愤怒或不适感。
+          </p>
+        </dd>
+        <dt>
+	  <dfn data-dfn-type="dfn" id="dfn-unwelcome-sexual-advance">不受欢迎的性挑逗/Unwelcome Sexual Advance</dfn>
+	</dt>
+	<dd><p>包括有辱人格的性图像、性暗示行为、性攻击性言论、性行为请求、不受欢迎的身体接触和性攻击行为等。</p></dd>
+    
+    </section>
+    <section id="Attribution">
+      <h2 id="x7-attribution"><bdi class="secno">7. </bdi>
+        引用
+      <a class="self-link" aria-label="§" href="#Attribution"></a></h2>
+      <p>
+        本准则的很多内容来自于以下资源：
+      </p>
+      <ul>
+        <li>
+          <a href="https://www.w3.org/Consortium/cepc/cepc-20141022/Overview.html"><abbr title="World Wide Web Consortium">W3C</abbr>《W3C道德和职业行为准则》2014版</a>
+        </li>
+	      <li>
+          <a href="https://geekfeminism.wikia.org/wiki/Community_anti-harassment/Policy">
+          《极客女权主义社区反骚扰政策》</a>
+        </li>
+
+      </ul>
+    </section>
+  
+
+<p role="navigation" id="back-to-top">
+    <a href="#title"><abbr title="Back to Top">↑</abbr></a>
+  </p><script src="https://www.w3.org/scripts/TR/2016/fixup.js"></script></body></html>
