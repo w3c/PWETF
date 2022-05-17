@@ -48,3 +48,4 @@ The following references are recommended guides for members concerned about the 
 * [Self-Defined](https://www.selfdefined.app/)
 * [Let's Get it Right](https://www.adl.org/education/resources/tools-and-strategies/lets-get-it-right-using-correct-pronouns-and-names)
 * [Words Matter](https://thenewstack.io/words-matter-finally-tech-looks-at-removing-exclusionary-language/)
+* [INCITS Inclusive Terminology Guidelines](https://standards.incits.org/apps/group_public/download.php/131246/eb-2021-00288-001-INCITS-Inclusive-Terminology-Guidelines.pdf)
