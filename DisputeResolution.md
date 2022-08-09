@@ -100,16 +100,23 @@ As the intent of the process is to ensure that individuals can continue to work 
 Where it is beneficial to the continued functioning of the W3C, a high level summary of results and actions from an investigation may be communicated in the W3C, for example if an individual is suspended from a working group or being a chair in any working group. Otherwise, results and actions should be kept confidential. 
 
 1. Corrective action 
+
 The individual who had the complaint raised against them will be advised to correct their behaviour going forward, for example not engaging in the same behaviours that resulted in the complaint. 
 2.	Agree to a mediation process
+
 The individual who had the complaint raised against them will be advised to participate in a mediation process, where both parties can agree to certain actions and changes going forward. 
 3.	Removal from a working group or from a chair of a working group
+
 In cases where the actions by an individual’s has been frequent and disruptive, or they have failed to adhere to actions agreed through mediation, they will be suspended from participating in any working groups or chair positions for at least one year.
 4.	An official warning
+
 In cases where the actions by an individual are frequent or severe, an individual and their employer (if relevant) will be given an official warning that their conduct is contrary to the CEPC and that they should immediately desist in those behaviours. If they continue, thy may result in the removal or suspension of their W3C membership. There is no time limit for the expiry of the warning.
 5.	Disciplinary meeting 
+
 In cases where the actions by an individual are frequent or severe, and where greater intervention is needed, an individual and a representative from their place of employment (if relevant) will be asked to attend a meeting with W3M. They will be told where their conduct is contrary to the CEPC and that they should immediately desist in those behaviours. If they continue, they may result in the removal or suspension of their W3C membership.
 6.	Final written warning or suspension
+
 Where individuals have received multiple warnings, across the same or multiple parts of the CEPC. The individual and their employer will receive a written warning that any further complaints will result in the removal of their W3C membership. They may also be suspended from W3C for a given length of time.
 7.	Termination of membership 
+
 Where there have been exceptional circumstances or frequent upheld complaints against an individual, they may have their participation in or membership of the W3C terminated. The individual and their employer will receive a letter from the W3C outlining the reasons and why termination was warranted.
