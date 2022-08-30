@@ -1,17 +1,17 @@
 # Dispute Resolution Guidance
 
-The goal of dispute resolution is that individual members of the W3C can:
+The goal of dispute resolution is that individual participants in W3C can:
 * get help and support to safely resolve issues that negatively affect them
-* correct their behaviours that negatively affect other members of the W3C
+* correct their behaviours that negatively affect other participants in W3C
 * continue to safely work and contribute to the W3C after an issue has been raised
 
-The Code of Ethics and Professional Conduct is the standard that W3C members are required to follow and is used as the basis for any resolution and disciplinary actions. In exceptional circumstances, individuals may have their W3C membership suspended or withdrawn as a result of a complaint or investigation.
+The Code of Ethics and Professional Conduct is the standard that all W3C participants are required to follow and is used as the basis for any resolution and disciplinary actions. In exceptional circumstances, individuals may have their W3C participation suspended or withdrawn as a result of a complaint or investigation.
 
-All situations are different and W3C members are encouraged to use whatever method of dispute resolution they feel comfortable with.
+All situations are different and W3C participants are encouraged to use whatever method of dispute resolution they feel comfortable with.
 
 Individuals are encouraged to try and resolve issues themselves in the first instance. However, if individuals do not feel comfortable or safe doing so, they can get help through the ombudsperson, facilitators and/or mediation. 
 
-Depending on the severity of the situation, it may not be appropriate to attempt to resolve the issue informally (for example, threats of violence, assault or sexual assault). Individuals should immediately report the incident whenever they feel unsafe or threatened by the behaviour or actions of other W3C members.
+Depending on the severity of the situation, it may not be appropriate to attempt to resolve the issue informally (for example, threats of violence, assault or sexual assault). Individuals should immediately report the incident whenever they feel unsafe or threatened by the behaviour or actions of other W3C participants.
 
 Everyone involved in the dispute resolution process is expected to:
 * show respect for others
@@ -41,7 +41,7 @@ It is usually between two parties, but mediation can also work for groups. Media
 
 Where an issue might be appropriate to resolve through mediation, this can be done in several ways:
 * indvidual mediation: this is where you feel comfortable contacting the person directly and talking about the issues you have with them
-* faciitated mediation: this is where you can find help to deal with the issue, for example through another W3C member or an Ombudsperson
+* faciitated mediation: this is where you can find help to deal with the issue, for example through another W3C participant or an Ombudsperson
 * professional mediation: this is where a professional mediator is brought in to help two or more people need to work through an issue
 
 It is encouraged to start the process within 3 months of an initial incident is so that:
@@ -61,7 +61,7 @@ If you feel confident attempting to deal with the issue yourself or with the hel
 
 You should try to have an honest and open discussion with the person concerned, either through email or a video call, whatever is most comfortable for both parties. 
 
-If it is not possible to talk directly with the person, or if you do not feel comfortable doing so, you could ask another W3C member to act as a facilitator (for example, the Chair of a Working group). If that is not possible, you may want to try professional mediation. 
+If it is not possible to talk directly with the person, or if you do not feel comfortable doing so, you could ask another W3C participant to act as a facilitator (for example, the Chair of a Working group). If that is not possible, you may want to try professional mediation. 
 
 ### Professional mediation
 
@@ -121,7 +121,7 @@ Where it is beneficial to the continued functioning of the W3C, a high level sum
 2.	Agree to a mediation process. 
 The individual who had the complaint raised against them will be advised to participate in a mediation process, where both parties can agree to certain actions and changes going forward. 
 3.	Removal from a working group, a chair of a working group or task force facilitator. In cases where the actions by an individual’s has been frequent and disruptive, or they have failed to adhere to actions agreed through mediation, they will be suspended from participating in any working groups, chair positions, or a taskforce facilitator for at least one year.
-4.	An official warning. In cases where the actions by an individual are frequent or severe, an individual and their employer (if relevant) will be given an official warning that their conduct is contrary to the CEPC and that they should immediately desist in those behaviours. If they continue, thy may result in the removal or suspension of their W3C membership. There is no time limit for the expiry of the warning.
-5.	Disciplinary meeting. In cases where the actions by an individual are frequent or severe, and where greater intervention is needed, an individual and a representative from their place of employment (if relevant) will be asked to attend a meeting with W3M. They will be told where their conduct is contrary to the CEPC and that they should immediately desist in those behaviours. If they continue, they may result in the removal or suspension of their W3C membership.
-6.	Final written warning or suspension. Where individuals have received multiple warnings, across the same or multiple parts of the CEPC. The individual and their employer will receive a written warning that any further complaints will result in the removal of their W3C membership. They may also be suspended from W3C for a given length of time.
-7.	Termination of membership. Where there have been exceptional circumstances or frequent upheld complaints against an individual, they may have their participation in or membership of the W3C terminated. The individual and their employer will receive a letter from the W3C outlining the reasons and why termination was warranted.
+4.	An official warning. In cases where the actions by an individual are frequent or severe, an individual and their employer (if relevant) will be given an official warning that their conduct is contrary to the CEPC and that they should immediately desist in those behaviours. If they continue, thy may result in the removal or suspension of their W3C participation. There is no time limit for the expiry of the warning.
+5.	Disciplinary meeting. In cases where the actions by an individual are frequent or severe, and where greater intervention is needed, an individual and a representative from their place of employment (if relevant) will be asked to attend a meeting with W3M. They will be told where their conduct is contrary to the CEPC and that they should immediately desist in those behaviours. If they continue, they may result in the removal or suspension of their W3C participation.
+6.	Final written warning or suspension. Where individuals have received multiple warnings, across the same or multiple parts of the CEPC. The individual and their employer will receive a written warning that any further complaints will result in the removal of their W3C participation. They may also be suspended from W3C for a given length of time.
+7.	Termination of participation. Where there have been exceptional circumstances or frequent upheld complaints against an individual, they may have their participation in W3C terminated. The individual and their employer will receive a letter from the W3C outlining the reasons and why termination was warranted.
