@@ -22,13 +22,13 @@ slidenumbers: true
 ## Topics  
 
 [.column]
-### Tools, Tips, & Tricks
+### Tools, Tips, & Tricks (20 min)
 
 * What has made chairing more manageable for you?
 * What procedures or practices do you use in your groups that work well?
 
 [.column]
-### Handling Difficult Situations
+### Handling Difficult Situations (50 min)
 
 * De-escalating
 * Online vs Offline matters
@@ -58,6 +58,8 @@ Participants are welcome to take notes during the section on tools and tricks fo
 
 Participants are advised not to share real situations they have experienced unless they have permission from those involved, or can sufficiently anonymize the story in order to protect those involved.
 
+Today's session will feature both informative content and time for participation.
+
 ---
 
 ## Q&A
@@ -67,6 +69,10 @@ Participants are advised not to share real situations they have experienced unle
 ---
 
 ## Tools, Tips, & Tricks
+
+The goal for every group is to achieve consensus and open communication. How can the tools we use facilitate that?
+
+---
 
 ### Open Discussion
 
@@ -104,6 +110,36 @@ Sharing hypotheticals or examples from your experience is encouraged, but please
 
 ---
 
+### Room for Discussion vs. Unacceptable Behaviour
+
+Some conflicts or situations have room for discussion, others do not.
+
+As a facilitator, it's your role to intervene when a situation moves past the point of discussion or presents a risk to participant safety.
+
+^ CEPC has clear guidance for what is considered unacceptable behaviour, and that should be your guide. If a discussion is descending into name-calling, inappropriate comments, or threats, its time to shut it down. As a facilitator, you are empowered to remove people or stop things if you feel the situation warrants it.
+
+---
+
+### Consensus, not Unanimity
+
+The goal of every discussion we have is consensus. Consensus does not mean everyone agrees, but that everyone is satisfied with the decision.
+
+Reaching consensus can mean working through objections, it can take time, but the result is worth it.
+
+---
+
+### Cultural Considerations
+
+As an international organization we have to consider that participants may have different perspectives on discussions. This diversity of perspective is good, but also requires facilitator consideration.
+
+Some participants may be communicating in a second (or third, fourth) language, requiring extra time to process, other people may come from cultures or backgrounds where how people communicate differs from how a meeting may be run.
+
+The best approach is to give space, follow up on comments, and ensure that collective understanding is reached.
+
+^ Creating a consistent communication pattern can help with this, like always following a queue, asking if participants have any comments following a question, posting straw polls or providing resources to review outside of a meeting. 
+
+---
+
 ### Conflict Transformation
 
 Emphasizes understanding underlying personal, social, and structural conditions in order to change our response to conflict.
@@ -122,7 +158,7 @@ It's important to understand how we respond to conflict so we can change that re
 
 * Competitive: default to win/lose framing; conflict is zero-sum
 * Avoidance: default to withdraw from the situation & remain neutral
-* Accomodation: default to maintain harmony; appease other party
+* Accommodation: default to maintain harmony; appease other party
 * Compromise: default to find minimally acceptable solution to all; protect relationships.
 * Collaborative: default to expand outcomes; patience to find win/win solution
 

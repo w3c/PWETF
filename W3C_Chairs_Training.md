@@ -102,7 +102,7 @@ Groups can track goals in any way they prefer, but it can help to have a shareab
 Starting a working or community group includes establishing some procedures:
 
 * How often will the group meet and when?
-* How will the group meet?
+* How will the group meet online, in-person?
 * What modes of communication will we use?
 * How will we manage scribing, queue management, documentation?
 
@@ -124,7 +124,7 @@ Remember that meeting cadence can always change or be amended if any of these fa
 
 Most meetings will be virtual, or hybrid. W3C uses Zoom as it's meeting software, but there are alternatives and it's important to pick what will work best for your group.
 
-For in person meetings outside of TPAC, choosing a location can be a challenge. It's important to consider the travel needs or abilities of participants.
+For in-person meetings outside of TPAC, choosing a location can be a challenge. It's important to consider the travel needs or abilities of participants.
 
 ---
 
@@ -158,7 +158,9 @@ Establishing scribing responsibilities, queue management, and who will handle do
 
 ### Chairing Resources
 
-[Link to Phillippe's Chair Materials]
+* [W3C Chair's Guide](https://www.w3.org/Guide/)
+* [The Process for Busy People](https://github.com/w3c/wg-effectiveness/blob/main/process.md#w3c-process-for-busy-people)
+* [The Process](https://www.w3.org/2021/Process-20211102/)
 
 ---
 
@@ -220,7 +222,7 @@ As a chair, your role is to encourage and facilitate participation from everyone
 
 ### Balancing Voices
 
-Inevitably, there will be people in the group who are more vocal than others. They could speak up the most in meetings, or write the most comments, or log the most issues. Participants like this make chairing easier oftentimes, because you can rely on them to have a comment or opinion.
+Inevitably, there will be people in the group who are more vocal than others. They could speak up the most in meetings, or write the most comments, or log the most issues. Participants like this make chairing easier oftentimes because you can rely on them to have a comment or opinion.
 
 However, it's important not to let those who are more vocal crowd out those who need more space. Some participants may need time to think on a topic before commenting, or feel discouraged because they're not as confident in their reply as the vocal one. Your role is to balance these voices, facilitate their participation, and make everyone feel heard.
 
