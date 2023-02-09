@@ -8,7 +8,7 @@ The CG picks up the work of the former [PWE Task Force](https://www.w3.org/Conso
 
 Chairs: Tzviya Siegman, Wendy Reid, Liz Lutgendorff
 
-This group maintains the W3C Code of Ethics and Professional Conduct, the draft version of the document can be read directly on the [github.io page](https://w3c.github.io/PWETF/)
+This group maintains the W3C Code of Ethics and Professional Conduct, the draft version of the document can be read directly at [https://w3c.github.io/PWETF/]](https://w3c.github.io/PWETF/).
 
 This group functions under the [W3C Code of Ethics and Professional Conduct](https://www.w3.org/Consortium/cepc/).
 
