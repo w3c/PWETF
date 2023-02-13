@@ -4,7 +4,7 @@ This is a collection of references and resources that are useful for information
 
 Please see our [Zotero library](https://www.zotero.org/groups/2864452/w3c_pwe/library) for the full list of resources. 
 
-## Educational Resources -- Race and Tech
+## Educational Resources -- Race 
 
 * [Anti-Racism for Beginners](http://www.antiracismforbeginners.com) - A guide for addressing systemic racism and beliefs, includes other resources and a list of recommended reads 
 * [HBR Inclusive Meetings](https://hbr.org/2019/09/to-build-an-inclusive-culture-start-with-inclusive-meetings) - tips for running inclusive meetings
@@ -18,6 +18,7 @@ Please see our [Zotero library](https://www.zotero.org/groups/2864452/w3c_pwe/li
 * [Is Surveillance Tech Widening America’s Racial Divide?](https://www.govtech.com/public-safety/Is-Surveillance-Tech-Widening-Americas-Racial-Divide.html) by Naomi Ishisaka
 * [The Colour of Surviellance](https://slate.com/technology/2016/01/what-the-fbis-surveillance-of-martin-luther-king-says-about-modern-spying.html) by Alvaro M. Bedoya
 * [So you want to talk about race in tech with Ijeoma Oluo](https://techcrunch.com/2020/06/13/so-you-want-to-talk-about-race-in-tech-with-ijeoma-oluo/) by Greg Epstein
+* [White Supremacy Culture](https://www.whitesupremacyculture.info/uploads/4/3/5/7/43579015/okun_-_white_sup_culture_2020.pdf) by Tema Okun, Dismantling Racism
 
 ## Sexism and Feminism
 * [Masculine Defaults: Identifying and Mitigating Hidden Cultural Biases](https://doi.org/10.1037/rev0000209)
