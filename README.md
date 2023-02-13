@@ -6,7 +6,7 @@ This is the GitHub repository for the [Positive Work Environment Community Group
 
 The CG picks up the work of the former [PWE Task Force](https://www.w3.org/Consortium/pwe/). 
 
-Chairs: Tzviya Siegman, Wendy Reid, Liz Lutgendorff
+Chairs: Tzviya Siegman, Wendy Reid
 
 This group maintains the W3C Code of Ethics and Professional Conduct, the draft version of the document can be read directly at [https://w3c.github.io/PWETF/]](https://w3c.github.io/PWETF/).
 
