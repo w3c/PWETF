@@ -1,3 +1,5 @@
+This document has been supreseded by https://github.com/w3c/PWETF/blob/main/DisputeResolution.md
+
 The W3C's disciplinary process is geared first and foremost toward the protection of an inclusive community. The W3C operates under the [CEPC](https://www.w3.org/Consortium/cepc/). In general, individuals participating in W3C work act in good faith to resolve disagreements through discussion among group participants, Chairs, Team Contacts, AC representatives, Domain Leaders, the Advisory Board, the TAG, and W3C management). At times, however, more serious or repeated process violations occur and may require disciplinary action. The disciplinary process will be carried out with utmost respect, confidentiality, and fairness. 
 
 # Disciplinary process
