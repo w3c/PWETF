@@ -16,7 +16,7 @@ Often helpful:
 
 Other responsibilities:
 - Follow all posted content, at least enough to notice whether any content violates W3C policies.
-- Ensure that list participants abide by the [W3C Code of Ethics and Professional Conduct](https://www.w3.org/Consortium/cepc/) (CEPC).  
+- Ensure that participants abide by the [W3C Code of Ethics and Professional Conduct](https://www.w3.org/Consortium/cepc/) (CEPC).  
 - If a suspected violation of the CEPC occurs, refer to the [Dispute Resolution Guidance](https://github.com/w3c/PWETF/blob/main/DisputeResolution.md) for handling it.
 - Remove malware links and spam.
 
