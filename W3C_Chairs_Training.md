@@ -5,13 +5,13 @@ slidenumbers: true
 
 ---
 
-## Session 1: Effective Meeting Facilitation, Managing Conflict, and Running Safe Meetings
+## Session 1:
+### Effective Meeting Facilitation, Managing Conflict, and Running Safe Meetings
 
 ---
 
 ## Agenda
 
-* Introduction
 * Logistics
 * Effective Meeting Facilitation
 * Managing Conflict and Running Safe Meetings
@@ -31,7 +31,7 @@ slidenumbers: true
 [.column]
 ### Managing Conflict and Running Safe Meetings
 
-* Establishing the CEPC
+* Establishing the CoC
 * Defining the role of the chair
 * How to handle incidents
 * Understanding cultural differences
@@ -39,25 +39,17 @@ slidenumbers: true
 
 ---
 
-## Introductions
-
-[.column]
-### Facilitator 1
-
-Something something
-
-[.column]
-### Facilitator 2
-
-Something something
-
----
-
 ## Logistics
 
 This session is pre-recorded, and should be viewed before attending a live chair's training session.
 
-Live chair's training sessions will cover any questions related to this session, as well as sessions on Tools, and Handling Difficult Situations. Live sessions will not be recorded.
+Live chair's training sessions will cover any questions related to this session, as well as sessions on Tools and Handling Difficult Situations. Live sessions will not be recorded.
+
+---
+
+# Who this training is for
+
+This training is meant for chairs, taskforce leads, meeting facilitators, or people interested in taking on one of those roles in the future.
 
 ---
 
@@ -85,7 +77,7 @@ This can be done in a number of ways, and experimentation may be required to fin
 
 Ensure every participant has a chance to introduce themselves to the group, regardless of when they join. This can happen over email or in a meeting, whatever people prefer.
 
-New participants should be greeted by chairs. A welcome email [insert link to example] is also a good way to ensure new members have the information they need. New members should know the key details of the group (call schedule, connection details, repositories, etc.).
+New participants should be greeted by chairs. A welcome email is a good way to ensure new members have the information they need. New members should know the key details of the group (call schedule, connection details, repositories, etc.).
 
 ---
 
@@ -160,7 +152,7 @@ Establishing scribing responsibilities, queue management, and who will handle do
 
 * [W3C Chair's Guide](https://www.w3.org/Guide/)
 * [The Process for Busy People](https://github.com/w3c/wg-effectiveness/blob/main/process.md#w3c-process-for-busy-people)
-* [The Process](https://www.w3.org/2021/Process-20211102/)
+* [The Process](https://www.w3.org/2023/Process-20230612/)
 
 ---
 
@@ -172,15 +164,15 @@ Establishing scribing responsibilities, queue management, and who will handle do
 
 One of the key parts of work in W3C is its openness. Anyone can see what we are working on, participate, and give feedback.
 
-Openness can be delicate, and it's important to ensure the group is fostering open communication in it's practices and behaviours.
+Openness can be delicate, and it's important to ensure the group is fostering open communication in its practices and behaviours.
 
 ---
 
-### CEPC
+### Code of Conduct
 
-The Code of Ethics and Professional Conduct (CEPC) was drafted by the Positive Work Environments Task Force as a guide to participant behaviour within W3C.
+The Code of Conduct (CoC), formerly known as the Code of Ethics and Professional Conduct (CEPC), was drafted by the Positive Work Environments Community Group as a guide to participant behaviour within W3C.
 
-Chairs should introduce their groups to the CEPC as early and often as possible, and ensure they are familiar with the document.
+Chairs should introduce their groups to the CoC as early and often as possible, and ensure they are familiar with the document.
 
 ---
 
@@ -194,7 +186,7 @@ Chairs should be conscious of ensuring the group is welcoming and supportive to 
 
 ### Incident Management
 
-CEPC will outline how chairs and other leaders within W3C should handle incidents. It can also be helpful within a group to share that information, or set ground rules of your own. Having a consensus on how the group may handle incidents can help prevent them.
+PWE is working on documents that will outline how chairs and other leaders within W3C should handle incidents. It can also be helpful within a group to share that information, or set ground rules of your own. Having a consensus on how the group may handle incidents can help prevent them.
 
 Establishing a baseline of behaviour and how incidents will be handled will also help a group follow those standards.
 
@@ -222,9 +214,17 @@ As a chair, your role is to encourage and facilitate participation from everyone
 
 ### Balancing Voices
 
-Inevitably, there will be people in the group who are more vocal than others. They could speak up the most in meetings, or write the most comments, or log the most issues. Participants like this make chairing easier oftentimes because you can rely on them to have a comment or opinion.
+Inevitably, there will be people in the group who are more vocal than others. They could speak up the most in meetings, write the most comments, or log the most issues. Participants like this make chairing easier oftentimes because you can rely on them to have a comment or opinion.
 
 However, it's important not to let those who are more vocal crowd out those who need more space. Some participants may need time to think on a topic before commenting, or feel discouraged because they're not as confident in their reply as the vocal one. Your role is to balance these voices, facilitate their participation, and make everyone feel heard.
+
+---
+
+### Find Multiple Ways to Participate
+
+It is helpful to create alternative ways for people to participate in group activities for multiple reasons. People may not always be able to attend meetings due to conflicts, or feel comfortable speaking up due to a language barrier.
+
+Explore work modes to encourage asynchronous participation, like comments in GitHub, email threads, subgroups, or ask participants what they would like to do.
 
 ---
 
@@ -232,25 +232,25 @@ However, it's important not to let those who are more vocal crowd out those who 
 
 ---
 
-## CEPC
+## CoC
 
-The CEPC is a resource for all W3C participants to help understand what is expected of us, and what we can expect from our fellow participants.
+The CoC is a resource for all W3C participants to help understand what is expected of us, and what we can expect from our fellow participants.
 
-When someone breaks those expectations, CEPC also provides us with guidance on what do to, and how to approach these incidents.
+When someone breaks those expectations, CoC also provides us with guidance on what do to, and how to approach these incidents.
 
-CEPC applies to all participants equally, but some roles hold more responsibility than others.
+CoC applies to all participants equally, but some roles hold more responsibility than others.
 
 ---
 
 ## Defining the Role of the Chair
 
-In CEPC, the role of the Chair is addressed in section 4, in regards to reporting violations. The Chair or Team Contact is often the best first contact in case of an incident. Chairs are empowered to take action in the case of an incident, as long as that action is in order to stop the harm and is proportionate to the action.
+In the CoC, the role of the Chair is addressed in section 4, in regards to reporting violations. The Chair or Team Contact is often the best first contact in case of an incident. Chairs are empowered to take action in the case of an incident, as long as that action is in order to stop the harm and is proportionate to the action.
 
 ---
 
 ### Chair as First Point of Contact
 
-In most cases, a CEPC incident will take place within the context of group work, like a meeting or in communications like IRC or email.
+In most cases, a CoC incident will take place within the context of group work, like a meeting or in communications like IRC or email.
 
 In those situations, when the chair is not the one committing the action, the chair or team contact is the first point of contact for someone to report the action, if they have not already noticed it.
 
@@ -280,8 +280,6 @@ Your team contact is there to also support you in any issues that arise, and can
 
 In addition to the team contacts, W3C has ombudspeople responsible for advising and handling disciplinary issues. The ombuds can assist in any way needed, including taking on a case and overseeing its resolution.
 
-^ Mechanics of tracking an issue
-
 ---
 
 ## How to Handle Incidents
@@ -296,7 +294,7 @@ Factors to consider are the type of issue, how it has impacted the victim or gro
 
 ### Between Expected and Unacceptable behaviour
 
-In CEPC, we outline both Expected behaviours and Unacceptable ones, but in some cases, behaviour can fall into a grey area between both.
+In the CoC, we outline both Expected behaviours and Unacceptable ones, but in some cases, behaviour can fall into a grey area between both.
 
 This is really where factors like frequency, impact, and judgement come into play. A behaviour or action that is an annoyance in isolation can become bullying, intimidation, or offensive when done repeatedly.
 
@@ -400,8 +398,8 @@ Ensure you are giving participants options and space to communicate. Do not make
 
 ---
 
-### Resource
+# Thank you for participating!
 
-[Antidotes to White Supremacy Culture](https://www.thc.texas.gov/public/upload/preserve/museums/files/White_Supremacy_Culture.pdf)
+Being a chair or meeting facilitator is a key role in W3C, and we appreciate your participation in this training.
 
----
+We have provided additional links to resources on the page, and if you have any questions, please reach out to the Positive Work Environments CG.
