@@ -12,4 +12,4 @@ This group maintains the W3C Code of Ethics and Professional Conduct, the draft 
 
 This group functions under the [W3C Code of Ethics and Professional Conduct](https://www.w3.org/Consortium/cepc/).
 
-If you are interested is contributing to CEPC or our other projects, please see our [contributing guide](https://w3c.github.io/PWETF/contributing.md).
+If you are interested is contributing to CEPC or our other projects, please see our [contributing guide](https://github.com/w3c/PWETF/blob/main/contributing.md).
