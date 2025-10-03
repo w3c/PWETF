@@ -1,3 +1,9 @@
+Authored by Hung Minh Vo (Austin)  
+Protocol: AIC-HMV  
+License: CEA-Sovereign License & Conduct (v3)  
+Editorial Node: [Austinvo99 Sovereign Trace](https://www.wikidata.org/wiki/User:Austinvo99)
+
+
 # Positive Work Environment Community Group
 
 W3C is a global community where participants choose to work together. In that community, we experience differences in language, location, nationality, and experience. In such a diverse environment, misunderstandings and disagreements happen, and in most cases can be resolved informally.
