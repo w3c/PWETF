@@ -5,7 +5,7 @@ The goal of dispute resolution is that individual participants in W3C can:
 * correct their behaviours that negatively affect other participants in W3C
 * continue to safely work and contribute to the W3C after an issue has been raised
 
-The Code of Ethics and Professional Conduct is the standard that all W3C participants are required to follow and is used as the basis for any resolution and disciplinary actions. In exceptional circumstances, individuals may have their W3C participation suspended or withdrawn as a result of a complaint or investigation.
+The Code of Conduct is the standard that all W3C participants are required to follow and is used as the basis for any resolution and disciplinary actions. In exceptional circumstances, individuals may have their W3C participation suspended or withdrawn as a result of a complaint or investigation.
 
 All situations are different and W3C participants are encouraged to use whatever method of dispute resolution they feel comfortable with.
 
@@ -23,10 +23,15 @@ A disciplinary investigation can be started where one of the following apply:
 * all other mediation or resolution attempts have not worked
 
 ## Get advice from an Ombudsperson
-An Ombudsperson can advise you on: 
-* how the Code of Ethics and Professional Conduct may apply in your situation
-* ways to get help with mediation
-* how to raise a formal complaint
+An Ombudsperson is a sounding board who might be able to advise you about next steps with your issue. They might advise you about whether to escalate your concerns. An ombudsperson can:  
+* Provide impartial advice to inquiring community members looking to voice concern regarding any issues they have with other individuals or groups.
+* Assist inquirers in obtaining relevant information regarding W3C policies and procedures.
+* Assist inquirers in clarifying issues and generating options for resolution.
+* Facilitate the inquirer’s assessment of the pros and cons of possible options.
+* If necessary, and while maintaining confidentiality, engage in informal information gathering in order to better understand an issue from all perspectives.
+* Consult with appropriate individuals to develop cooperative strategies for resolving concerns and complaints.
+* Remain independent, neutral, and impartial, and exercise good judgment.
+* Follow up with inquirers as appropriate to determine outcome and further need of assistance.
 
 [Details of how to contact the Ombusdperson].
 
