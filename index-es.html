@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <link rel="alternate" href="index.html" hreflang="en" title="Original English Version">
+    <link rel="alternate" href="index-fr.html" hreflang="fr" title="Version traduite en français">
+    <title>
+      Ambiente positivo de trabajo al W3C: Código de Conducto
+    </title>
+    <script src="https://www.w3.org/Tools/respec/respec-w3c" class="remove"
+    defer="defer"></script>
+    <script class='remove'>
+    // See https://github.com/w3c/respec/wiki/ for how to configure ReSpec
+    var respecConfig = {
+      edDraftURI: "https://w3c.github.io/PWETF/",
+      latestVersion: "https://www.w3.org/Consortium/cepc/",
+      specStatus: "ED",
+      otherLinks: [
+        {
+        key: "Current Operative Version",
+	      data: [
+	        { value: "",
+	          href: "http://www.w3.org/Consortium/cepc" }
+        ] }
+    	],
+      shortName: "pwe",
+      editors: [{
+        name: "Tzviya Siegman",
+        company: "Wiley",
+        companyURL: "https://www.wiley.com",
+        w3cid: 65542
+      }, {
+        name: "An Qi Li",
+        company: "Ali Baba",
+        companyURL: "https://www.alibaba.com",
+        w3cid: 40190
+      }, {
+        name: "Ada Rose Cannon",
+        company: "Samsung",
+        companyURL: "https://samsung.com",
+        w3cid: 66378
+      }],
+      github: {
+        repoURL: "https://github.com/w3c/PWETF/",
+        branch: "master"
+      },
+    };
+    </script>
+  </head>
+  <body>
+    <section id="abstract">
+      <p>
+        El <cite>Código de Conducto</cite> del W3C define
+        el comportemiento esperado, y que no es acceptable, y promueve normas de practíca profesinal de alto nivel.
+        Los objetivos de esta politica son:
+      </p>
+      <ul>
+        <li>Asegurar que cada participante en el W3C se trata con respeto y equitably*.
+        </li>
+        <li>Definir normas de comportamiento aceptable para la organización.
+        </li>
+        <li>Contribuir a la identidad de la organización.
+        </li>
+        <li>Identificar compartamiento que no es aceptable.
+        </li>
+        <li>Ayudar participantes en que hacer si hay un problema.
+        </li>
+      </ul>
+    </section>
+    <section id="sotd">
+      <p>
+        Este documento es un borrador de los editores; Un trabajo en desarollo que se propondrá al W3C cómo una actualización de la versión actual vigente:
+  <a href=
+        "https://www.w3.org/Consortium/cepc/">Positive Work Environment at W3C: Code of Ethics and Professional Conduct</a>.
+      </p>
+      <p>Esta traducción parcial es un borrador, hecha a la carga de <a href="mailto:chaals@consensys.net">chaals</a>.
+        Se busca ayuda en acabar y mejorarla, sea por Pull Request o comentarios por correo. Está sincronizado a la <a href="https://github.com/w3c/PWETF/commit/https://github.com/w3c/PWETF/commit/aa89364a6191cad1ee59c489982035ed586a0a59">versión aa89364</a> de la versión original.</p>
+    </section>
+    <section id="introduction">
+      <h2>
+        Introducción
+      </h2>
+      <p>
+        El W3C es una comunidad global, cresciendo, donde los <a>participantes</a> eligen a trabajar juntos.
+        W3C se ocupa de mantenir un entorno de trabajo positivo,
+        donde cada participante se siente apreciado y respetado,
+        y donde cada persona se comporta segun normas de alto nivel.
+        Reconocemos diferencías en idioma, ubicación, nacionalidad, y experiencías.
+        En un entorno de tanta diversidad, se occuren malentendidos y desacuerdos, que en general se resuelvan de manera informal.
+      </p>
+            <p>
+        El <cite>Código de Conducto</cite> del W3C
+        (<abbr title="Code of Ethics and Profesional Conduct">CoC</abbr>
+        por su titulo inglés "Code of Conduct")
+        sirve para definir comportemiento aceptado y aceptable,
+        y promueve normas de alto nivel en temas de practica profesional.
+        Su objetivo es de asegurar que W3C sea un entorno que permite todos a participar sin miedo de <a>tratamiento irrespetuoso</a>. También propociona un benchmark* para evaluarse, y para definir mejor la identidad de la organización.
+      </p>
+      <p>
+        El <a>CoC</a>, complementado por unos <a hreflang="en" href=
+        "https://www.w3.org/Consortium/pwe/#Procedures">Procésos (en inglés)</a>,
+         se aplica a todos los miembros de la communidad del W3C – empleados, miembros, expertos invitados,
+         asi que <a>participantes</a> en sus reuniones, teleconferencías, listas de correo, repositorios de código,
+         congresos y otros eventos, etc.</p>
+      <p><b>Nota Bene</b> Esta politica solo complementa, y nunca remplaza ningún derecho ni obligación, sea cualsiasi legal, en ningunas circunstancías.
+      </p>
+      <p>
+        Hay unos <a hrelang="en" href="https://www.w3.org/Consortium/pwe/#Education">documentos educativos (en inglés)</a> disponibles en la <a hreflang="en" href=
+        "https://www.w3.org/Consortium/pwe/">pagina publica de Positive Work Environment del W3C (en inglés)</a>.
+      </p>
+      <section id="updates">
+        <h3>
+          Actualizaciones del CoC
+        </h3>
+        <p>
+          El <a href="*">Positive Work Environment Community Group (<dfn>PWE</dfn>)</a> mantiene este documento. Para asegurar que se corresponde a las necesidades y trabajo  actual del W3C, este grupo lo actualizara de vez en cuando.
+        </p>
+        <p>
+          Cada año, en Marzo, habrá un periodo de revisión del CoC de tres meses. Durante este periodo, el grupo PWE trabajara con miembros del W3C, Los ombudspeople, La Junta Asesora y el Comité Asesor para recibir y revisar cuestiones y recomendaciones para cambios del CoC. Este periodo de revisión durará 3 meses. Si deciden que hace falta cambios, PWE propondrá una versión actualizada del CoC a la Junta Asesora (AB) a los finales de Julio.
+        </p>
+        <p>
+          Si tenga cualquier cuestión or problema el CoC, se puede notar en el <a href="https://github.com/w3c/PWETF/">repositorio del PWE en GitHub</a> (si es posible en inglés, pero no es imprescindible, porque hay gente que pueden traducir).
+        </p>
+      </section>
+      </section>
+    <section>
+      <h2>
+        Declaración de Intento
+      </h2>
+      <p>
+        El W3C se compromete a mantener un entorno de trabajo <strong>positivo</strong> para todos,
+        incluso en particular personas de comunidades historicamente marginadas.
+	Este compromiso necesita un lugar de trabajo donde cada participantes, a cualquier nivel y en cualquier papel, se comporten segun las normas del Código de Conducto. Un concepto
+	fundamental de este CoC es que <em>compartimos todos la responabilidad</em>
+	para nuestro entorno de trabajo.
+      </p>
+    </section>
+    <section>
+      <h2>
+        Code
+      </h2>
+      <section>
+        <h3>
+          Comportamento esperado
+        </h3>
+
+        <p>
+          Trata cada persona con respeto, profesionalismo,
+	  justicia y sensibilidad a las muchas diferencias y fuertes,
+	  incluso en situaciones de urgencía o baja presión intensa.
+        </p>
+        <ul>
+          <li>Agredece y acomoda nuestros similaridades y diferencías.
+            Procedemos de multiples culturas y contextos, maneras de vivir, y códigos de compertamiento.
+            Las diferencías culturales pueden incluir muchios aspectos, desde practicas religiosas hasta manreas de vestirse.
+            Respeta personas con practicas, actitudes y creencias distantas a las suyas.
+          Para conseguir y mantener los niveles altos a los cuales aspiramos,
+	  cada participante debe compartir una responsibilidad sobre nuestro entorno de trabajo,
+    siguiendo las normas de comportamiento de este CoC.</li>
+          <li>Mantenga empatia cuando se habla de temas sensibles.
+          Es posible que participantes han experimentado y sufrido formas diversas de  violencía en sus vida,
+          y recordar esos episodios puede causar angustia o daño.
+          Evita bromear o hablar con desden de  violencia sexual como el acechar o acoso sexual;
+	  cuando hay que hablar de esos temas y como afectan a la gente manten el respeto y empatia, considerando la seriedad de la situación,
+    y queda claro que se va a abrir tales temas, dando la oportunidad a los <a>participantes</a> de elegir evitar esas discusiones.
+          </li>
+          <li>Trata cada persona con respeto
+            Somos una comunidad grande,
+            apasionada por nuestro trabajo,
+            y entonces podemos tener opniones y creencías que mantengamos con fuerza
+            Nos comprometemos a tratarnos siempre con respeto y dignidad.
+            Malentendidos y desacuerdos llegarán.
+            En momentos de conflicto, se resuelve los problemas con respto, educación y dignidad aunque sea una situación de emciones fuertes.
+          </li>
+          <li>Ni portase, ni accepta que otras personas se comporten, de cualquier manera abusiva,
+          sea verbalmente, fisicamente, sexualmente, o por implicito.
+	  </li>
+          <li>Se honesto. Diga la verdad, con sinceridad, y salvo que los deberes profesionales necesitan confidencialidad o discreción especial,
+          se sencillo, directo, y franco.</li>
+          <li>Se inclusivo y promueve la <a>diversidad</a>.
+	  Busca perspectivas diversas. La diversidad de perspectivas y personas promueve la inovación
+    aunque no sea siempre comodo.
+    Promeuve todas las voces.
+    Ayuda a que nuevas perspectivas se expresen.
+    Escucha activamente.</li>
+	  <li>
+      Reconoce cuanto tiempo se reservan los miembros dominantes de un grupo.
+      Si estás dominando una conversación,
+      es muy importante dar un paso atrás y motivar otras voces a parrticipar.
+      Propone otras maneras de contribuir.
+          </li>
+          <li>Nota que las demonstraciones fisicas de conexión puedes complicar las relaciones profesionales.
+             En algunas culturas [@@Para muchas personas],
+	  un comportamiento amable que implicao contacto fisico
+    (por ejemplo abrazar, tocar el hombro o brazo, o besar) es insolito y puede paracer una intrusión en el espacio personal, o puede ser un <a>acercamiento on deseado</a>.
+          </li>
+          <li>Intenta eliminar sus proprios prejuicios y practicas discriminatorias.
+          </li>
+          <li>Considera las necesidades de otras personas deesde su perspectiva.
+	  Usa nombres, titulos y pronombres que prefieren,
+	  y un tono apropriado.
+    Trata cada persona con dignidad y educación,
+    y generoso y liberal en como aceptas estar tratado por otras.
+    Reconoce las contribuciones de vuestros pares.
+          </li>
+	  <li>Acomoda las necesidades sanitarias de otros participantes, por ejemplo en distancias de seguridad,
+      alergías incluso a perfumes, etc.</li>
+          <li>Acomoda diferencías linguisticas.
+            Aunque inglés es el idioma por defecto del W3C,
+            solo algunos lo tienen como idioma nativo.
+            Para uchos es un segundo o tercerv(o mas) idioma, y puede ser muy dificil entender una conversación rapida,
+            a bajo volumen.
+            Igualmente puede ser que no habla con la fluidez ni comodidad que tienen en su(s) idioma(s) nativo(s).
+            Si alguien tiene dificultad en expresarse,
+            asegura que sus ideas están explicadas, entendidas, y consideradas con seriedad..
+          </li>
+          <li>Respeta la confidencialidad y la vida privada.
+            A veces conversaciones estan regidas por las
+            <a href=
+          "https://www.w3.org/Consoritum/Process/#confidentiality-levels">politicas de confidentialidad del W3C (en inglés)</a>.
+          Es un deber de cada participante plenamente cumplir esas politicas.
+          Ademas, información revelada en una conversación puede ser confidencial de naturaleza
+          incluso revelada sin intención por un tercero.
+          Ejerce juicio y esfuerzos razonables para proteger la privacidad y la confidencialidad de cada participante.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h3 id="comportement-inacceptable">
+          Comportamiento Inaceptable
+        </h3>
+        <p>
+          Los <dfn>comportamientos inaceptables</dfn> son los que están contra este CoC.
+          Este listado inexhaustivo no describe todos de ellos.
+          Cada persona es unica, y el comprtamiento e interracción deben estar evaluados al nivel de personas individuas.
+          Es la responsibilidad de cada uno asegurar que su comportamiento no tiene impacto negativo ni dañoso.
+          El W3C prohibe la <a>discriminación</a>, intimidación, y el <a>acoso</a>, y
+	  les <a>brimades</a> de cualquier manera, y a cualquier nivel.
+        </p>
+        <p>
+          Los <a>comportamientos inaceptables</a> cnicluyen entre otros:
+        </p>
+        <ul>
+          <li>Comentarios offensivos relacionados con genero incluso expresión o identidad de genero, orientaciôn sexual, discapacidad (sea visible o invisible),
+          sauld mental, <a>neurotipo</a>, aparencía fisica, el cuerpo, casta, edad, origen o percepciones de origen nacional, etnico,
+          estado socio-economico.
+          </li>
+          <li>Comentarios no deseados sobre las elecciones y practicas de vida de alguien, inlcuso relacionadas con la comida, salud, educación de niños, drogas, o empleo.
+          </li>
+          <li>
+            Confundir el genero de alguien,
+            utilizando de manera intencional un nombre o pronombre que had pedido que no se usa. En inglés eso se llama <a>deadnaming</a>.
+          </li>
+          <li>Imagenes o comportamientos sexuales fuera de contexto o donde no están apropriados.
+          </li>
+          <li>Contacto fisico, incluso virtualmente por ejemplo descripciones textuales como "abrazo" o "masaje") sin
+	  el <a>consentamiento explicito</a>, y sobre todo despues de una demanda de parar.
+          </li>
+          <li>Amenazas.
+          </li>
+	        <li>Misinformación intencional.
+          </li>
+          <li>Incitar a la violencia cualquier, incluso que se auto-dañe o suicide.
+          </li>
+          <li>Intimidación intencional.
+          </li>
+	        <li>Atacos personales.
+          </li>
+          <li>Acechar o seguir fisicamente, o invadir el espacio personal de alguien, sobre todo despues de una demanda de desistir.</li>
+	  <li>Exponer otros a un riesgo de contagión.</li>
+	  <li>Acoso fotografico o grabacaión, incluso en linea, que puede verse como <a>acoso</a>.
+          </li>
+          <li>Disrupción sustenido de conversación. Puede incluir entre otros varios comportamientos conocidos de conversar en mala fe, tales:
+            <ul>
+              <li><dfn class="lint-ignore">concern trolling</dfn>: expresar preocupaciones de manera disingenua, para desviar o socavar una conversación. <cite><a href=
+              "https://geekfeminism.wikia.org/wiki/Concern_troll">Geek
+              Feminism Wiki (en inglés)</a></cite>
+              </li>
+              <li><dfn class="lint-ignore">sealioning</dfn>: poner multiples preguntas sobre conceptos basicos para desviar conversación, sofocar participación, o provocar una respuesta critica para despues parecer una victima. <cite><a href=
+              "https://rationalwiki.org/wiki/Just_asking_questions#Sealioning">
+              RationalWiki (en inglés)</a></cite>
+              </li>
+              <li><dfn class="lint-ignore">Gish Galloping</dfn>: Suforcar una discusión con muchos argumentos invalidos o debiles, causando los demas participantes de perder mucho tiempo en responder a esos argumentos.
+              <cite><a href="https://rationalwiki.org/wiki/Gish_Gallop"
+              >RationalWiki (en inglés)</a></cite>
+              </li>
+              <li><dfn class="lint-ignore" lang="la">argumentum ad nauseam</dfn>: repetir argumentos ya no aceptados<cite><a
+              href="https://rationalwiki.org/wiki/Argumentum_ad_nauseam"
+              >RationalWiki</a></cite>
+              </li>
+              <li>Continuing to raise issues that were not accepted by the group consensus. It you feel you have important new information or that your argument did not get a fair hearing, then contact the chairs. Otherwise, accept the group consensus and move on.
+              </li>
+              <li>Interrumpir o hablar sobre otra persona, a menudo.
+              </li>
+            </ul>
+          </li>
+          <li><a>Atención sexual no deseada</a>.
+          </li>
+          <li>Contacto social inappropriado, tel que demander / prendre pour acquis
+	  des niveaux inappropriés d'intimité avec autrui.
+          </li>
+          <li>Comunicación personal despues de una demanda de desistir.
+          </li>
+          <li>Révelation délibérée de quelconque aspect de l'<a>identité de genre</a>
+	  d'une personne sans son <a>consentement</a>.
+          </li>
+          <li>Publicar comunicaciones privadas sin el
+	  <a>consentamiento</a> de los implicados.
+          </li>
+          <li>Utilizar lenguaje de doble sentido, para llamar la atención a grupos que entienden las referencías sin decir algo explicitamente contra el espiritu de este CoC.
+            Tambien llamada "silbato para perros"
+            <cite><a href="https://es.wikipedia.org/wiki/Silbato_para_perros_(pol%C3%ADtica)">WikiPedia</a></cite>.
+          </li>
+          <li><a>Patronizing</a> language or behavior:
+            <ul>
+              <li>Intentionally or unintentionally making assumptions about the skills or knowledge of others, such as using language that implies the audience is uninformed on a topic (e.g. interjections like "I can't believe you don't know about [topic]").
+              </li>
+              <li>Assuming that particular groups of people are technically unskilled due to their characteristics (e.g., “So easy your grandmother could do it”, which implies an older woman might not be technically competent).
+              </li>
+              <li>Interrupting or repeatedly commenting in conversaciones with unneccessary clarificaciones or comments on audience behaviour (e.g. "I don't think you understood my previous comment...", grammar or language correcciones that were not invited).</li>
+              <li>Regardless of the speaker's intenciones, some phrases or construcciones lead people to expect a patronizing statement to follow. For example, beginning an interjection with a phrase like "Well, actually..." can set this expectation and be taken as a sign of disrespect.</li>
+            </ul>
+          </li>
+          <li><a>Microaggressions</a>, which are small comments or questions, either
+          intentional or unintentional, that marginalize people by
+          communicating hostile, derogatory, or negative beliefs. Examples
+          include:
+            <ul>
+              <li>Fingir sorpresa a la falta de conocimiento de alguien sobre algun tema relevante.
+              </li>
+              <li>Usar lenguaje con connotaciones racistas.
+              </li>
+              <li>Denotar alguien de una manaera que le desprecia, o cuestiona algun aspecto de su identidad.
+              </li>
+              <li>Reirse del acento o idioma materna supuesta de una persona.
+              </li>
+            </ul>
+          </li>
+          <li>Retaliating, or taking adverse action, against anyone who files a complaint that someone has
+          violated this code of conduct.
+          </li>
+        </ul>
+	<section><h4>Sécurité contre confort</h4>
+        <p>Ce code privilégie la sécurité des individus, en particulier ceux des communautés marginalisées, par rapport au confort des autres, par exemple dans les situaciones impliquant:</p>
+        <ul>
+          <li>La communication raisonnable de limites, telles que « laissez-moi tranquille », « partez » ou « je ne veux pas en discuter avec vous ».
+          </li>
+          <li>La communication sur un ton que vous ne trouvez pas agréable.
+          </li>
+          <li>Les critiques sur les comportements racistes, sexistes, cissexistes, ou autres préjugés oppressants.
+          </li>
+        </ul>
+	</section>
+      </section>
+    </section>
+    <section id="Signaler">
+      <h2>
+        Signaler les violaciones et soutenir le code
+      </h2>
+      <p>
+        Si vous êtes inquiet pour votre sécurité immédiate, contactez <a hreflang="en" href="https://en.wikipedia.org/wiki/List_of_emergency_telephone_numbers">les secours</a>. Lors d'un événement en présentiel, vous devrez sûrement contacter le personnel du site pour qu'ils contactent les secours.
+      </p>
+      <p>
+        Dans la plupart des cas, si vous rencontrez un problème avec le comportement de quelqu'un tel que décrit dans ce code, veuillez le signaler; il y a quelques personnes  auxquelles vous pourriez éventuellement faire appel en fonction de votre situation et de votre sécurité.
+      </p>
+      <p>
+        Dans la plupart des cas, les problèmes se règlent directement. Par conséquent, soulever le problème avec le président de groupe ou le contact de l'équipe du groupe concerné est généralement le meilleur moyen pour soulever un problème.
+      </p>
+      <p>
+	Vous êtes invité à soulever les problèmes directement aux <a>Médiateurs</a> au sein de leur <a href=
+        "mailto:ombuds@w3.org">groupe</a> ou <a hreflang="en" href="https://www.w3.org/Consortium/pwe/#Procedures">individuellement</a>. Toutes plaintes seront considérées et recevront réponse.
+      </p>
+      <p>
+        Si vous êtes responsable d'une communauté au sein du W3C, par exemple en tant que président d'un groupe de travail et que vous êtes témoin de <a>harcèlement</a> ou de tout autre comportement qui va à l'encontre de ce code, nous vous encourageons à aborder le problème directement. Si vous avez besoin d'aide, vous pouvez obtenir l'aide d'un médiateur ou de la direction du W3C.
+      </p>
+      <p>
+        Les présidents, les contacts d'équipe et les organisateurs d'événements devraient prendre les mesures immédiates qu'ils jugent nécessaires afin de mettre fin à un <a href="#comportement-inacceptable">comportement inacceptable</a>. Cette action peut prendre plusieurs formes, par exemple :
+      </p>
+      <section>
+        <h3>
+          Immédiatement
+        </h3>
+        <ul>
+          <li>Faire remarquer lorsque quelqu'un viole le CEPC pour lui donner la possibilité de retirer ou de modifier sa déclaration
+          </li>
+          <li>Rappeler aux <a>participantes</a> que les réunions et le travail s'effectuent selon le CEPC
+          </li>
+          <li>Demander à quelqu'un de quitter une réunion ou un fil de conversation
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h3>
+          Despues del evento
+        </h3>
+        <ul>
+          <li>Donner suite auprès des participantes concernés, si possible lors de réunions distinctes
+          </li>
+          <li>Pide ayuda de un <a>ombudsperson</a>.
+          </li>
+          <li>De plus amples informaciones et ressources pour les présidents de groupe sont disponibles via le programme de formation des présidents de groupe.
+          </li>
+        </ul>
+        <p>
+          <strong>Nota Bene</strong> Cualquier acción debe estar directamente relacionado a la prevención de daño, y tiene que ser proporcional al caso.
+          Todas las personas implicadas tienen el derecho de pedir que un <a>ombudsperson</a> examina el caso y las acciones, segun este CoC.
+        </p>
+        <p>
+          Le document <a hreflang="en" href=
+          "https://www.w3.org/Consortium/pwe/#Procedures">Procédures PWETF</a>
+          fournit plus de détail.
+        </p>
+      </section>
+    </section>
+    <section id="erreur">
+      <h2>
+        Si ha hecho algo que no se debe
+      </h2>
+      <p>
+        As we engage in diverse communities we may accidentally cause offense,
+        whether through using unknowingly offensive terminology or through
+        missing social cues.
+      </p>
+      <p>
+        Si vous réalisez (ou apprenez) que vous avez offensé quelqu'un, prenez les mesures appropriées :
+      </p>
+      <ol>
+        <li>Reconnaissez que vous avez fait quelque chose d'inconvenant
+        </li>
+        <li>Présentez de brèves excuses. N'essayez pas de vous expliquer ou de minimiser le problème
+        </li>
+        <li>Si possible, corrigez votre message, reformulez votre communication en de meilleurs termes ou retirez votre déclaration. Changer publiquement ses déclaration permet de définir la culture pour les autres
+        </li>
+      </ol>
+      <p>
+        Alice : « Ouais, j'ai utilisé X et c'était complètement dingue ! » Eve : « Hé, tu pourrais ne pas utiliser ce mot ? Qu'en est-il « ridicule » à la place? » Alice : « oh désolée, bien sûr » -> modifie l'ancien message pour dire « Ouais, j'ai utilisé X et c'était vraiment déroutant ! »
+      </p>
+      <p>
+        Cela permettra à la conversation de se poursuivre rapidement sans qu'il soit nécessaire de prendre d'autres mesures ou d'aggraver la situation.
+      </p>
+      <p>
+        Si vous ne comprenez pas ce que vous avez fait de mal, supposez que la personne blessée a de bonnes raisons, et acceptez-le. On ne peut pas connaître les antécédents de tout le monde et nous devons faire de notre mieux pour éviter de nuire. Vous pouvez en discuter plus tard avec un <a hreflang="en" href="https://www.w3.org/Consortium/pwe/#Procedures">médiateur</a> du W3C.
+      </p>
+    </section>
+    <section id="glossaire">
+      <h2>
+        Glossario
+      </h2>
+      <dl data-sort="">
+        <dt>
+          <dfn>Comportamiento Acceptable</dfn>
+        </dt>
+        <dd>
+          <p>
+            Au sein du W3C, il s'agit d'un comportement conforme à ce Code d'Éthique et de Conduite Professionnelle.
+          </p>
+        </dd>
+        <dt>
+          <dfn data-lt="tourmenteur|tourmentrice|indimidation">Bullying</dfn>
+        </dt>
+        <dd>
+          <p>
+            Une tendance d'individus ou de groupes à utiliser un comportement agressif ou déraisonnable persistant (par exemple abus verbal ou écrit, conduite offensante ou toute interférence qui sape ou gêne le travail) contre un collègue ou toute relation professionnelle. @@repeated as brimades.
+          </p>
+        </dd>
+        <dt>
+          <dfn data-lt="cisgenre|personne cis|personnes cis" data-lt-nodefault=
+          "">Cisgenre / personne cis</dfn>
+	</dt>
+        <dd>
+          <p>
+            Une personne dont <a>l'identité de genre</a> correspond à celle qui lui a été attribuée à la naissance.
+          </p>
+        </dd>
+        <dt>
+          <dfn data-lt="cissexiste">Cissexisme</dfn>
+        </dt>
+        <dd>
+          <p>
+            La croyance ou l'hypothèse que les identités de genre, les expressions et les incarnaciones des <a>personnes cis</a> sont plus naturelles et légitimes que celles des personnes trans. Le terme est lié à la <a>transphobie</a>.
+          </p>
+        </dd>
+        <dt>
+          <dfn>Consentamiento</dfn>
+        </dt>
+        <dd>
+          <p>
+            Le <a>consentement</a> naît de l'accord volontaire d'une personne à la proposition ou les désirs d'une autre. Il s'agit d'un terme de langage courant, avec des définiciones spécifiques utilisées dans des domaines tels que le droit, la médecine, la recherche et les relaciones sexuelles. <cite><a hreflang="en" href=
+            "https://en.wikipedia.org/wiki/Consent">Wikipedia</a></cite>
+          </p>
+        </dd>
+        <dt>
+          </li>
+          <dfn>Morinommage</dfn>
+        </dt>
+        <dd>
+          <p>
+            Il s'agit de continuer d'utiliser le nom de quelqu'un l'ayant changé. Souvent le nom d'une personne n'est pas leur nom « légal », quoi que cela puisse signifier.
+          </p>
+          <p>
+            Si quelqu'un vous demande de l'appeler par un certain nom, vous devez le faire. Y compris :
+          </p>
+          <ul>
+            <li>Une personne trans ayant changé de nom
+            </li>
+            <li>Quelqu'un ayant changé de nom par mariage
+            </li>
+            <li>Quelqu'un ayant changé de nom pour toute autre raison
+            </li>
+          </ul>
+        </dd>
+        <dt>
+          <dfn data-lt="avilit|avilissant|rabaisser">Comportement dégradant</dfn>
+        </dt>
+        <dd>
+          <p>
+            Se comporter d'une manière qui réduit la dignité, l'estime de soi ou le respect d'une autre personne au sein de la communauté.
+          </p>
+        </dd>
+        <dt>
+          <dfn data-lt="discriminer">Discriminación</dfn>
+        </dt>
+        <dd>
+          <p>
+            Le traitement préjudiciable d'un individu en fonction de critères tels que: l'apparence physique, la race, l'origine ethnique, les différences génétiques, l'origine nationale ou sociale, le nom, la religion, le sexe, l'orientation sexuelle, la situation familiale ou liée à la santé, la grossesse, le handicap, l'âge, l'éducation, la richesse, le domicile, les vues politiques, la morale, l'emploi ou l'activité syndicale.
+          </p>
+        </dd>
+        <dt>
+          <dfn>Diversidad</dfn>
+        </dt>
+        <dd>
+          <p>
+            La diversidad dans le cadre de la diversidad et de l'inclusion, est toute dimension qui peut être utilisée pour différencier les groupes et les gens les uns des autres. En mettant l'accent sur l'âge, le sexe, l'origine ethnique, la religion, le handicap, l'orientation sexuelle, l'éducation et l'origine nationale.
+          </p>
+        </dd>
+        <dt>
+          <dfn data-lt="l'identité de genre">Identité de genre</dfn>
+        </dt>
+        <dd>
+          <p>
+            L'identité de genre est le sens personnel de son propre genre. L'identité sexuelle peut être en corrélation avec le sexe attribué à la naissance ou peut en différer. <cite><a href="https://fr.wikipedia.org/wiki/Identit%C3%A9_de_genre">Wikipedia</a></cite>
+          </p>
+        </dd>
+        <dt>
+          <dfn>Expression de genre</dfn>
+        </dt>
+        <dd>
+          <p>
+            L'expression de genre est le comportement, les manières, les intérêts et l'apparence d'une personne qui sont associés au genre dans un contexte culturel particulier.  <cite><a hreflang="en" href="https://en.wikipedia.org/wiki/Gender_expression">Wikipedia</a></cite>
+          </p>
+        </dd>
+        <dt>
+          <dfn>Inclusivité</dfn>
+        </dt>
+        <dd>
+          <p>
+            La pratique ou la politique d'inclure les personnes qui pourraient autrement être exclues ou marginalisées.
+          </p>
+        </dd>
+        <dt>
+          <dfn data-lt="insulte|insulte">Comportement insultant</dfn>
+        </dt>
+        <dd>
+          <p>
+            Traiter une autre personne avec mépris ou manque de respect.
+          </p>
+        </dd>
+        <dt>
+          <dfn data-lt="harceler|harcèlement">Harcèlement</dfn>
+        </dt>
+        <dd>
+          <p>
+            Tout comportement, verbal ou physique, qui a l'intention ou pour effet de porter atteinte à un individu, ou qui crée un environnement intimidant, hostile ou offensant.
+          </p>
+        </dd>
+        <dt>
+          <dfn>Communautés marginalisées</dfn>
+        </dt>
+        <dd>
+          <p>
+            Les communautés qui sont souvent négligées, ignorées ou dénigrées au détriment des membres de cette communauté. Les gens peuvent souvent faire partie de plusieurs communautés, comme être homosexuel et handicapé.
+          </p>
+        </dd>
+        <dt>
+          <dfn>Santé mentale</dfn>
+        </dt>
+        <dd>
+          <p>
+            L'état d'une personne en ce qui concerne son bien-être psychologique et émotionnel.
+          </p>
+        </dd>
+        <dt>
+          <dfn>Micro-agression</dfn>
+        </dt>
+        <dd>
+          <p>
+	    La micro-agression est un terme utilisé pour les indignités verbales, comportementales ou environnementales courantes, qu'elles soient intentionnelles ou non, qui communiquent des insultes ou affronts préjudiciables hostiles, désobligeantes ou négatifs envers tout groupe, en particulier les groupes culturellement marginalisés. <cite><a href=
+            "https://fr.wikipedia.org/wiki/Micro-agression">Wikipedia</a></cite>
+          </p>
+        </dd>
+        <dt>
+          <dfn>Mégenrer</dfn>
+        </dt>
+        <dd>
+          <p>
+           Cela consiste à s'adresser à quelqu'un en utilisant des mots sexués ou impliquer qu'elle est d'un sexe différent de celui qu'elle a demandé d'utiliser.
+          </p>
+          <p>
+            Les exemples incluent le refus d'utiliser leurs pronoms corrects tels que il/lui, elle/lui, eux/leur(s), ou autres.
+          </p>
+        </dd>
+        <dt>
+          <dfn>Neurotype</dfn>
+        </dt>
+        <dd>
+          <p>
+            Un type de cerveau, en termes de la façon dont une personne interprète et réagit aux signaux sociaux.
+          </p>
+        </dd>
+        <dt>
+          <dfn>Médiateur</dfn>
+        </dt>
+        <dd>
+          <p>
+            Celui qui assiste des individus et des groupes dans la résolution de conflits ou d'inquiétudes. Il s'agit d'un neutre désigné qui est nommé ou employé par le W3C pour faciliter la résolution informelle des inquiétudes des <a>participantes</a> au sein du W3C.
+          </p>
+        </dd>
+        <dt>
+          <dfn>Participant</dfn>
+        </dt>
+        <dd>
+          <p>
+            Comprend les personnes suivantes :
+          </p>
+        </dd>
+        <dd>
+          <ul>
+            <li>Équipe W3C (employés, prestataire,
+	      <a hreflang="en" href=
+	      "https://www.w3.org/Consortium/Process/#Team">
+	      Fellows</a>)
+            </li>
+            <li>participantes de groupes W3C (représentants de Membres et experts invité)
+            </li>
+            <li>Représentants du comité consultatif (et leurs invités)
+            </li>
+            <li>Toute personne du public participant à l'entorno de trabajo du W3C (par exemple, commentant nos spécificaciones, nous envoyant un courrier électronique, assistant à nos conférences ou évenements, etc.)
+            </li>
+          </ul>
+        </dd>
+        <dt>
+          <dfn>Patronizing</dfn>
+        </dt>
+        <dd>
+          <p>
+            Language or behaviour that may appear kind or helpful but conveys a feeling of superiority or condescension. <cite><a href="https://languages.oup.com/">Adapted from the Oxford Languages Dictionary.</a></cite>
+          </p>
+        </dd>
+                <dt>
+          <dfn>Préjugés</dfn>
+        </dt>
+        <dd>
+          <p>
+            Les préjugés se réfèrent à un ensemble d'attitudes discriminatoires ou désobligeantes basées sur des hypothèses dérivées de percepciones sur des choses telles que la race, la culture, la religion, la couleur de la peau, l'âge, l'orientation sexuelle, le sexe, le handicap ou l'expression de genre.
+          </p>
+        </dd>
+        <dt>
+          <dfn>Racisme</dfn>
+        </dt>
+        <dd>
+          <p>
+            Le racisme rassemble les préjugés raciaux contribuant à renforcer les déséquilibres de pouvoir existants au sein des communautés afin de marginaliser davantage les groupes fondés sur la race.
+          </p>
+        </dd>
+        <dt>
+          <dfn>Sexisme</dfn>
+        </dt>
+        <dd>
+          <p>
+            Préjugé ou <a>discrimination</a> sur la base du sexe ou du sexe perçu. Habituellement à l'encontre les femmes ou les personnes non binaires.
+          </p>
+          <p>
+            Le sexisme rassemble les préjugés contribuent à renforcer les déséquilibres de pouvoir existants au sein des communautés afin de marginaliser davantage les groupes.
+          </p>
+        </dd>
+        <dt>
+          <dfn data-lt="brimades" data-dfn-type="dfn" id="dfn-brimades">Brimades au travail</dfn>
+        </dt>
+        <dd>
+          <p>
+            Une tendance d'individus ou groupes à utiliser un comportement agressif ou déraisonnable persistant (par exemple, des abus verbaux ou écrits, une conduite offensante ou toute interférence qui mine ou entrave le travail) à l'encontre d'un(e) collègue ou toute relation professionnelle.
+          </p>
+        </dd>
+        <dt>
+	  <dfn data-lt="harcèlement sexuel">Harcèlement sexuel</dfn>
+	</dt>
+ 	<dd>
+	  <p>Cela comprend les demandes de faveurs sexuelles et toute autre conduite verbale ou physique de nature sexuelle, où :/p>
+        <ul>
+          <li>la soumission à un telle conduite est explicitement ou implicitement un terme ou une condition de l'emploi d'un individu</li>
+          <li>la soumission ou le rejet d'une telle conduite par un individu est utilisé comme base pour les décisions en matière d'emploi affectant l'individu</li>
+          <li>une telle conduite a pour objet ou pour effet d'interférer de manière déraisonnable avec la productivité au travail d'un individu ou de créer un entorno de trabajo intimidant, hostile ou offensant</li>
+        </ul>
+      </dd>
+    </dl>
+
+        <dt>
+          <dfn>Orientation sexuelle</dfn>
+        </dt>
+        <dd>
+          <p>
+            L'orientation sexuelle se rapporte au(x) sexe(s) au(x)quel(s) une personne peut être attirée par rapport à son propre sexe.
+          </p>
+        </dd>
+	<dt>
+          <dfn>Statut socio-économique</dfn>
+        </dt>
+        <dd>
+          <p>
+            Le statut socio-économique est l’effet combiné de la richesse, de la position / classe sociale et de la propriété d’une personne.
+          </p>
+        </dd>
+        <dt>
+          <dfn>Transphobie</dfn>
+        </dt>
+        <dd>
+          <p>
+           La transphobie englobe un éventail d'attitudes, de sentiments ou d'acciones négatives envers les personnes transgenres ou transsexuelles, ou envers la transsexualité. La transphobie peut inclure la peur, l'aversion, la haine, la violencia, la colère ou l'inconfort ressenti ou exprimé envers des personnes qui ne sont pas conformes aux attentes de la société en matière de genre.
+          </p>
+        </dd>
+        <dt>
+          <dfn>Avance sexuelle importune</dfn>
+	</dt>
+      <dd><p>Cela comprend l'affichage visuel d'images sexuelles dégradantes, toute conduite sexuellement suggestive, toute remarque offensante de nature sexuelle, toute demande de faveurs sexuelles, de contacts physiques indésirables et d'agressions sexuelles.</p></dd>
+    </dl>
+    </section>
+    <section id="Attribution">
+      <h2>
+        Attribution
+      </h2>
+      <p>
+        Une grande partie du texte de ce code provient des ressources suivantes :
+      </p>
+      <ul>
+        <li>
+          <a hreflang="en" href=
+          "https://www.w3.org/Consortium/cepc/cepc-20141022/Overview.html">
+          Code d'Éthique et de Conduite Professionnelle au W3C, 2014</a>
+        </li>
+	      <li>
+          <a hreflang="en" href=
+          "https://geekfeminism.wikia.org/wiki/Community_anti-harassment/Policy">
+          anti-harcèlement au sein de la Communauté de féminisme Geek</a>
+        </li>
+
+      </ul>
+    </section>
+    <section id="changelog">
+      <h2>Change Log</h2>
+
+      <ul>
+        <li>
+          27-Jun-2023: Fixed markup issues relating to Respec, added Wendy Reid as an editor to the document. See <a href="https://github.com/w3c/PWETF/pull/301/">PR #301</a>.
+        </li>
+        <li>
+          20-Jun-2023: Restored an example from the Patronizing Language section that was previously removed. See <a href="https://github.com/w3c/PWETF/pull/300">PR #300</a>.
+        </li>
+        <li>
+          20-Jun-2023: Revised the definition for <a>Microaggression</a> in the Glossary. See <a href="https://github.com/w3c/PWETF/pull/299">PR #299</a>.
+        </li>
+        <li>
+          30-May-2023: Changed the name of the CEPC to Code of Conduct (CoC). See <a href="https://github.com/w3c/PWETF/pull/297">PR #297</a>, <a href="https://github.com/w3c/PWETF/pull/288">PR #288</a>, and <a href="https://github.com/w3c/PWETF/pull/245">PR #245</a>.
+        </li>
+        <li>
+          16-May-2023: Edited the <a href="#abstract"></a> to better reflect the goals and content of the CoC. See <a href="https://github.com/w3c/PWETF/pull/292">PR #292</a>.
+        </li>
+        <li>
+          16-May-2023: Changed the unordered lists to numbered ones. See <a href="https://github.com/w3c/PWETF/pull/291">PR #291</a> and <a href="https://github.com/w3c/PWETF/issues/259">issue #259</a>.
+        </li>
+        <li>
+          16-May-2023: Revise the section on safety vs comfort for clarity. See <a href="https://github.com/w3c/PWETF/pull/290">PR #290</a> and <a href="https://github.com/w3c/PWETF/pull/251">PR #251</a>.
+        </li>
+        <li>
+          16-May-2023: Added editorial recommendations from three issues (<a href="https://github.com/w3c/PWETF/issues/260">#260</a>, <a href="https://github.com/w3c/PWETF/issues/261">#261</a>, and <a href="https://github.com/w3c/PWETF/issues/262">#262</a>), regarding wording and structure for some points in the behavior sections. See <a href="https://github.com/w3c/PWETF/pull/287">PR #287</a>.
+        </li>
+        <li>
+          8-May-2023: Added text outlining the goal of the CoC to address <a href="https://github.com/w3c/PWETF/issues/250">issue #250</a>. See <a href="https://github.com/w3c/PWETF/pull/258">PR #258</a>.
+        </li>
+        <li>
+          25-Apr-2023: Revised section on patronizing language for clarity and better understanding. See <a href="https://github.com/w3c/PWETF/pull/237">PR #237</a> and <a href="https://github.com/w3c/PWETF/issues/232">issue #232</a>.
+        </li>
+        <li>
+          28-Mar-2023: Minor editorial changes regarding wording in the abstract and statement of intent. See <a href="https://github.com/w3c/PWETF/pull/236">PR #236</a>.
+        </li>
+        <li>
+          21-Mar-2023: Added a section to the document outlining the update process PWE will follow for the CoC. See <a href="https://github.com/w3c/PWETF/pull/207">PR #207</a>.
+        </li>
+        <li>
+          8-Nov-2022: Update definition of <a>diversity</a> based on the language change from 27-Sep-2022. See <a href="https://github.com/w3c/PWETF/pull/214">PR #214</a>.
+        </li>
+        <li>
+          27-Sep-2022: Adjust the order and content of identity characteristics mentioned in the CoC. See <a href="https://github.com/w3c/PWETF/pull/209">PR #209</a>.
+        </li>
+        <li>
+          27-Sep-2022: Changed the language for the behaviour on threats from "physical threats". See <a href="https://github.com/w3c/PWETF/pull/206">PR #206</a>.
+        </li>
+        <li>
+          27-Sep-2022: Add "personal attacks" as an unacceptable behaviour. See <a href="https://github.com/w3c/PWETF/pull/184">PR #184</a>.
+        </li>
+        <li>
+          30-Aug-2022: Change the word "member" to "participant". See <a href="https://github.com/w3c/PWETF/pull/208">PR #208</a>.
+        </li>
+        <li>
+          7-Jun-2022: Added "deliberate misinformation" as an unacceptable behavior. See <a href="https://github.com/w3c/PWETF/pull/201">PR #201</a>.
+        </li>
+        <li>
+          8-Jun-2021: Expand text for "sustained disruption of discussion" to explicitly call out concern trolling, sealioning, gish galloping, and argumentum ad nauseum. See <a href="https://github.com/w3c/PWETF/pull/171">PR #171</a>, with glossary links added on 27-Jun-2021 by <a href="https://github.com/w3c/PWETF/pull/172">PR #172</a>.
+        </li>
+        <li>
+          16-Feb-2021: Amend definition of Discrimination in the glossary. See <a href="https://github.com/w3c/PWETF/pull/163">PR #163</a>.
+        </li>
+      </ul>
+    </section>
+    <section id="acknowledgements">
+      <h2>Acknowledgements</h2>
+
+      <p>We'd like to acknowledge the efforts of the editors of the 2020 revision of the CEPC, Ada Rose Cannon, An Qi Li, and Tzviya Siegman, whose work got us to the revision we use today. Editing a code of conduct is a challenging task, and their insight and leadership is evident in the quality of the document we continue to work on today.</p>
+
+      <p>The following people contributed to the development of this code:</p>
+
+      <ul class="ack">
+        <li>Ann Bassetti (W3C Invited Expert)</li>
+        <li>Dan Appelquist (W3C Invited Expert)</li>
+        <li>David Booth (W3C Invited Expert)</li>
+        <li>Judy Brewer (W3C)</li>
+        <li>Jory Burson (OpenJS Foundation)</li>
+        <li>Nick Doty (Center for Democracy and Technology)</li>
+        <li>Annette Greiner (Lawrence Berkeley National Laboratory)</li>
+        <li>Amy van der Hiel (W3C)</li>
+        <li>Barbara Hochgesang (Intel Corporation)</li>
+        <li>JaEun Jemma Ku (University of Illinois)</li>
+        <li>Vlad Levantovsky</li>
+        <li>Liz Lutgendorff (HM Government)</li>
+        <li>Nigel Megitt (BBC)</li>
+        <li>Coralie Mercier (W3C)</li>
+        <li>Sheila Moussavi (Bocoup)</li>
+        <li>Charles Nevile (ConsenSys)</li>
+        <li>Theresa O'Connor (Apple Inc.)</li>
+        <li>Wendy Reid (Rakuten Group, Inc.)</li>
+        <li>Cybele Sack (W3C Invited Expert)</li>
+        <li>Wendy Seltzer (W3C)</li>
+        <li>Tzviya Siegman (Wiley)</li>
+        <li>Jeanne F Spellman (Tetralogical)</li>
+        <li>Jennifer Strickland (MITRE Corporation)</li>
+        <li>Ralph Swick (W3C)</li>
+        <li>Léonie Watson (Tetralogical)</li>
+        <li>Chris Wilson (Google LLC)</li>
+        <li>Jeffrey Yasskin (Google LLC)</li>
+      </ul>
+    </section>
+    </body>
+</html>
