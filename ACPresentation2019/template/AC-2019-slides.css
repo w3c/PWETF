@@ -1,0 +1,391 @@
+/* Style for the slides for AC 2019, to be used together with the
+   Shower script or the b6+ script. For usage instructions, see
+   https://www.w3.org/2019/Talks/ac-slides/template/Overview.html
+
+   This is an improved version of "TPAC-2018-slides.css". It reduces
+   the risk of differences between list mode and slide mode, by using
+   the same base font size (viz., the user's default font size) in
+   both modes. Slides in slide mode are linearly scaled up versions of
+   the slidesin list mode. Especially images, even without an explicit
+   size set in em, should now look the same. (But it is still
+   recommended to set their size in em, to avoid differences when
+   viewed by users with a different base font size.)
+
+   TODO: Styles for tables? blockquotes? class=shout?
+
+   A = 16/9  = aspect ratio
+   N = 23    = height in rem (i.e., 21 lines + 2 x 1 rem padding)
+   L = 5.5   = logo width in rem
+   C = 2     = font size (and logo size) multiplier for cover pages
+   w = N*A   = width of slide in rem
+
+   +---------------------------------------+-------+
+   |                   1em                 |       |
+   |   +-------------------------------+   |       |
+   |   |                               |   |       |  ^
+   |   |                               |   |       |  |
+   |1em|                               |1em| 5.5em | 23em
+   |   |                               |   |       |  |
+   |   |                               |   |       |  v
+   |   +-------------------------------+   |       |
+   |                   1em                 | LOGO  |
+   +---------------------------------------+-------+
+
+   Created: 4 March 2019
+   Author: Bert Bos <bert@w3.org>
+*/
+
+@font-face {
+  font-family: My Gill Sans;
+  font-style: normal;
+  font-weight: normal;
+  src: url(Gill_Sans.eot) format("embedded-opentype"),
+    url(Gill_Sans.woff) format("woff")}
+
+@font-face {
+  font-family: My Gill Sans;
+  font-style: normal;
+  font-weight: bold;
+  src: url(Gill_Sans_Bold.eot) format("embedded-opentype"),
+    url(Gill_Sans_Bold.woff) format("woff")}
+
+@font-face {
+  font-family: My Gill Sans;
+  font-style: oblique;
+  font-weight: bold;
+  src: url(Gill_Sans_Bold_Italic.eot) format("embedded-opentype"),
+    url(Gill_Sans_Bold_Italic.woff) format("woff")}
+
+@font-face {
+  font-family: My Gill Sans;
+  font-style: oblique;
+  font-weight: normal;
+  src: url(Gill_Sans_Italic.eot) format("embedded-opentype"),
+    url(Gill_Sans_Italic.woff) format("woff")}
+
+@font-face {
+  font-family: My Gill Sans;
+  font-style: normal;
+  font-weight: 300;
+  src: url(Gill_Sans_Light.eot) format("embedded-opentype"),
+    url(Gill_Sans_Light.woff) format("woff")}
+
+@font-face {
+  font-family: My Gill Sans;
+  font-style: oblique;
+  font-weight: 300;
+  src: url(Gill_Sans_Light_Italic.eot) format("embedded-opentype"),
+    url(Gill_Sans_Light_Italic.woff) format("woff")}
+
+@font-face {
+  font-family: My Gill Sans;
+  font-style: normal;
+  font-weight: 600;
+  src: url(Gill_Sans_SemiBold.eot) format("embedded-opentype"),
+    url(Gill_Sans_SemiBold.woff) format("woff")}
+
+@font-face {
+  font-family: My Gill Sans;
+  font-style: oblique;
+  font-weight: 600;
+  src: url(Gill_Sans_SemiBold_Italic.eot) format("embedded-opentype"),
+    url(Gill_Sans_SemiBold_Italic.woff) format("woff")}
+
+@font-face {
+  font-family: My Gill Sans;
+  font-style: normal;
+  font-weight: 1000;
+  src: url(Gill_Sans_UltraBold.eot) format("embedded-opentype"),
+    url(Gill_Sans_UltraBold.woff) format("woff")}
+
+@font-face {
+  font-family: LeagueGothicRegular;
+  src: url(League_Gothic-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal}
+
+/* Common layout independent of slide mode */
+html {font: 1.156em/1.3 Gill Sans MT, Gill Sans, My Gill Sans, Liberation Sans,
+  sans-serif; font-size-adjust: 0.45;
+  font-variant-numeric: oldstyle-nums tabular-nums}
+body {background: url(linen.png) #595b60; counter-reset: slide; margin: 2em;
+  color: white}
+address {font-family: Garamond Premier Pro, Garamond, serif}
+h1 {font: 2em/1.1 League Gothic, LeagueGothicRegular, sans-serif;
+  letter-spacing: 0.03em; margin: 0 0 0.3em 0; text-transform: uppercase;
+  color: #015ca4}
+.full, .slide {width: 40.889rem; /*= w */ height: 23rem; /*= N */}
+.slide {color: black; box-shadow: 0 0.4rem 0.6rem #000; line-height: 1.6;
+  padding: 1rem 6.5rem /*= L + 1 */ 1rem 1rem; position: relative;
+  box-sizing: border-box; z-index: 0; display: inline-block;
+  margin: 4rem 2rem 0 0; vertical-align: bottom; counter-increment: slide;
+  border-radius: 0.5rem;
+  background: 36.389rem /*= w - L + 1 */ 18.5rem /*= N - L + 1 */
+    / 3.5rem /*= L - 2 */ auto url(AC-2019-slides-banner2.png) no-repeat,
+    bottom right / 5.5em /*= L */ 100% url(ramp.png) no-repeat, #fff;
+  background: 36.389rem /*= w - L + 1 */ 18.5rem /*= N - L + 1 */
+    / 3.5rem /*= L - 2 */ auto url(AC-2019-slides-banner2.svg) no-repeat,
+    bottom right / 5.5em /*= L */ 100%
+    linear-gradient(hsl(211,45%,25%), hsl(205,42%,92%)) no-repeat, #fff}
+.slide:target {outline: lime solid 0.5rem; outline-offset: 1rem}
+.slide.side {padding-left: 11.717rem /*= (w - 1 - (L + 1) - 1) * 30% + 2 */}
+.slide.side.right, .slide.side.r {padding-left: 1rem;
+  padding-right: 17.217rem; /*= (w - 1 - (L + 1) - 1) * 30% + (L + 1) + 1 */}
+.side .side {position: absolute; top: 4.3478% /*= 1/N */;
+  left: 2.4457%; /*= 1/w */
+  width: 23.764%; /*= (w - 1 - (L + 1) - 1) * 30%  / w */}
+.side.right .side, .side.r .side {left: 59.606% /*= ((w - L) * 70% - 40%)/w */}
+@supports (transform: translate(-50%,-50%)) {
+  .slide.side.right, .slide.side.r {
+  padding-right: 17.217rem; /*= (w - 1 - (L + 1) - 1) * 30% + (L + 1) + 1 */}
+  .side .side {top: 50%; transform: translate(-50%,-50%);
+    left: 14.327%; /*= ((w - 1 - (L + 1) - 1) * 30% / 2 + 1 ) / w */}
+  .side.right .side, .side.r .side {
+    left: 72.221% /*= ((w - L - 1) * 85% + 30%) / w */}
+}
+.note {font-size: 80%}
+.cover .note {font-size: 40%}
+.slide em {font-style: normal;
+  background: 0 0 / 100% 100% url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAAfCAYAAABzhIZ5AAAABGdBTUEAANbY1E9YMgAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAL4SURBVHja7Vw7rpwwFJ0dsASWMEtAygZcp6KKUkVWujRPVprXsgSyA5ZAkTYSUqT8XpRQRa8cKUqR7gYkT+Q4Bq7B/IZj6UwF2IyPr8/9mNNpwfaOnsQNEg3ZQDUoGpQ9KPR1V0jjGckJDc2TfDbxqga0EC66z0yPIdVjOmOGjkfGVBOhXJCAoQhcmATGjN4GKc+akPWOCOmD2iAuSBuWO5Epy5iIuA8XN0zKMagGNLMLuaWjfSFGTLAvJGMcff5CHdBQKDZBJ66Y60uB4MCQ7FKz+AqGc6S0pSh1p/jzAbKsrL0jRKEtYmqZekzAcSVO3iFBzj0yQnRIh8whGdQYK5mO1FA5tnmAaW1bLRyHDrr3ETeDtQW0gera7mfRnvLgxJvTax+CXMCrH8Se4lxXXVrBUrC9Vm5qd0rY6TzjnLtknxmGqhj/Q67vj0M4RrnROYh2+1uxuVAiBzltTnCRuRab78pA7HIe7XXxtKbmffUIMjjxkZ7n3+h1+Z3uix/0RrUgomRBKCbEqfmJux70i76IdvDtyzzQq/ozvaT39HRwUtrrWnyiFxWs7vr4QM/+zgkHX+mOmnnvxYXe0k+q/sNveiSj1Q1KBwoHGU3u8eKj7YXcVdGS2YfEwKE9+KJDU0dzpTUVskeARw1D4SBnPJc3ZxYZDGUQkAZdvpilcBR5hAh1iTWiB6HL8/ZYM3r0mG7RQ8R4ayTrquNLe0qx4P1PL9/jBvrzkZ58HWjcWbDUJNPiIeC+nQC+HS9Md7mVBiBmYmkUX68MZN5nOtYXUzVrassEq/JJhCKzucVDW8Lqu7Rr6jq6YUR8KkYpnxxybhQs5CFjlC5rmYRwlBy7tavPf6WLZrXUN2LCbqsIxalhV4ro2PqZf8TD2razFXUKJycNMq5vZeuJulhuLmQVcDUKvYggPfbhpOXX+tWjnrk2D+yBtOt+CENuMqC/o8/wIIngt5VnHRmlCCxbRrgLjw8UbEn/Vp7V+HLXRzbQgh4gPOa5n5naH6O0itHwx3iJAAAAAElFTkSuQmCC)}
+.columns > * {box-sizing: border-box;
+  width: 47.005% /*= (w - L - 4)/2/(w - L - 2) */; float: right}
+.columns > *:nth-child(odd) {clear: both; float: left}
+.columns {overflow: hidden}
+@supports (display: grid) {
+  .columns {overflow: visible; display: grid; grid: "a  b" / 1fr 1fr;
+     grid-gap: 0 2rem}
+  .columns > * {width: auto}
+}
+.comment {background: hsl(50,80%,90%); color: black; padding: 1rem 1rem;
+  columns: 37em; font-family: serif; border-radius: 0.5rem; margin: 4rem 0 0;
+  widows: 2; orphans: 2}
+.comment :first-child {margin-top: 0}
+img {max-width: 100%}
+.num {font-variant-numeric: oldstyle-nums tabular-nums diagonal-fractions}
+code, pre {font-family: Andale Mono, Courier, monospace}
+code {background: #eee; padding: 0.1em 0.3em; border-radius: 0.3em}
+sub, sup {line-height: 0.5}
+.slide pre {padding: 0 0.2em; background: black; color: hsl(120,100%,70%)}
+ol {padding-left: 2.5em}
+ul {padding-left: 1em}
+ol, ul {margin: 1em 0}
+li ul, li ol {margin: 0}
+ul > li {list-style: none}
+ul > li::before {content: "\25A0"; display: inline-block; width: 1em;
+  margin-left: -1em; color: #015ca4}
+
+/* Explicit placement on a 3x3 grid */
+.place {position: absolute; box-sizing: border-box;
+  max-width: 25.589%; /*= (w - 1 - (L + 1) - 2) / 3 / w */
+  top: 50%; left: 43.274%; /*= ((w - 1 - (L + 1)) / 2 + 1) / w */
+  transform: translate(-50%, -50%); text-align: center}
+.place.t, .place.top {top: 4.3478%; /*= 1/N */ transform: translate(-50%,0)}
+.place.b, .place.bottom {top: auto; bottom: 4.3478% /*= 1/N */;
+  transform: translate(-50%,0)}
+.place.l, .place.left {left: 2.4457%; /*= 1/w*/ transform: translate(0,-50%);
+  text-align: left}
+.place.r, .place.right {left: auto; right: 15.897%; /*= (L + 1)/w */
+  transform: translate(0,-50%); text-align: right}
+.place.t.l, .place.top.left, .place.t.r, .place.top.right, .place.b.l,
+.place.bottom.left, .place.b.r, .place.bottom.right {transform: none}
+
+/* Numbered lines in a PRE */
+pre.numbered {padding-left: 2em; overflow-y: hidden; position: relative}
+pre.numbered::before {color: #aaa; text-align: right; white-space: pre-line;
+  content: "1\A 2\A 3\A 4\A 5\A 6\A 7\A 8\A 9\A 10\A 11\A 12\A 13\A 14\A 15\A 16\A 17\A 18\A 19\A 20";
+  position: absolute; top: 0; left: 0; width: 1.2em; font-family: serif;
+  border-right: thin solid; padding-right: 0.2em; /*background: white*/}
+
+/* Cover pages */
+.slide.cover {font-size: 200% /*= C */; text-align: right;
+  padding-right: 12rem /*= C * L + 1 */}
+.slide.cover address {position: absolute; bottom: 4.3478% /*= 1/N */;
+  left: 2.4457% /*= 1/w */; right: 29.348% /*= (C * L + 1)/w */;
+  line-height: 1.3}
+
+/* Full-size image overlays */
+img.cover, img.fit {position: absolute; z-index: -1; top: 0; left: 0;
+  width: 86.549%; /*= (w - L) / w */ height: 100%; object-fit: cover; padding: 0}
+img.fit {object-fit: contain}
+.cover img.cover, .cover img.fit {width: 73.098%; /*= (w - 11) / w */}
+
+/* Slide numbers in upper right corner */
+.slide::after {content: counter(slide); /*color: #db4f2c;*/ color: white; position: absolute;
+  top: 1rem; line-height: 1; font-weight: bold; right: 0; width: 5.5em /*= L */;
+  text-align: center}
+.slide.clear::after {content: none}
+
+/* Layout in slide mode (when body has class=full) */
+.full, .full .slide {position: absolute; overflow: hidden}
+.full {top: 50%; left: 50%; background: black;
+  margin: -11.5rem /*= -N/2 */ 0 0 -20.444rem /*= -w/2 */}
+.full .slide {visibility: hidden; top: 0; left: 0; margin: 0}
+.full .slide.active {visibility: visible}
+.full .comment {display: none}
+.full .slide:target {outline: none}
+
+.full .progress {position: absolute; top: 0; left: 0; height: 1px;
+  background: linear-gradient(to right, hsla(0,100%,50%,0),hsla(0,100%,50%,1));
+  z-index: 1; transition: 0.5s}
+
+/* Reveal elements one by one */
+.full .next:not(.active) {visibility: hidden}
+
+/* A list as a tree structure with box-drawing characters */
+.tree {list-style: none; font: 1em/1 monospace;
+  white-space: nowrap; padding: 0.2em 0; overflow: auto}
+.tree code {background: none; font-family: Gill Sans MT, Gill Sans,
+  My Gill Sans, Liberation Sans, sans-serif}
+.comment .tree code {font-family: serif}
+
+/* Takahashi method (very big text, very few words) */
+.shout {font-size: 400%; line-height: 1.1}
+p.shout {margin: 1rem 0}
+
+/* Animation of a slowly growing element */
+.full .grow {transition: 3s 1s ease-in-out transform;
+  position: relative; transform: scale(0.1); transform-origin: 0 50%}
+.active .grow {transform: scale(1)}
+
+/* Transitions between slides */
+.full .slide.active ~ .visited {animation: none} /* Moving backwards */
+
+.full .slide.fade-in.visited,
+.fade-in .slide.visited {animation: delay 1s 1}
+.full .slide.fade-in + .active:not(.visited),
+.full .slide.fade-in + .comment + .active:not(.visited),
+.fade-in .slide.active:not(.visited) {animation: fade-in 1s 1}
+@keyframes delay {
+    from {visibility: visible}
+    to {visibility: visible}
+}
+@keyframes fade-in {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+.full .slide.slide-in.visited,
+.slide-in .slide.visited {animation: leftout 1s 1}
+.full .slide.slide-in + .active:not(.visited),
+.full .slide.slide-in + .comment + .active:not(.visited),
+.slide-in .slide.active:not(.visited) {animation: leftin 1s 1}
+@keyframes leftout {
+    from {transform: translate(0%, 0); visibility: visible}
+    to {transform: translate(-100%, 0); visibility: visible}
+}
+@keyframes leftin {
+    from {transform: translate(-100%, 0); visibility: visible}
+    to {transform: translate(0%, 0); visibility: visible}
+}
+.full .slide.move-left.visited,
+.move-left .slide.visited {animation: leftout 1s 1}
+.full .slide.move-left + .active:not(.visited),
+.full .slide.move-left + .comment + .active:not(.visited),
+.move-left .slide.active:not(.visited) {animation: rightin 1s 1}
+@keyframes rightin {
+    from {transform: translate(100%, 0); visibility: visible}
+    to {transform: translate(0%, 0); visibility: visible}
+}
+.full .slide.move-up.visited,
+.move-up .slide.visited {animation: topout 1s 1}
+.full .slide.move-up + .active:not(.visited),
+.full .slide.move-up + .comment + .active:not(.visited),
+.move-up .slide.active:not(.visited) {animation: bottomin 1s 1}
+@keyframes topout {
+    from {transform: translate(0, 0%); visibility: visible}
+    to {transform: translate(0, -100%); visibility: visible}
+}
+@keyframes bottomin {
+    from {transform: translate(0, 100%); visibility: visible}
+    to {transform: translate(0, 0%); visibility: visible}
+}
+.full {perspective: 1000px; perspective: 1000}
+.full .slide.flip-up.visited,
+.flip-up .slide.visited {animation: turn-down 1s 1 ease-in}
+.full .slide.flip-up + .active:not(.visited),
+.full .slide.flip-up + .comment + .active:not(.visited),
+.flip-up .slide.active:not(.visited) {animation: turn-up 1s 1 ease-out}
+@keyframes turn-down {
+    from {transform: rotateX(0deg); visibility: visible}
+    50%, to {transform: rotateX(90deg); visibility: hidden}
+}
+@keyframes turn-up {
+    from, 50% {transform: rotateX(-90deg); visibility: visible}
+    to {transform: rotateX(0deg); visibility: visible}
+}
+.full .slide.flip-left.visited,
+.flip-left .slide.visited {animation: flip-left1 1s 1 ease-in}
+.full .slide.flip-left + .active:not(.visited),
+.full .slide.flip-left + .comment + .active:not(.visited),
+.flip-left .slide.active:not(.visited) {animation: flip-left2 1s 1 ease-out}
+@keyframes flip-left1 {
+    from {transform: rotateY(0deg); visibility: visible}
+    50%, to {transform: rotateY(-90deg); visibility: hidden}
+}
+@keyframes flip-left2 {
+    from, 50% {transform: rotateY(90deg); visibility: visible}
+    to {transform: rotateY(0deg); visibility: visible}
+}
+.full .slide.center-out.visited,
+.center-out .slide.visited {animation: gray 1s 1}
+.full .slide.center-out + .active:not(.visited),
+.full .slide.center-out + .comment + .active:not(.visited),
+.center-out .slide.active:not(.visited) {animation: center-out 1s 1}
+@keyframes gray {
+    from, to {opacity: 0.5; visibility: visible}
+}
+@keyframes center-out {
+    from {clip-path: circle(0)}
+    to {clip-path: circle(100%)}
+}
+.full .slide.wipe-left.visited,
+.wipe-left .slide.visited {animation: gray 1s 1}
+.full .slide.wipe-left + .active:not(.visited),
+.full .slide.wipe-left + .comment + .active:not(.visited),
+.wipe-left .slide.active:not(.visited) {animation: rightin 1s 1}
+
+.full .slide.zigzag-left.visited,
+.zigzag-left .slide.visited {animation: gray 1s 1}
+.full .slide.zigzag-left + .active:not(.visited),
+.full .slide.zigzag-left + .comment + .active:not(.visited),
+.zigzag-left .slide.active:not(.visited) {animation: zigzag-left 1s 1}
+@keyframes zigzag-left {
+    from {clip-path:
+      polygon(120% 0%, 120% 0%, 100% 30%, 120% 60%, 110% 100%, 120% 100%)}
+    to   {clip-path:
+      polygon(120% 0%,   0% 0%, -20% 30%,   0% 60%, -10% 100%, 120% 100%)}
+}
+.full .slide.zigzag-right.visited,
+.zigzag-right .slide.visited {animation: gray 1s 1}
+.full .slide.zigzag-right + .active:not(.visited),
+.full .slide.zigzag-right + .comment + .active:not(.visited),
+.zigzag-right .slide.active:not(.visited) {animation: zigzag-right 1s 1}
+@keyframes zigzag-right {
+    from {clip-path:
+      polygon(-20% 0%,  -20% 0%, 0% 30%,  -20% 60%, -10% 100%, -20% 100%)}
+    to   {clip-path:
+      polygon(-20% 0%, 100% 0%, 120% 30%, 100% 60%, 110% 100%, -20% 100%)}
+}
+.full .slide.cut-in.visited,
+.cut-in .slide.visited {animation: gray 1s 1}
+.full .slide.cut-in + .active:not(.visited),
+.full .slide.cut-in + .comment + .active:not(.visited),
+.cut-in .slide.active:not(.visited) {animation: cut-in 1s 1}
+@keyframes cut-in {
+  from {transform: translate(-100%, -100%)}
+  to {transform: translate(0%, 0%)}
+}
+
+/* Not sure why Shower makes a section with class=region... */
+section.region {display: none}
+
+
+@page {
+  margin: 1cm;
+}
+@media print {
+  html {font-size: 10pt}
+  body {background: none; margin: 0; columns: 41em}
+  .slide {border: 0.5pt solid black; margin: 1rem 1rem 1rem 0; display: block;
+    overflow: hidden}
+  ul {margin: 0.9em 0} /* Compensate slight differences in fonts & margins */
+}
