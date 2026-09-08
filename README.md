@@ -8,8 +8,8 @@ The CG picks up the work of the former [PWE Task Force](https://www.w3.org/Conso
 
 Chairs: Tzviya Siegman, Wendy Reid
 
-This group maintains the W3C Code of Conduct; the draft version of the document can be read directly at [https://w3c.github.io/PWETF/](https://w3c.github.io/PWETF/).
+This group maintains the W3C Code of Conduct; the draft version of the document can be read directly at [https://w3c-cg.github.io/PWETF/](https://w3c-cg.github.io/PWETF/).
 
-This group functions under the [W3C Code of Ethics and Professional Conduct](https://www.w3.org/Consortium/cepc/).
+This group functions under the [W3C Code of Conduct](https://www.w3.org/policies/code-of-conduct/).
 
-If you are interested in contributing to the COC or our other projects, please see our [contributing guide](https://github.com/w3c/PWETF/blob/main/contributing.md).
+If you are interested in contributing to the COC or our other projects, please see our [contributing guide](https://github.com/w3c-cg/PWETF/blob/main/contributing.md).
